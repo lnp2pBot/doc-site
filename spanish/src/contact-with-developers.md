@@ -1,3 +1,3 @@
-# Contact with developers
+# Contactar a los developers
 
-If you need to contact the developers use[ our GitHub](https://github.com/grunch/p2plnbot), if you have any proposal or want to report a bug go to the issues section and create one.
+Si necesita ponerse en contacto con los desarrolladores, use [nuestro GitHub] (https://github.com/grunch/p2plnbot), si tiene alguna propuesta o desea informar un error, vaya a la sección de problemas y cree uno.
