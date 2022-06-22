@@ -1,6 +1,8 @@
 # How do I create a purchase order?
 
-When chatting with `@lnp2pbot` you will find a menu button that will prompt you for the buying command: `/buy` To place an order, you must write your order details right after the command, like this:&#x20;
+When chatting with `@lnp2pbot` you will find a menu button that will prompt you for the buying command: `/buy` 
+
+To place an order, you must write your order details right after the command, like this:&#x20;
 
 `/buy [premium/discount]` without the special characters.
 
