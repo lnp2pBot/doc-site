@@ -1,0 +1,3 @@
+# Confianza
+
+El modelo que hemos elegido para resolver disputas es el de la confianza. Esto parece paradójico para quienes trabajamos con Bitcoin, porque siempre hemos abogado por sistemas "trustless", y la verdad es que el objetivo siempre es desarrollar sistemas en los cuales no tengamos que confiar en nadie. Pero luego de pensar mucho en sistemas de resolución de disputas, tuvimos que aceptar que siempre, en alguna medida, hay que confiar en alguien.
