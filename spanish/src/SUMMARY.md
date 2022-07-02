@@ -28,5 +28,4 @@
   - [How do I create a community?](How-do-I-create-a-community.md)
   - [Modifying a community](Modifying-a-community.md)
   - [Creating orders](creating-orders.md)
-  - [What's missing?](what's-missing.md)
 
