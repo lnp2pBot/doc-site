@@ -1,3 +1,3 @@
 # FAQ
 
-Aquí tratamos de responder algunas preguntas
+Aquí respondemos las preguntas frecuentes hechas por nuestros usuarios.
