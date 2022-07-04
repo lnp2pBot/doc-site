@@ -22,10 +22,10 @@
   - [Support](./support.md)
   - [Contact with developers](./contact-with-developers.md)
   - [I am a developer and I want to contribute](./i-am-a-developer-and-i-want-to-contribute.md)
-  - [Comunidades](./Communities.md)
   - [Trust](Trust.md)
   - [Benevolent Dictator](Benevolent%20Dictator.md)
   - [How do I create a community?](How-do-I-create-a-community.md)
   - [Modifying a community](Modifying-a-community.md)
   - [Creating orders](creating-orders.md)
-
+- [Comunidades](./Communities.md)
+  

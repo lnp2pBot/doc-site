@@ -22,3 +22,6 @@
   - [Support](./support.md)
   - [Contact with developers](./contact-with-developers.md)
   - [I am a developer and I want to contribute](./i-am-a-developer-and-i-want-to-contribute.md)
+[Communities](communities.md)
+  - [Trust](trust.md)
+  - 
