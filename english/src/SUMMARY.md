@@ -3,10 +3,12 @@
 [@lnp2pBot](README.md)
 
 - [FAQ](./faq.md)
-  - [Where I can find offers for my local currency?](./where-i-can-find-offers-for-my-local-currency.md)
+  - [What is @lnp2pbot?](./what-is-lnp2pbot.md)
+  - [What is Lightning Network?](./what-is-lightning-network.md)
   - [What do I need to use @lnp2pbot?](./what-do-i-need-to-use-lnp2pbot.md)
   - [How do I initialize the bot?](./how-do-i-initialize-the-bot.md)
   - [What are the channels to make exchanges on Telegram?](./what-are-the-channels-to-make-exchanges-on-telegram.md)
+  - [Where I can find offers for my local currency?](./where-i-can-find-offers-for-my-local-currency.md)
   - [Do I need to fill out any user registration or identity verification?](./do-i-need-to-fill-out-any-user-registration-or-identity-verification.md)
   - [What type of information do you collect from each user?](./what-type-of-information-do-you-collect-from-each-user.md)
   - [How does the user reputation system work?](./how-does-the-user-reputation-system-work.md)
@@ -22,6 +24,5 @@
   - [Support](./support.md)
   - [Contact with developers](./contact-with-developers.md)
   - [I am a developer and I want to contribute](./i-am-a-developer-and-i-want-to-contribute.md)
-[Communities](communities.md)
+- [Communities](communities.md)
   - [Trust](trust.md)
-  - 
