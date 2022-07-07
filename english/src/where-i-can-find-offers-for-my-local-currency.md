@@ -4,6 +4,4 @@ You can ask it to the bot executing `/findcomms` command and your local currency
 
 This will show you the venezuelan bolivar communities.
 
-```
-/findcomms ves
-```
+`/findcomms ves`

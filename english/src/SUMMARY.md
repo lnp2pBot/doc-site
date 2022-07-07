@@ -26,3 +26,8 @@
   - [I am a developer and I want to contribute](./i-am-a-developer-and-i-want-to-contribute.md)
 - [Communities](communities.md)
   - [Trust](trust.md)
+  - [Benevolent dictator](benevolent-dictator.md)
+  - [How do I create a community?](how-do-I-create-a-community.md)
+  - [Modifying a community](modifying-a-community.md)
+  - [Creating orders](creating-orders.md)
+  - []
