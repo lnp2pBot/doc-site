@@ -1,3 +1,3 @@
 # Confianza
 
-The model we have chosen to resolve disputes is that of trust. This seems paradoxical for those who work with Bitcoin and advocate of "trustless" systems. The truth is that the goal is to develop a system in which we do not have to trust anyone. But after thinking a lot about dispute resolution systems, we had to accept that you always have to trust someone to some extent.
+El modelo que hemos elegido para resolver disputas es el de la confianza. Esto parece paradójico para quienes trabajamos con Bitcoin, porque siempre hemos abogado por sistemas "trustless", y la verdad es que el objetivo siempre es desarrollar sistemas en los cuales no tengamos que confiar en nadie. Pero luego de pensar mucho en sistemas de resolución de disputas, tuvimos que aceptar que siempre, en alguna medida, hay que confiar en alguien.
