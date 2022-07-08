@@ -30,4 +30,3 @@
   - [How do I create a community?](how-do-I-create-a-community.md)
   - [Modifying a community](modifying-a-community.md)
   - [Creating orders](creating-orders.md)
-  - []
