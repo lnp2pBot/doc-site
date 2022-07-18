@@ -1,7 +1,7 @@
 # ¿Cómo creo una comunidad?
 
 
-Para crear una comunidad, simplemente escribe el comando /community. Luego de esto el bot te pedirá que le indiques lo siguiente:
+Para crear una comunidad, simplemente escribe el comando `/community`. Luego de esto el bot te pedirá que le indiques lo siguiente:
 
 - Nombre de la comunidad: Un nombre para identificar a tu comunidad.
 - Monedas: Monedas fiat que pueden operar en la comunidad. Estas se deben ingresar separadas de un espacio en blanco. Por ejemplo, para una comunidad uruguaya se pueden agregar "UYU USD".

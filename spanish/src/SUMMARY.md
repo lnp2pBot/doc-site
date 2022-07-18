@@ -27,7 +27,10 @@
   - [Soy desarrollador y quiero contribuir](./i-am-a-developer-and-i-want-to-contribute.md)
 - [Comunidades](./communities.md)
   - [Confianza](trust.md)
-  - [Benevolent Dictator](benevolent-dictator.md)
-  - [How do I create a community?](how-do-I-create-a-community.md)
-  - [Modifying a community](modifying-a-community.md)
-  - [Creating orders](creating-orders.md)
+  - [Dictador Benevolente](benevolent-dictator.md)
+  - [¿Cómo creo una comunidad?](how-do-I-create-a-community.md)
+  - [Manos a la obra. Comunidades, primeros pasos]
+  - [Modificando una comunidad](modifying-a-community.md)
+  - [Creando órdenes](creating-orders.md)
+  - [Incentivos](incentives.md)
+  - []

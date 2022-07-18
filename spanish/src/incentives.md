@@ -9,5 +9,3 @@ Es decir, en una transacción por 10.000 satoshis, la comisión a pagar por el v
 Pero, para incentivar la competencia, la comunidad tiene la potestad de disminuir su 'ganancia', de modo que en vez de cobrar la totalidad de ese 30%, puede bajar un porcentaje en sus comisiones.
 
 En el ejemplo anterior, en vez de cobrar los 18 satoshis (el 100%) puede elegir cobrar 9 satoshis (el 50%). Los satoshis restantes quedan como descuento para el vendedor que, en vez de pagar 60 satoshis, pagaría 51.
-
-Vamos a explicar esto en detalle con varios ejemplos:
