@@ -29,8 +29,10 @@
   - [Confianza](trust.md)
   - [Dictador Benevolente](benevolent-dictator.md)
   - [¿Cómo creo una comunidad?](how-do-I-create-a-community.md)
-  - [Manos a la obra. Comunidades, primeros pasos]
+  - [Manos a la obra. Comunidades, primeros pasos](communities-first-steps.md)
   - [Modificando una comunidad](modifying-a-community.md)
   - [Creando órdenes](creating-orders.md)
   - [Incentivos](incentives.md)
+  - [¿Cómo puedo saber las comunidades que trabajan con mi moneda?](Community-find.md)
   - []
+-
