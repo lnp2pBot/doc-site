@@ -33,6 +33,6 @@
   - [Modificando una comunidad](modifying-a-community.md)
   - [Creando órdenes](creating-orders.md)
   - [Incentivos](incentives.md)
-  - [¿Cómo puedo saber las comunidades que trabajan con mi moneda?](Community-find.md)
+  - [¿Cómo puedo saber que comunidades que trabajan con mi moneda?](Community-find.md)
   - []
 -

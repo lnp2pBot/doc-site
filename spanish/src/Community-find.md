@@ -1,4 +1,4 @@
-# ¿Cómo puedo saber las comunidades que trabajan con mi moneda?
+# ¿Cómo puedo saber que comunidades que trabajan con mi moneda?
 
 Para esto tenemos un nuevo comando: `/findcomms`, el cual recibe como parámetro el código de moneda, puede ser un código estándar ISO 4217, pero tambien puede haber comunidades que operan sats contra alguna otra criptomoneda, no hay ningún tipo de limitación para el usuario.
 En la siguiente imagen podemos ver el resultado de `/findcomms usd`
@@ -8,5 +8,11 @@ En la siguiente imagen podemos ver el resultado de `/findcomms usd`
 Ahora solo seleccionamos aquella en la que queremos participar y el bot nos mostrará la cantidad de órdenes exitosas y el volúmen de comercio operado en las últimas 24 horas en esa comunidad, abajo vemos un botón que dice Utilizar por defecto, al tocar ese botón ya estamos participando.
 
 ![Community details Capture](./assets/images/comm-detail.jpg)
+
+Para crear una orden se usa el comando `/buy` o `/sell` dependiendo de lo que se quiera. A partir de ahi el robot da las intrucciones paso a paso.
+
+![Community Wizard Capture](./assets/images/sell.jpg)
+
+Para salir de la comunidad se utiliza el comando `/setcomm off`
 
 
