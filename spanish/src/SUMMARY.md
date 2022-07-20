@@ -21,6 +21,8 @@
   - [¿Tarifas y comisiones?](./fees-and-commissions.md)
   - [¿Qué tasa de cambio utiliza el bot?](./what-exchange-rate-does-the-bot-use.md)
   - [¿En qué países está disponible?](./in-which-countries-is-it-available.md)
+  - [¿Cómo puedo saber cuáles son las comunidades que trabajan con mi moneda?](Community-find.md)
+  - [¿Cómo compro en una determinada comunidad?]()
   - [Wallets recomendadas](./recommended-wallets.md)
   - [Soporte](./support.md)
   - [Contacto con desarrolladores](./contact-with-developers.md)
@@ -33,6 +35,7 @@
   - [Modificando una comunidad](modifying-a-community.md)
   - [Creando órdenes](creating-orders.md)
   - [Incentivos](incentives.md)
-  - [¿Cómo puedo saber que comunidades que trabajan con mi moneda?](Community-find.md)
+  - [Administrando una comunidad](managing-a-community.md)
+  - [¿Qué es un Solver](what-is-a-solver.md)
   - []
 -
