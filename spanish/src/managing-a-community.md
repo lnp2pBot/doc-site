@@ -9,3 +9,7 @@ Luego, establecer los canales en los cuales se realizaran las compras y ventas. 
 Otra de las tareas del administrador es decidir la tarifa que cobrará la comunidad. [Aquí tienes la explicación de como funcionan las tarifas](incentives.md). 
 
 El administrador puede modificar cualquier campo de la comunidad cuando quiera.
+
+**IMPORTANTE**: Para ejecutar los comandos de administración de comunidades se debe tener seleccionada por defecto la comunidad con la que se desea trabajar.
+Para ello se usa el botón 'Utilizar por defecto' que se muestra luego de ejecutar `/findcomms`, tambien lo puedes hacer con el comando `/setcomm` @grupoaseradministrado.
+Un grupo de telegram obtiene su @grupo al hacerse público.

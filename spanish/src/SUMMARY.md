@@ -37,5 +37,10 @@
   - [Incentivos](incentives.md)
   - [Administrando una comunidad](managing-a-community.md)
   - [¿Qué es un Solver](what-is-a-solver.md)
-  - []
+  - [Resolviendo disputas](resolving-disputes.md)
+  - [Completando una orden](settle-order.md)
+  - [Cancelando una orden](cancel-order.md)
+  - [Eliminando disputas](removing-disputes.md)
+  - [Expulsar a un usuario de la comunidad](./ban-user-community.md)
+
 -
