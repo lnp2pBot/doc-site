@@ -30,3 +30,8 @@
   - [How do I create a community?](how-do-I-create-a-community.md)
   - [Modifying a community](modifying-a-community.md)
   - [Creating orders](creating-orders.md)
+  - [Incentives](incentives.md)
+  - [What is a Solver](what-is-a-solver.md)
+  - [Resolving disputes](resolving-disputes.md)
+  - [Settle an order](settle-order.md)
+  - [cancel an order](cancel-order.md)
