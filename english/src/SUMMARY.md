@@ -34,4 +34,6 @@
   - [What is a Solver](what-is-a-solver.md)
   - [Resolving disputes](resolving-disputes.md)
   - [Settle an order](settle-order.md)
-  - [cancel an order](cancel-order.md)
+  - [Canceling an order](cancel-order.md)
+  - [Removing disputes](removing-disputes.md)
+  - 
