@@ -15,7 +15,7 @@
   - [How do I create a sell order?](./how-do-i-create-a-sell-order.md)
   - [How do I find and accept an offer to buy or sell?](./how-do-i-find-and-accept-an-offer-to-buy-or-sell.md)
   - [How do I cancel a posted order?](./how-do-i-cancel-a-posted-order.md)
-  - [Are there minimum or maximum limits on the amounts I can trade?](./are-there-minimum-or-maximum-limits-on-the-amounts-i-can-trade.md)
+  - [Is there a limit (minimum or maximum) on the amounts I can trade?](./is-there-a-limit-on-the-amounts-i-can-trade.md)
   - [How long does it take to finalize a transaction?](./how-long-does-it-take-to-finalize-a-transaction.md)
   - [Fees and commissions](./fees-and-commissions.md)
   - [What exchange rate does the bot use?](./what-exchange-rate-does-the-bot-use.md)
@@ -36,4 +36,3 @@
   - [Settle an order](settle-order.md)
   - [Canceling an order](cancel-order.md)
   - [Removing disputes](removing-disputes.md)
-  - 

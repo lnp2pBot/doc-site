@@ -16,7 +16,7 @@
   - [¿Cómo creo una orden de compra?](./how-do-i-create-a-buy-order.md)
   - [¿Cómo busco y acepto una oferta de compra o venta?](./how-do-i-find-and-accept-an-offer-to-buy-or-sell.md)
   - [¿Cómo cancelo una orden publicada?](./how-do-i-cancel-a-posted-order.md)
-  - [¿Hay límites mínimos o máximos en las cantidades que puedo transar?](./are-there-minimum-or-maximum-limits-on-the-amounts-i-can-trade.md)
+  - [¿Hay límites mínimos o máximos en las cantidades que puedo transar?](./is-there-a-limit-on-the-amounts-i-can-trade.md)
   - [¿Cuánto tiempo toma concretar una transacción?](./how-long-does-it-take-to-finalize-a-transaction.md)
   - [¿Tarifas y comisiones?](./fees-and-commissions.md)
   - [¿Qué tasa de cambio utiliza el bot?](./what-exchange-rate-does-the-bot-use.md)
@@ -42,5 +42,3 @@
   - [Cancelando una orden](cancel-order.md)
   - [Eliminando disputas](removing-disputes.md)
   - [Expulsar a un usuario de la comunidad](./ban-user-community.md)
-
--
