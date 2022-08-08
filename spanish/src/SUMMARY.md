@@ -6,7 +6,7 @@
   - [¿Qué es lnp2pBot?](./what-is-lnp2pbot.md)
   - [¿Qué es Lightning Network?](./what-is-lightning-network.md)
   - [¿Qué necesito para usar @lnp2pbot?](./what-do-i-need-to-use-lnp2pbot.md)
-  - [Where I can find offers for my local currency?](./where-i-can-find-offers-for-my-local-currency.md)
+  - [¿Dónde puedo encontrar ofertas en mi moneda local?](./where-i-can-find-offers-for-my-local-currency.md)
   - [¿Cómo inicializo el bot?](./how-do-i-initialize-the-bot.md)
   - [¿Cuáles son los canales para realizar intercambios en telegram?](./what-are-the-channels-to-make-exchanges-on-telegram.md)
   - [¿Necesito llenar algún registro de usuario o verificación de identidad?](./do-i-need-to-fill-out-any-user-registration-or-identity-verification.md)

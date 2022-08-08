@@ -4,10 +4,9 @@ Al conversar con [@lnp2pbot](https://t.me/lnp2pbot) encontrarás un botón de me
 `/buy`, eso activará al ayudante (o wizard) que te guiará por el proceso de comprar .
 Una vez activado, te pedirá que especifiques la moneda fiat en la que quieres transar:
 
-[Moneda Fiat](./assets/images/fiat.jpg)
+![Moneda Fiat](./assets/images/fiat.jpg)
 
-Luego ingresa 
-
+Luego ingresa
 
 Para crearla, debes escribir los detalles de tu orden luego del comando:
 `/buy`<monto en sats> <monto en fiat> <código fiat> <método de pago> [prima/descuento] sin los carácteres especiales.
