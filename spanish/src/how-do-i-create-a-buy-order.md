@@ -27,7 +27,7 @@ Deberás especificar el método de pago a continuación, en este campo es donde 
 
 ![Método de pago](./assets/images/buy-payment-metod.jpg)
 
-El robot procederá a publicar tu oferta en el canal general o el de la comunidad que hayas configurado como predeterminada.
+El robot procederá a publicar tu oferta en el canal general o el de la comunidad que hayas configurado como predeterminada, permanecerá visible por 23 horas, sí nadie la toma antes de ese tiempo.
 
 ![Oferta publicada](./assets/images/buy-public.jpg)
 

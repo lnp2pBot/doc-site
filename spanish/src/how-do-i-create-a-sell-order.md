@@ -22,7 +22,7 @@ Lo siguiente que te solicita el asistente es la prima o descuento que quieres en
 
 Deberás especificar el método de pago a continuación, en este campo es donde puedes ponerte creativo y añadir emoticones o lo que consideres para hacer atractiva tu solicitud.
 
-El robot procederá a publicar tu oferta en el canal general o el de la comunidad que hayas configurado como predeterminada.
+El robot procederá a publicar tu oferta en el canal general o el de la comunidad que hayas configurado como predeterminada, permanecerá visible por 23 horas, sí nadie la toma antes de ese tiempo.
 
 ![Publicación canal](./assets/images/channel-publication.jpg)
 
