@@ -8,6 +8,8 @@ Una vez activado el asistente que te guiará por el proceso de vender te pedirá
 
 A continuación deberás introducir el monto (en la moneda fiat) que quieres a cambio de tus satoshis. Recuerda ingresar solo números en este paso, para que el wizard te pueda entender.
 
+También puedes introducir un rango de cantidades a comprar, separando los números por un guión (-).
+
 ![Monto Fiat](./assets/images/amount.jpg)
 
 El robot te preguntará el monto, en satoshis, que quieres entregar. Aquí tienes la posibilidad de usar el botón 'Precio del mercado'; si lo haces, se tomará la tasa de [Yadio.io](https://yadio.io/).
