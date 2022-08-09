@@ -1,4 +1,4 @@
-# In which countries is it available?
+# In which countries and languages is it available?
 
 Being a P2P exchange on Telegram, it is technically available to everyone who has the app. However, so far the bot can get the market price of 58 currencies with which you can create `buy/sell` orders using the `price market` button when create an order with the wizard.
 
@@ -64,3 +64,9 @@ Here we present you the list of currencies:
 | VES  | Bolívar                     | 🇻🇪  |
 | VND  | Vietnamese Dong             | 🇻🇳  |
 | ZAR  | South African Rand          | 🇿🇦  |
+
+So far, [@lnp2pbot](https://t.me/lnp2pbot) is fully available in English and Spanish. There is a partial translation (in progress) to Portuguese.
+
+To change the wizard language use the `/setlang` command
+
+If you want to help by translating into your language, you can propose your collaboration. [This is a good place to start](https://github.com/lnp2pBot/bot/blob/10af43b1199a163f8d8ec79e66546f4ad514ff46/CONTRIBUTING.md)

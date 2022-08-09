@@ -1,7 +1,6 @@
 # ¿Cómo creo una orden de compra?
 
-Al conversar con [@lnp2pbot](https://t.me/lnp2pbot) encontrarás un botón de menú que te indicará, entre otros, el comando de compra:
-`/buy`, eso activará al ayudante (o wizard) que te guiará por el proceso de comprar .
+Al conversar con [@lnp2pbot](https://t.me/lnp2pbot) encontrarás un botón de menú que te indicará, entre otros, el comando de compra:`/buy`, eso activará al ayudante (o wizard) que te guiará por el proceso de comprar .
 
 ![Iniciar el asistente](./assets/images/buy-start.jpg)
 

@@ -1,6 +1,6 @@
-# ¿En qué países está disponible?
+# ¿En qué países e idiomas está disponible?
 
-Al ser un intercambio P2P sobre Telegram, técnicamente está disponible para todo el que tenga esta app. Sin embargo, hasta el momento el bot interactúa con un listado de 58 monedas fíat con las que puedes crear órdenes de compra/venta.
+Al ser un intercambio P2P sobre Telegram, técnicamente está disponible para todo el que tenga esta app. Sin embargo, hasta el momento el bot interactúa con un listado de 58 monedas fíat con las que puedes crear órdenes de compra y/o venta.
 Acá te dejamos el listado:
 
 | Code | Name                        |     |
@@ -63,3 +63,9 @@ Acá te dejamos el listado:
 | VES  | Bolívar                     | 🇻🇪  |
 | VND  | Vietnamese Dong             | 🇻🇳  |
 | ZAR  | South African Rand          | 🇿🇦  |
+
+Por ahora, [@lnp2pbot](https://t.me/lnp2pbot) está totalmente disponible en inglés y español. Hay una traducción parcial (y en proceso) al portugues.
+
+Para cambiar el idioma del asistente usa el comando  `/setlang`
+
+Si quieres ayudar traduciendo a tu idioma puedes proponer tu colaboración. [Este es un buen lugar para empezar](https://github.com/lnp2pBot/bot/blob/10af43b1199a163f8d8ec79e66546f4ad514ff46/CONTRIBUTING.md) 
