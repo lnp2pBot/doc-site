@@ -44,6 +44,8 @@ Una vez que el robot recibe el aviso de que recibiste el pago en fiat te envía 
 
 El intercambio ha terminado, puedes ahora calificar a tu contraparte.
 
+Puedes salir del asistente en cualquier momento ejecutando la orden `/exit`
+
 Para ejecutar la misma orden de venta, sin usar el asistente, debes escribir tu orden con los detalles: ` /sell <monto en sats> <monto en fiat> <código fiat> <método de pago> [prima/descuento]`  sin los carácteres especiales.
 
 Ej. /`sell 100000 50 usd "banco xyz"` Vendo cien mil sats a cincuenta dólares cobro por banco xyz
