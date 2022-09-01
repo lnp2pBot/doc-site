@@ -25,7 +25,6 @@
   - [¿Cómo compro en una determinada comunidad?]()
   - [Wallets recomendadas](./recommended-wallets.md)
   - [Problemas comunes y soluciones](common-problems-and-solutions.md)
-    - []
   - [Soporte](./support.md)
   - [Contacto con desarrolladores](./contact-with-developers.md)
   - [Soy desarrollador y quiero contribuir](./i-am-a-developer-and-i-want-to-contribute.md)
