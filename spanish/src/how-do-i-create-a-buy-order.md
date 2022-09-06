@@ -1,14 +1,14 @@
 # ¿Cómo creo una orden de compra?
 
-Al conversar con [@lnp2pbot](https://t.me/lnp2pbot) encontrarás un botón de menú que te indicará, entre otros, el comando de compra:`/buy`, eso activará al ayudante (o wizard) que te guiará por el proceso de comprar .
+Al conversar con [@lnp2pbot](https://t.me/lnp2pbot) encontrarás un botón de menú que te indicará, entre otros, el comando de compra: `/buy`. Este activará al ayudante (o <i>wizard</i>) que te guiará por el proceso de comprar.
 
 ![Iniciar el asistente](./assets/images/buy-start.jpg)
 
-Una vez activado, te pedirá que especifiques la moneda fiat en la que quieres transar:
+Una vez activado, el asistente te pedirá que especifiques la moneda fiat en la que quieres transar:
 
 ![Moneda Fiat](./assets/images/buy-fiat.jpg)
 
-A continuación deberás introducir el monto (en la moneda fiat) que quieres comprar. Recuerda ingresar solo números en este paso, para que el asistente te pueda entender.
+A continuación deberás introducir el monto, en moneda fiat, que quieres comprar. Recuerda ingresar solo números en este paso, para que el asistente te pueda entender.
 
 También puedes introducir un rango de cantidades a comprar, separando los números por un guión (-).
 
@@ -18,41 +18,42 @@ El asistente te preguntará el monto, en satoshis, que quieres recibir. Aquí ti
 
 ![Cantidad en satoshis](./assets/images/buy-price.jpg)
 
-Lo siguiente que te solicita el asistente es la prima o descuento que quieres en tu intercambio. Si quierres añadir, usa un número positvo, si quieres disminuir, usa un número negativo. En caso de no querer ninguna, coloca 0.
+Lo siguiente que te solicita el asistente es la prima o descuento que quieres en tu intercambio. Si quieres añadir, usa un número positvo, si quieres disminuir, usa un número negativo. En caso de no querer ninguna, coloca 0.
 
 ![Prima o descuento](./assets/images/buy-prima.jpg)
 
-Deberás especificar el método de pago a continuación, en este campo es donde puedes ponerte creativo y añadir emoticones o lo que consideres para hacer atractiva tu oferta.
+A continuación, deberás especificar el método de pago. En este campo puedes ponerte creativo y añadir emoticones o lo que consideres para hacer atractiva tu oferta.
 
 ![Método de pago](./assets/images/buy-payment-metod.jpg)
 
-El robot procederá a publicar tu oferta en el canal general o el de la comunidad que hayas configurado como predeterminada, permanecerá visible por 23 horas, sí nadie la toma antes de ese tiempo.
+El bot procederá a publicar tu oferta en el canal general o el de la comunidad que hayas configurado como predeterminada. Permanecerá visible por 23 horas, si nadie la toma antes de ese tiempo.
 
 ![Oferta publicada](./assets/images/buy-public.jpg)
 
-En cualquier momento puedes cancelar la oferta, siempre y cuando nadie la haya tomado, con el comando `Cancel` seguido por el identificador de la orden, o copiando el comando mas el identificador en el chat con el robot
+En cualquier momento puedes cancelar la oferta, siempre y cuando nadie la haya tomado, usando el comando `/cancel` seguido por el identificador de la orden. También puedes copiar el comando más el identificador en el chat con el bot.
 
 ![Cancelar orden](./assets/images/buy-cancel-order.jpg)
 
-Se te devolverá un mensaje confirmando la cancelación y se removerá tu oferta del canal de ofertas
+El asistente te devolverá un mensaje confirmando la cancelación y se removerá tu oferta del canal de ofertas.
 
 ![Orden cancelada](./assets/images/buy-cancel.jpg)
 
-En caso de que tu oferta sea tomada se te pedirá que entregues una factura en Ligthning Network con el monto en satoshis correspondiente, al mismo tiempo se le pedirá a tu contraparte que pague una factura. 
+En caso de que tu oferta sea tomada, el asistente te pedirá que entregues una factura en Ligthning Network con el monto en satoshis correspondiente. Al mismo tiempo le pedirá a tu contraparte que pague la factura. 
 
-Es en este momento en que el robot pondrá en contacto a ambas partes para que discutan los detalles del intercambio. 
+En este momento el bot pondrá en contacto a ambas partes para que discutan los detalles del intercambio.
 
-Una vez que hayas hecho el pago en fiat, notifica al robot con el comando `fiatsent` el robot avisará a tu contraparte para que consulte y certifique haber recibido el dinero y proceda a liberar los satoshis. Recuerda que para recibirlos, tu cartera deberá estar en linea.
+Una vez que hayas hecho el pago en fiat, notifica al bot con el comando `/fiatsent`. El bot avisará a tu contraparte para que consulte y verifique la recepción del dinero, y proceda a liberar los satoshis. Recuerda que para recibirlos, tu cartera deberá estar en linea.
 
-El intercambio ha terminado, puedes ahora calificar a tu contraparte.
+El intercambio ha terminado. Ahora puedes calificar a tu contraparte.
 
-Puedes salir del asistente en cualquier momento ejecutando la orden `/exit`
+Puedes salir del asistente en cualquier momento ejecutando el comando `/exit`.
 
-Para ejecutar la misma orden de venta, sin usar el asistente, debes escribir tu orden con los detalles: `/buy`<monto en sats> <monto en fiat> <código fiat> <método de pago> [prima/descuento] sin los carácteres especiales.
+Para ejecutar la misma orden de venta, sin usar el asistente, debes escribir tu orden con los detalles: `/buy`<monto en sats> <monto en fiat> <código fiat> <método de pago> [prima/descuento] (sin los carácteres especiales).
 
 Ejemplo: `/buy 100000 50 usd "xyz bank"`
 
 Compro cien mil sats a cincuenta dólares pago por banco xyz
+
 Algunos ejemplos de órdenes de compra serían los siguientes:
 
 - Ej. `/buy 0 50 ves "banco xyz"`: Compro cincuenta bolívares en sats -en este caso el bot hará el cálculo a la tasa de mercado- pago por banco xyz
