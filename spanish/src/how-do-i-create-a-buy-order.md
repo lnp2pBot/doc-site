@@ -1,8 +1,6 @@
 # ¿Cómo creo una orden de compra?
 
-Al conversar con [@lnp2pbot](https://t.me/lnp2pbot) encontrarás un botón de menú que te indicará, entre otros, el comando de compra: `/buy`. Este activará al ayudante (o <i>wizard</i>) que te guiará por el proceso de comprar.
-
-![Iniciar el asistente](./assets/images/buy-start.jpg)
+El procedimiento es exactamente el mismo que para la orden de venta. Solo que, que al pulsar el botón 'Menú', debes seleccionar el comando `/buy` en lugar de `/sell`. Este activará el asistente (<i>wizard</i>) que te guiará por el proceso de comprar.
 
 Una vez activado, el asistente te pedirá que especifiques la moneda fiat en la que quieres transar:
 
@@ -14,11 +12,11 @@ También puedes introducir un rango de cantidades a comprar, separando los núme
 
 ![Cantidad de fiat](./assets/images/buy-monto.jpg)
 
-El asistente te preguntará el monto, en satoshis, que quieres recibir. Aquí tienes la posibilidad de usar el botón 'Precio del mercado'; si lo haces, se tomará la tasa de [Yadio.io](https://yadio.io/).
+El asistente te preguntará el monto, en satoshis, que quieres recibir. Aquí tienes la posibilidad de usar el botón 'Precio del mercado'. Si lo haces, se aplicará la tasa de [Yadio.io](https://yadio.io/).
 
 ![Cantidad en satoshis](./assets/images/buy-price.jpg)
 
-Lo siguiente que te solicita el asistente es la prima o descuento que quieres en tu intercambio. Si quieres añadir, usa un número positvo, si quieres disminuir, usa un número negativo. En caso de no querer ninguna, coloca 0.
+Lo siguiente que te solicita el asistente es el porcentaje de prima o descuento que quieres en tu intercambio. Si quieres aumentar la tasa de mercado (prima), selecciona un número positvo; si quieres disminuirla (descuento), selecciona un número negativo. En caso de no querer ninguna, usa el botón 'Sin prima ni descuento'.
 
 ![Prima o descuento](./assets/images/buy-prima.jpg)
 
@@ -42,13 +40,13 @@ En caso de que tu oferta sea tomada, el asistente te pedirá que entregues una f
 
 En este momento el bot pondrá en contacto a ambas partes para que discutan los detalles del intercambio.
 
-Una vez que hayas hecho el pago en fiat, notifica al bot con el comando `/fiatsent`. El bot avisará a tu contraparte para que consulte y verifique la recepción del dinero, y proceda a liberar los satoshis. Recuerda que para recibirlos, tu cartera deberá estar en linea.
+Una vez que hayas hecho el pago en fiat, notifica al bot con el comando `/fiatsent`. El bot avisará a tu contraparte para que consulte y verifique la recepción del dinero, y proceda a liberar los satoshis. Recuerda que para recibirlos tu cartera deberá estar en línea.
 
 El intercambio ha terminado. Ahora puedes calificar a tu contraparte.
 
 Puedes salir del asistente en cualquier momento ejecutando el comando `/exit`.
 
-Para ejecutar la misma orden de venta, sin usar el asistente, debes escribir tu orden con los detalles: `/buy`<monto en sats> <monto en fiat> <código fiat> <método de pago> [prima/descuento] (sin los carácteres especiales).
+Para ejecutar la misma orden de compra, sin usar el asistente, debes escribir tu orden con los detalles: `/buy`<monto en sats> <monto en fiat> <código fiat> <método de pago> [prima/descuento] (sin los carácteres especiales).
 
 Ejemplo: `/buy 100000 50 usd "xyz bank"`
 

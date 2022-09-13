@@ -18,7 +18,7 @@
   - [¿Cómo cancelo una orden publicada?](./how-do-i-cancel-a-posted-order.md)
   - [¿Hay límites mínimos o máximos en las cantidades que puedo transar?](./is-there-a-limit-on-the-amounts-i-can-trade.md)
   - [¿Cuánto tiempo toma concretar una transacción?](./how-long-does-it-take-to-finalize-a-transaction.md)
-  - [¿Tarifas y comisiones?](./fees-and-commissions.md)
+  - [¿Qué tarifas y comisiones debo pagar?](./fees-and-commissions.md)
   - [¿Qué tasa de cambio utiliza el bot?](./what-exchange-rate-does-the-bot-use.md)
   - [¿En qué países está disponible?](./in-which-countries-is-it-available.md)
   - [¿Cómo puedo saber cuáles son las comunidades que trabajan con mi moneda?](community-find.md)
