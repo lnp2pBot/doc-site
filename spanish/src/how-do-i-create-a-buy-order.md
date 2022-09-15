@@ -1,6 +1,6 @@
 # ¿Cómo creo una orden de compra?
 
-El procedimiento es exactamente el mismo que para la orden de venta. Solo que, que al pulsar el botón 'Menú', debes seleccionar el comando `/buy` en lugar de `/sell`. Este activará el asistente (<i>wizard</i>) que te guiará por el proceso de comprar.
+El procedimiento es exactamente el mismo que para la orden de venta. Solo que, que al pulsar el botón 'Menú', debes seleccionar el comando `/buy` en lugar de `/sell`. Este activará el asistente (*<i>*wizard*</i>*) que te guiará por el proceso de comprar.
 
 Una vez activado, el asistente te pedirá que especifiques la moneda fiat en la que quieres transar:
 
