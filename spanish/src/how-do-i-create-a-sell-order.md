@@ -1,6 +1,6 @@
 #  ¿Cómo creo una orden de venta?
 
-Al conversar con [@lnp2pbot](https://t.me/lnp2pbot) encontrarás un botón de 'Menú'. Púlsalo para que se desplegue la lista de comandos que puedes usar. Selecciona el comando de venta: `/sell`. Este activará el asistente (*<i>*wizard*</i>*) que te guiará por el proceso de vender.
+Al conversar con [@lnp2pbot](https://t.me/lnp2pbot) encontrarás un botón de 'Menú'. Púlsalo para que se desplegue la lista de comandos que puedes usar. Selecciona el comando de venta: `/sell`. Este activará el asistente (*wizard*) que te guiará por el proceso de vender.
 
 ![Iniciar el asistente](./assets/images/sell-start.jpg)
 
