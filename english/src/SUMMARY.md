@@ -3,9 +3,9 @@
 [@lnp2pBot](README.md)
 
 - [FAQ](./faq.md)
-  - [What is @lnp2pbot?](./what-is-lnp2pbot.md)
+  - [What is @lnp2pBot?](./what-is-lnp2pbot.md)
   - [What is Lightning Network?](./what-is-lightning-network.md)
-  - [What do I need to use @lnp2pbot?](./what-do-i-need-to-use-lnp2pbot.md)
+  - [What do I need to use @lnp2pBot?](./what-do-i-need-to-use-lnp2pbot.md)
   - [How do I initialize the bot?](./how-do-i-initialize-the-bot.md)
   - [What are the channels to make exchanges on Telegram?](./what-are-the-channels-to-make-exchanges-on-telegram.md)
   - [Where I can find offers for my local currency?](./where-i-can-find-offers-for-my-local-currency.md)
