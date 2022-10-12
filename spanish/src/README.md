@@ -1,6 +1,6 @@
 # @lnp2pBot
 
-En este sitio encontrarás información sobre [@lnp2pBot](https://t.me/lnp2pbot), una aplicación que permite comprar y vender bitcoin en Lightning Network, con tu moneda local y sin entregar datos personales. 
+En este sitio encontrarás información sobre [@lnp2pBot](https://t.me/lnp2pbot). Esta es una aplicación para comprar y vender bitcoin en Lightning Network, con tu moneda local y sin entregar datos personales. 
 
 ## Guía de inicio rápido
 
@@ -14,4 +14,5 @@ En este sitio encontrarás información sobre [@lnp2pBot](https://t.me/lnp2pbot)
 
     ![Buscando ofertas](./assets/images/scan-channel.gif)
 
-5. Comienza a comprar y vender. (Encuentra respuestas a tus dudas la sección [FAQ](./faq.md)).
+5. Comienza a comprar y vender. 
+6. Encuentra respuestas a tus dudas en la sección [FAQ](./faq.md).
