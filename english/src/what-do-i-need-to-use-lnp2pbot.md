@@ -1,3 +1,3 @@
-# What do I need to use @lnp2pbot?
+# What do I need to use @lnp2pBot?
 
-You only need a Telegram account with the "username" activated, initialize the bot and a wallet that supports Lighting Network. [Here we leave you some suggestions](https://lnp2pbot.com/learn/recommended-wallets.html)
+You only need a Telegram account with the "username" enabled to initialize the bot and interact with it; and a wallet that supports Lighting Network, to start buying and selling. [Here we leave some recommended wallets](https://lnp2pbot.com/learn/recommended-wallets.html)
