@@ -13,6 +13,7 @@
   - [What type of information do you collect from each user?](./what-type-of-information-do-you-collect-from-each-user.md)
   - [How does the user reputation system work?](./how-does-the-user-reputation-system-work.md)
   - [How do I create a sell order?](./how-do-i-create-a-sell-order.md)
+  - [How do I create a purchase order?](./how-do-i-create-a-purchase-order.md)
   - [How do I find and accept an offer to buy or sell?](./how-do-i-find-and-accept-an-offer-to-buy-or-sell.md)
   - [How do I cancel a posted order?](./how-do-i-cancel-a-posted-order.md)
   - [Is there a limit (minimum or maximum) on the amounts I can trade?](./is-there-a-limit-on-the-amounts-i-can-trade.md)
