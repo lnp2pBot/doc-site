@@ -1,28 +1,28 @@
 # ¿Cómo creo una orden de compra?
 
-El procedimiento es exactamente el mismo que para la orden de venta. Solo que, que al pulsar el botón 'Menú', debes seleccionar el comando `/buy` en lugar de `/sell`. Este activará el asistente (*wizard*) que te guiará por el proceso de comprar.
+El procedimiento es exactamente el mismo que para la orden de venta. Solo que, que al pulsar el botón "Menú", debes seleccionar el comando `/buy` en lugar de `/sell`. Este activará el asistente (*wizard*) que te guiará por el proceso de comprar.
 
-Una vez activado, el asistente te pedirá que especifiques la moneda fiat en la que quieres transar:
+Una vez activado, el asistente te pedirá que especifiques la moneda fíat con la que quieres transar:
 
-![Moneda Fiat](./assets/images/buy-fiat.jpg)
+![Moneda fíat](./assets/images/buy-fiat.jpg)
 
-A continuación deberás introducir el monto, en moneda fiat, que quieres comprar. Recuerda ingresar solo números en este paso, para que el asistente te pueda entender.
+A continuación deberás introducir el monto, en moneda fíat, que quieres comprar. Recuerda ingresar solo números en este paso, para que el asistente te pueda entender.
 
-También puedes introducir un rango de cantidades a comprar, separando los números por un guión (-).
+También puedes introducir un rango de cantidades a comprar, separando los números por un guion (-).
 
-![Cantidad de fiat](./assets/images/buy-monto.jpg)
+![Cantidad de fíat](./assets/images/buy-monto.jpg)
 
-El asistente te preguntará el monto, en satoshis, que quieres recibir. Aquí tienes la posibilidad de usar el botón 'Precio del mercado'. Si lo haces, se aplicará la tasa de [Yadio.io](https://yadio.io/).
+El asistente te preguntará el monto, en satoshis, que quieres recibir. Aquí tienes la posibilidad de usar el botón "Precio del mercado". Si lo haces, se aplicará la tasa de [Yadio.io](https://yadio.io/).
 
 ![Cantidad en satoshis](./assets/images/buy-price.jpg)
 
-Lo siguiente que te solicita el asistente es el porcentaje de prima o descuento que quieres en tu intercambio. Si quieres aumentar la tasa de mercado (prima), selecciona un número positvo; si quieres disminuirla (descuento), selecciona un número negativo. En caso de no querer ninguna, usa el botón 'Sin prima ni descuento'.
+Lo siguiente que te solicita el asistente es el porcentaje de prima o descuento que quieres en tu intercambio. Si quieres aumentar la tasa de mercado (prima), selecciona un número positivo; si quieres disminuirla (descuento), selecciona un número negativo. En caso de no querer ninguna, usa el botón "Sin prima ni descuento".
 
 ![Prima o descuento](./assets/images/buy-prima.jpg)
 
 A continuación, deberás especificar el método de pago. En este campo puedes ponerte creativo y añadir emoticones o lo que consideres para hacer atractiva tu oferta.
 
-![Método de pago](./assets/images/buy-payment-metod.jpg)
+![Método de pago](./assets/images/buy-payment-method.jpg)
 
 El bot procederá a publicar tu oferta en el canal general o el de la comunidad que hayas configurado como predeterminada. Permanecerá visible por 23 horas, si nadie la toma antes de ese tiempo.
 
@@ -36,11 +36,11 @@ El asistente te devolverá un mensaje confirmando la cancelación y se removerá
 
 ![Orden cancelada](./assets/images/buy-cancel.jpg)
 
-En caso de que tu oferta sea tomada, el asistente te pedirá que entregues una factura en Ligthning Network con el monto en satoshis correspondiente. Al mismo tiempo le pedirá a tu contraparte que pague la factura. 
+En caso de que tu oferta sea tomada, el asistente te pedirá que entregues una factura en Lightning Network con el monto en satoshis correspondiente. Al mismo tiempo le pedirá a tu contraparte que pague la factura. 
 
 En este momento el bot pondrá en contacto a ambas partes para que discutan los detalles del intercambio.
 
-Una vez que hayas hecho el pago en fiat, notifica al bot con el comando `/fiatsent`. El bot avisará a tu contraparte para que consulte y verifique la recepción del dinero, y proceda a liberar los satoshis. Recuerda que para recibirlos tu cartera deberá estar en línea.
+Una vez que hayas hecho el pago en fíat, notifica al bot con el comando `/fiatsent`. El bot avisará a tu contraparte para que consulte y verifique la recepción del dinero, y proceda a liberar los satoshis. Recuerda que para recibirlos tu cartera deberá estar en línea.
 
 El intercambio ha terminado. Ahora puedes calificar a tu contraparte.
 
