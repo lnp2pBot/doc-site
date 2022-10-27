@@ -21,6 +21,7 @@
   - [Fees and commissions](./fees-and-commissions.md)
   - [What exchange rate does the bot use?](./what-exchange-rate-does-the-bot-use.md)
   - [In which countries is it available?](./in-which-countries-is-it-available.md)
+  - [How can I find communities operating with my currency?](./community-find.md)
   - [Recommended wallets](./recommended-wallets.md)
   - [Support](./support.md)
   - [common problems and solutions](common-problems-and-solutions.md)

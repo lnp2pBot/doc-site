@@ -1,6 +1,6 @@
 # ¿Cómo compro en una determinada comunidad?
 
-Una vez que hemos ejecutado el comando `/findcomms usd` para encontrar todas las comunidades que operan en la moneda deseada
+Una vez que hemos ejecutado el comando `/findcomms *<fiat code>*` para encontrar todas las comunidades que operan en la moneda deseada
 
 ![Find Community Capture](./assets/images/findcomms.jpg)
 

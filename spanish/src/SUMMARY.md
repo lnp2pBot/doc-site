@@ -21,7 +21,7 @@
   - [¿Qué tarifas y comisiones debo pagar?](./fees-and-commissions.md)
   - [¿Qué tasa de cambio utiliza el bot?](./what-exchange-rate-does-the-bot-use.md)
   - [¿En qué países está disponible?](./in-which-countries-is-it-available.md)
-  - [¿Cómo puedo saber cuáles son las comunidades que trabajan con mi moneda?](community-find.md)
+  - [¿Cómo puedo encontrar comunidades que operen con mi moneda?](community-find.md)
   - [¿Cómo compro en una determinada comunidad?](./How-do-i-buy-in-a-community.md)
   - [Wallets recomendadas](./recommended-wallets.md)
   - [Problemas comunes y soluciones](common-problems-and-solutions.md)
