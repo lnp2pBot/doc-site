@@ -65,8 +65,8 @@ Here we present you the list of currencies:
 | VND  | Vietnamese Dong             | 🇻🇳  |
 | ZAR  | South African Rand          | 🇿🇦  |
 
-So far, [@lnp2pbot](https://t.me/lnp2pbot) is fully available in English and Spanish. There is a partial translation (in progress) to Portuguese.
+So far, [**@lnp2pBot**](https://t.me/lnp2pbot) is fully available in English and Spanish. There is a partial translation (in progress) to portuguese.
 
 To change the wizard language use the `/setlang` command
 
-If you want to help by translating into your language, you can propose your collaboration. [This is a good place to start](https://github.com/lnp2pBot/bot/blob/10af43b1199a163f8d8ec79e66546f4ad514ff46/CONTRIBUTING.md)
+If you want to help by translating **lnp2pBot** into your language, you can propose your collaboration. [This is a good place to start.](https://github.com/lnp2pBot/bot/blob/10af43b1199a163f8d8ec79e66546f4ad514ff46/CONTRIBUTING.md)
