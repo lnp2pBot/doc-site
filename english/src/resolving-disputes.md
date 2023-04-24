@@ -1,6 +1,6 @@
 # Resolving disputes
 
-When a user initiates a dispute, a message is sent by the bot to the dispute channel. Only **solvers** can take it by tapping the **Take dispute** button.
+When a user initiates a dispute, a message is sent by the bot to the dispute channel. Only **solvers** can take it by tapping the **Take dispute** button. Before taking a dispute, the solver must be sure that he/she have the community setted up, to set up the community, the solver must run the command `/setcomm @community-group`.
 
 ![Dispute Capture](./assets/images/dispute.jpg)
 
