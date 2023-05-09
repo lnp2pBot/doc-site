@@ -1,6 +1,6 @@
 # Como comprar em uma comunidade específica?
 
-Uma vez que você executou o comando `/findcomms *<código de moeda>*` para encontrar todas as comunidades que operam na moeda desejada,
+Uma vez que você executou o comando `/findcomms *<código da moeda>*` para encontrar todas as comunidades que operam na moeda desejada,
 
 ![Find Community Capture](./assets/images/findcomms.jpg)
 
