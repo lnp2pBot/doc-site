@@ -1,5 +1,0 @@
-# Ditador benevolente
-
-Tendo aceitado que para resolver uma disputa é preciso confiar em alguém, como fazer com que haja menos incentivos para criar disputas? Em relação a esse assunto, a comunidade fez várias propostas. E a que desenvolvemos é utilizar a figura do "ditador benevolente". Trata-se de um "ditador" em que as pessoas aceitam e confiam que suas decisões são tomadas para o bem da comunidade. Digamos que ele é um mediador confiável da comunidade.
-
-O ditador benevolente é o criador da comunidade e é quem pode adicionar solucionadores de disputas ou 'solvers'. Eles são publicamente conhecidos pela comunidade (nos referimos ao seu "username" no Telegram). A comunidade se encarregará de denunciar se esses usuários estão fazendo seu trabalho corretamente ou não. Em uma comunidade em que o "ditador benevolente" selecione corretamente os solvers, tudo funcionará bem; em uma em que o ditador cometa erros, seus súditos irão para outra comunidade ou criarão uma nova. Dessa forma, delegamos essa responsabilidade às comunidades.
