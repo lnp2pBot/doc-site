@@ -1,0 +1,3 @@
+# O que é @lnp2pBot?
+
+**Lnp2pBot** é um sistema de troca de bitcoins por moeda local que permite transações peer-to-peer de forma fácil e segura usando a Lightning Network. É um bot do Telegram que pode ser usado de forma pseudônima, sem registro de usuário ou verificação de identidade. É uma ferramenta "sem custódia", o que significa que não armazena os satoshis (a menor unidade de bitcoin) durante a troca. **Lnp2pBot** é um aplicativo de código aberto, que pode ser replicado, modificado e redistribuído com liberdade. [**Ir para @lnp2pBot**](https://t.me/lnp2pbot)

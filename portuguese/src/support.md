@@ -1,0 +1,3 @@
+# Suporte
+
+[@lnp2pbot](https://t.me/lnp2pbot) não é uma empresa, portanto, não possui um departamento de suporte técnico, mas há uma comunidade para a qual você pode recorrer se precisar de ajuda. Lembre-se de que os participantes desta comunidade não recebem nenhuma remuneração. Por isso, se você não receber uma resposta imediata, seja paciente e educado, se alguém tiver a resposta, tentará ajudá-lo em algum momento.
