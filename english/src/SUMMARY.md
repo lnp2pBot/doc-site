@@ -25,6 +25,7 @@
   - [Recommended wallets](./recommended-wallets.md)
   - [Support](./support.md)
   - [common problems and solutions](common-problems-and-solutions.md)
+  - [I have not been able to receive the sats for my purchase](./i-cant-receive.md)
   - [Contact with developers](./contact-with-developers.md)
   - [I am a developer and I want to contribute](./i-am-a-developer-and-i-want-to-contribute.md)
 - [Communities](communities.md)
