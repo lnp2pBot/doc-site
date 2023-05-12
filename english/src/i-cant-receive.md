@@ -1,4 +1,4 @@
-# The seller released but I don't get the sats to my wallet
+# The seller released but I don't get the sats in my wallet
 
 Sometimes the bot does not find successful routes to make the payment for different reasons, sometimes because there is simply not a good connection from the origin to the destination but other times it is much more complicated, it can happen that the nodes connected to the destination charge very high fees, @lnp2pBot's node is willing to pay up to 0.2% of the total amount of the operation in routing fee, if this fee is higher the bot simply will not make the payment, some wallets that are not native lightning may charge more than 0.2% when the mempool is congested, those wallets will not be able to be paid by the bot.
 
