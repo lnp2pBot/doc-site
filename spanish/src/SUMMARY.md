@@ -25,6 +25,8 @@
   - [¿Cómo compro en una determinada comunidad?](./How-do-i-buy-in-a-community.md)
   - [Wallets recomendadas](./recommended-wallets.md)
   - [Problemas comunes y soluciones](common-problems-and-solutions.md)
+  - [¿Cómo sé si el vendedor realmente liberó los sats?](how-do-i-know-if-seller-released.md)
+  - [No he podido recibir los sats por mi compra](./i-cant-receive.md)
   - [Soporte](./support.md)
   - [Contacto con desarrolladores](./contact-with-developers.md)
   - [Soy desarrollador y quiero contribuir](./i-am-a-developer-and-i-want-to-contribute.md)
