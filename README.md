@@ -1,1 +1,0 @@
-# @lnp2pBot Documentation
