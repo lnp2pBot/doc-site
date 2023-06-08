@@ -1,17 +1,17 @@
-# Problemas Comuns e suas soluções
+# Problemas comuns e suas soluções
 
-## Tentei pagar uma fatura com uma carteira com fundos insuficientes e [@lnp2pbot](https://t.me/lnp2pbot) agora me diz que a fatura foi usada
+## Eu tentei pagar uma fatura com uma carteira sem fundos suficientes e o [@lnp2pbot](https://t.me/lnp2pbot) agora me diz que a fatura foi usada
 
-Aguarde 15 minutos até que o tempo da transação expire e inicie novamente para gerar uma nova fatura.
+Aguarde 15 minutos para que o tempo da transação expire e tente novamente para gerar uma nova fatura.
 
-## Minha contraparte teve um problema ao me enviar o pagamento em fiat e depois desapareceu, meus satoshis ficaram bloqueados
+## Minha contraparte teve um problema ao me enviar o pagamento em moeda fiduciária e depois desapareceu, meus sats foram bloqueados
 
-A transação será cancelada automaticamente após 23 horas e seus satoshis aparecerão em sua carteira como um pagamento cancelado.
+A transação será cancelada automaticamente após 23 horas e seus satoshis aparecerão em sua carteira como um pagamento falhado.
 
-## Um usuário tomou minha compra por engano e já fiz o pagamento em satoshis
+## Um usuário pegou minha compra por engano e eu já fiz o pagamento em satoshis
 
-Pode-se iniciar um cancelamento coletivo. Ambos devem executar o comando `/cancel <identificador de ordem>`
+Uma cancelação cooperativa pode ser iniciada. O iniciador deve executar o comando `/cancel <identificador da ordem>` e a contraparte só precisa executar `/cancel` e tocar no botão para confirmar.
 
-## Cancelei um pedido, mas os sats ainda não voltaram para minha carteira, quanto tempo devo esperar?
+## Cancelei um pedido, mas os sats não voltaram para minha carteira, quanto tempo devo esperar?
 
-Quando um pedido é cancelado, os sats do vendedor são imediatamente devolvidos ao nó/carteira que realizou o pagamento. Se você usa uma carteira de auto-custódia ou seu próprio nó, não terá nenhum problema, mas se usa uma carteira que custodia seus fundos, deve esperar que eles reflitam seu saldo em seu sistema interno, isso pode levar de alguns minutos a algumas horas dependendo da carteira, mas em todas as carteiras, 100% de seus fundos são devolvidos, tenha paciência.
+Quando um pedido é cancelado, os sats do vendedor retornam imediatamente para o nó/carteira que fez o pagamento. Se você usa uma carteira de custódia própria ou seu próprio nó, não terá problemas, mas se usa uma carteira que custodia seus fundos, você deve esperar que eles sejam refletidos em seu saldo no sistema interno da carteira. Isso pode levar alguns minutos a algumas horas, dependendo da carteira, mas em todas as carteiras ele retorna 100% dos seus fundos. Seja paciente.
