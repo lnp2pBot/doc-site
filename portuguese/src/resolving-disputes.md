@@ -1,6 +1,6 @@
 # Resolvendo disputas
 
-Quando um usuário inicia uma disputa, uma mensagem será enviada pelo bot para o canal de disputas. Somente os **solvers** poderão lidar com elas, tocando no botão **Take dispute**. Antes de lidar com uma disputa, o solver deve ter certeza de que a comunidade está configurada. Para configurar a comunidade, o solver deve executar o comando `/setcomm @community-group`.
+Quando um usuário inicia uma disputa, uma mensagem será enviada pelo bot para o canal de disputas. Apenas os **solvers** poderão assumir essas disputas, tocando no botão **Take dispute**. Antes de assumir uma disputa, o solver deve ter certeza de que possui a comunidade configurada. Para configurar a comunidade, o solver deve executar o comando `/setcomm @community-group`.
 
 ![Disputa Captura](./assets/images/dispute.jpg)
 
