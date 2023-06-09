@@ -1,0 +1,5 @@
+# Sou um desenvolvedor e quero contribuir
+
+Ótimo! Obrigado pelo seu interesse. Na seção de issues você poderá ver uma lista de problemas a serem resolvidos. Escolha um com a tag [help wanted](https://github.com/lnp2pbot/bot/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22). Se tiver dúvidas, pode fazer uma pergunta fazendo um comentário. Depois, se estiver certo de que quer resolvê-lo, comente novamente. Aqueles com a tag [good first issue](https://github.com/lnp2pbot/bot/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) são simples e muitas vezes servem para se familiarizar com o código.
+
+Desde que iniciamos este projeto, quisemos começar a operar com @LNP2Pbot sem fazer muito barulho. Era fundamental testar o bot em uma comunidade pequena antes de apresentar ao mundo um produto final. Por isso, começamos a trabalhar com a comunidade hispânica do Lightning, que recebeu o projeto de maneira muito positiva. O feedback recebido permitiu ao bot crescer e melhorar dia após dia.
