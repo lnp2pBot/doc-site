@@ -1,0 +1,3 @@
+# La confiance
+
+Le modèle que nous avons choisi pour résoudre les litiges est celui de la confiance. Cela semble paradoxal pour ceux qui travaillent avec Bitcoin et qui prônent des systèmes "sans confiance". En réalité, l'objectif est de développer des systèmes dans lesquels nous n'avons pas besoin de faire confiance à qui que ce soit. Mais après avoir longuement réfléchi aux systèmes de résolution des litiges, nous avons dû accepter le fait qu'il faut toujours faire confiance à quelqu'un, dans une certaine mesure.
