@@ -1,0 +1,7 @@
+# Le vendeur a libéré les sats mais je ne les ai pas reçus dans mon portefeuille
+
+Parfois le bot ne trouve pas d'itinéraire pour effectuer le paiement pour différentes raisons, parfois parce qu'il n'y a tout simplement pas de bonne connexion entre l'origine et la destination, mais d'autres fois c'est beaucoup plus compliqué, il peut arriver que les nœuds connectés à la destination facturent des frais très élevés, le nœud de @lnp2pBot est prêt à payer jusqu'à 0. 2% du montant total de l'opération en frais de routage, si ces frais sont plus élevés, le bot n'effectuera tout simplement pas le paiement, certains portefeuilles qui ne sont pas natifs lightning peuvent facturer plus de 0,2% lorsque le mempool est encombré, ces portefeuilles ne seront pas en mesure d'être payés par le bot.
+
+Un autre cas est que vous n'avez pas de "capacité d'entrée", je vais vous donner un exemple, si vous utilisez le portefeuille Blixt et que vous avez un canal que vous venez d'ouvrir, tout l'argent dans ce portefeuille serait sortant, vous n'avez pas la capacité de recevoir, dans ce cas tous les paiements vers ce portefeuille échoueront, il y a des portefeuilles modernes tels que le portefeuille Phoenix qui résout ce problème en indiquant que vous n'avez pas de capacité d'entrée et vous propose d'ouvrir un nouveau canal, ce portefeuille facture une commission pour cela.
+
+Comme solution [nous recommandons d'essayer différents portefeuilles](./recommended-wallets.md), générez de nouvelles factures et donnez-les au robot pour qu'il essaie de vous envoyer le paiement à nouveau.
