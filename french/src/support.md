@@ -1,0 +1,3 @@
+# Assistance
+
+[@lnp2pbot](https://t.me/lnp2pbot) n'est pas une entreprise, et n'a donc pas de service d'assistance technique, bien qu'il existe une communauté à laquelle vous pouvez vous adresser si vous avez besoin d'aide, rappelez-vous que les participants à cette communauté ne reçoivent aucun type de rémunération, si vous ne recevez pas de réponse immédiate, soyez patient et sachez que si quelqu'un a la réponse à un moment ou à un autre, il essaiera de vous aider.
