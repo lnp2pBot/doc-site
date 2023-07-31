@@ -10,7 +10,7 @@ La transacción se cancelará automáticamente luego de 23 horas y tus satoshis 
 
 ## Un usuario tomó mi compra por error y ya hice el pago en satoshis
 
-Se puede iniciar una cancelacion colectiva. Ambos deben ejecutar el comando `/cancel  <identificador de orden>`
+Se puede iniciar una cancelación cooperativa. Ambos deben ejecutar el comando `/cancel  <identificador de orden>`
 
 ## Cancelé una orden pero los sats no han vuelto a mi wallet, ¿Cuánto debo esperar?
 
