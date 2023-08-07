@@ -6,4 +6,4 @@ Por ejemplo, esto te muestra las comunidades en bolívares venezolanos:
 
 `/findcomms` ves
 
-También puedes encontrar este y otros comandos haciendo click en el botón "Menú".
+También puedes buscar ofertas filtradas por monedas y comunidades en [https://market.lnp2pbot.com](https://market.lnp2pbot.com)
