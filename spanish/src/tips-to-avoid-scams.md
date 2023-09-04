@@ -14,10 +14,10 @@
 
 - No accedas a realizar un intercambio en otra comunidad si no fuiste tú quien la eligió.
 
-- Si vas a abrir una disputa, hazlo a tiempo, mucho antes de que se cumplan 23 horas de tomada la oferta. 
+- Si vas a abrir una disputa, hazlo a tiempo, mucho antes de que se cumplan 23 horas de tomada la oferta.
 
 - Si detectas comportamientos sospechosos, infórmalos a los administradores de la comunidad correspondiente. Ellos podrán tomar las medidas adecuadas para proteger a los usuarios y avisar a los administradores de otras comunidades.
 
 - Envíale a tu contraparte solo los datos personales imprescindibles para llevar a cabo el intercambio, no proporciones más información de la necesaria, como tu número de teléfono personal, tu dirección, etc.
 
-- Si alguien con quien has hecho operaciones anteriores te hace un envío de dinero fíat sin previo aviso (aunque diga que fue un error) y te exige que le envíes los Sats correspondientes, puede tratarse de una estafa puente. En este caso se aconseja devolver el fíat y no continuar con el intercambio forzado al que intenta llevarte.
+- Si alguien con quien has hecho operaciones anteriores te hace un envío de dinero fíat sin previo aviso (aunque diga que fue un error) y te exige que le envíes los Sats correspondientes, puede tratarse de una estafa puente. En este caso se aconseja devolver el fíat a la misma cuenta desde donde se te envió el dinero y no continuar con el intercambio forzado al que intenta llevarte.
