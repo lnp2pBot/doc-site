@@ -45,3 +45,8 @@
   - [Cancelando una orden](cancel-order.md)
   - [Eliminando disputas](removing-disputes.md)
   - [Expulsar a un usuario de la comunidad](./ban-user-community.md)
+- [Intercambios seguros en @lnp2pbot](./safe-trades-on-lnp2pbot.md)
+  - [Intentos de estafas](./scam-attempts.md)
+  - [Consejos para evitar estafas](./tips-to-avoid-scams.md)
+  - [Estafas por triangulación de cuentas o estafas puente](./account-triangulation-scams.md)
+    - [Prevención de estafas puente](./prevention-of-account-triangulation-scams.md)
