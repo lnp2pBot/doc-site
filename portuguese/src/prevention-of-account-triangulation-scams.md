@@ -14,4 +14,6 @@ Essa frase pode ser substituída por um código numérico ou outra mensagem que 
 
 - Outra opção, não muito recomendada se você não quiser violar a privacidade do comprador, é solicitar uma videochamada no Telegram em que ele mostre que possui o cartão de onde o dinheiro foi enviado, embora não seja necessário mostrar o rosto para isso.
 
+Lembre-se de que, se você não se sentir confortável com uma transação, pode realizar um cancelamento cooperativo com `/cancel` e devolver o dinheiro fiat para a mesma conta de onde foi enviado. Se a outra parte não quiser colaborar, você deve abrir uma disputa com `/dispute` e aguardar que um solucionador resolva o caso.
+
 As medidas preventivas mencionadas aqui podem não ser aplicáveis a todos os métodos de pagamento fiat. Se você conhecer outras medidas, por favor, compartilhe-as e contribua para evitar golpes.
