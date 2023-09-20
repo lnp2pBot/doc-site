@@ -6,4 +6,4 @@ Por exemplo, isso mostra as comunidades em bolívares venezuelanos:
 
 `/findcomms` ves
 
-Você também pode buscar ofertas filtradas por moedas e comunidades em https://market.lnp2pbot.com.
+Você também pode buscar ofertas filtradas por moedas e comunidades em [https://market.lnp2pbot.com](https://market.lnp2pbot.com)
