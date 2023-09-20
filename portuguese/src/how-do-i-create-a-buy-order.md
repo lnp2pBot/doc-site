@@ -56,6 +56,6 @@ Alguns exemplos de ordens de compra seriam os seguintes:
 
 - Ex. `/buy 0 50 ves "banco xyz"`: Compro cinquenta bolívares em sats - neste caso, o bot calculará a taxa de mercado - pago pelo banco xyz.
 - Ex. `/buy 0 10-100 pen "pagamento móvel"`: Compro de 10 a 100 novos soles - neste caso, o vendedor escolherá qual valor vender dentro dessa faixa - pago por pagamento móvel.
-- Ex. `/buy 0 100 eur -3 "pagamento móvel"`: Compro 100 euros com desconto de 3% - neste caso, o bot calculará a taxa de mercado descontando ou aumentando a porcentagem que você escolher - pago por pagamento móvel.
+- Ex. `/buy 0 100 eur "pagamento móvel" -3`: Compro 100 euros com desconto de 3% - neste caso, o bot calculará a taxa de mercado descontando ou aumentando a porcentagem que você escolher - pago por pagamento móvel.
 
 Se houver alguma variável incompatível, o bot indicará durante o processo de criação da ordem. Após concluí-la, ela será publicada automaticamente no canal de troca e será visível por um período de 23 horas.
