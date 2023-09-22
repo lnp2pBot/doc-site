@@ -1,0 +1,7 @@
+# Trocas seguras no @lnp2pbot
+
+O @lnp2pbot é uma ferramenta segura para a troca de Bitcoin de forma peer-to-peer (P2P) sem KYC (Know Your Customer - Conheça o Seu Cliente), porque quando duas pessoas entram em contato para fazer uma compra-venda, os Satoshis (Sats) do vendedor são retidos em sua própria carteira por meio de uma fatura de retenção (hold invoice) e não podem ser utilizados enquanto estiverem nesse estado. Quando o comprador de Satoshis envia o dinheiro fiat e o vendedor confirma para o bot que já o recebeu, os Satoshis são enviados para o nó do bot e este os pagará ao comprador o mais rápido possível.
+
+O bot possui um sistema de [reputação dos usuários](https://lnp2pbot.com/aprende/how-does-the-user-reputation-system-work.html) que leva em consideração a quantidade de operações bem-sucedidas e as avaliações recebidas. Além disso, ele exibe a quantidade de dias que uma pessoa tem usado o bot. Esses dados podem ajudar você a tomar decisões sobre aceitar ou recusar ofertas de acordo com seus próprios interesses.
+
+Além disso, cada comunidade do bot possui pelo menos um Solucionador (Solver), que é responsável por mediar em disputas que possam surgir. Ele solicitará as evidências necessárias às partes envolvidas e determinará quem está correto e, portanto, receberá os Satoshis. Quando um golpista é detectado, ele é permanentemente banido e proibido de continuar usando o bot.
