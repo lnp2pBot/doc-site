@@ -22,7 +22,7 @@
   - [¿Qué tasa de cambio utiliza el bot?](./what-exchange-rate-does-the-bot-use.md)
   - [¿En qué países está disponible?](./in-which-countries-is-it-available.md)
   - [¿Cómo puedo encontrar comunidades que operen con mi moneda?](community-find.md)
-  - [¿Cómo compro en una determinada comunidad?](./How-do-i-buy-in-a-community.md)
+  - [¿Cómo publico ofertas en una comunidad?](./how-do-i-make-offers-in-a-community.md)
   - [Wallets recomendadas](./recommended-wallets.md)
   - [Problemas comunes y soluciones](common-problems-and-solutions.md)
   - [¿Cómo sé si el vendedor realmente liberó los sats?](how-do-i-know-if-seller-released.md)
