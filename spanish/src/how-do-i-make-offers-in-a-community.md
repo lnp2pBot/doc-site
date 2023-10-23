@@ -13,7 +13,7 @@ Por ejemplo `/findcomms usd` se utiliza para buscar todas las comunidades que c
 
 ![Find Community Capture](./assets/images/findcomms.jpg)
 
-Al seleccionar alguna comunidad el bot mostrará la cantidad de órdenes exitosas, el volumen de comercio operado en las últimas 24 horas, y la cantidad de usarios que publican sus ofertas allí. Para configurar en cuál comunidad quieres pubicar tus ofertas, debes seleccionar el botón "Utilizar por defecto".
+Al seleccionar alguna comunidad el bot mostrará la cantidad de órdenes exitosas, el volumen de comercio operado en las últimas 24 horas, y la cantidad de usuarios que publican sus ofertas allí. Para configurar en cuál comunidad quieres pubicar tus ofertas, debes seleccionar el botón "Utilizar por defecto".
 
 ![Community details Capture](./assets/images/comm-detail.jpg)
 

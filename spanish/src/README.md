@@ -19,7 +19,7 @@ En este sitio encontrarás información sobre [@lnp2pBot](https://t.me/lnp2pbot)
     
 5. Cuando tomes una oferta [@lnp2pBot](https://t.me/lnp2pbot) te guiará paso a paso en el proceso de compra/venta.
 6. Si no encuentras una oferta que te convenga, crea una tú y espera a que alguien la tome.
-Escribe en [@lnp2pBot](https://t.me/lnp2pbot) `/buy` para [comprar Sats](./how-do-i-create-a-buy-order.md), o `/sell` para [vender Sats](./how-do-i-create-a-sell-order.md), de acuerdo a lo que quieras hacer y este te guiará en el proceso. Si quieres que tu oferta se publique en una comunidad en específico, y no en el canal general de ofertas, debes [configurar una comunidad por defecto](./How-do-i-buy-in-a-community.md).
+Escribe en [@lnp2pBot](https://t.me/lnp2pbot) `/buy` para [comprar Sats](./how-do-i-create-a-buy-order.md), o `/sell` para [vender Sats](./how-do-i-create-a-sell-order.md), de acuerdo a lo que quieras hacer y este te guiará en el proceso. Si quieres que tu oferta se publique en una comunidad en específico, y no en el canal general de ofertas, debes [configurar una comunidad por defecto](./how-do-i-make-offers-in-a-community.md).
 
 5. Comienza a comprar y vender. 
 6. Encuentra respuestas a tus dudas en la sección [FAQ](./faq.md).
