@@ -1,5 +1,3 @@
-Claro, aqui está a tradução para o português:
-
 # Problemas Comuns e Suas Soluções
 
 ### Estou tentando aceitar um pedido e nada acontece
