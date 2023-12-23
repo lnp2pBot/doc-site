@@ -50,6 +50,6 @@ Vous pouvez quitter l'assistant à tout moment en exécutant la commande `/exit`
 
 Pour exécuter le même ordre de vente, sans utiliser l'assistant, vous devez taper votre ordre avec les informations suivantes : `/sell <montant en sats> <montant en fiat> <code fiat> <mode de paiement> [premium/discount]` (sans les caractères spéciaux).
 
-Exemple : `/sell 100000 50 USD "bank xyz"` Je vends cent mille sats à cinquante dollars que je via la banque xyz.
+Exemple : `/sell 100000 20000 XOF "Société Géniale Bank"` Je vends 100.000 sats à 20.000 F que je reçois via Société Géniale Bank.
 
 Si une variable n'est pas prise en charge, le robot vous l'indiquera au cours du processus de création de l'offre. Une fois terminé, l'ordre sera publié sur le canal d'échange et sera visible pendant une période de 23 heures.
