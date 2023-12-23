@@ -2,7 +2,7 @@
 
 Une fois la communauté créée, il faut commencer le travail d'administration.
 
-La première chose à faire est de désigner au moins une personne pour résoudre les conflits qui surviennent. [Cette personne est le médiateur] (what-is-a-solver.md).
+La première chose à faire est de désigner au moins une personne pour résoudre les conflits qui surviennent. [Cette personne est le médiateur] (./what-is-a-solver.md).
 
 Ensuite, il faut établir les canaux dans lesquels les achats et les ventes seront effectués. Au début, un seul canal suffira pour les deux, mais au fur et à mesure que la communauté grandira, il sera peut-être nécessaire d'établir un canal pour chacun d'entre eux.
 
