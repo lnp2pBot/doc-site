@@ -4,7 +4,7 @@ Comme il s'agit d'un échange P2P sur Telegram, il est techniquement accessible 
 
 Nous vous présentons ici la liste des devises :
 
-| Code | Name                        |     |
+| Code | Name                        |Flag |
 | ---- | --------------------------- | --- |
 | AED  | United Arab Emirates Dirham | 🇦🇪  |
 | ANG  | Netherland Antillean Guilder| 🇧🇶  |
