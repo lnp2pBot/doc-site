@@ -66,3 +66,45 @@ Aqui está a lista. Para visualizá-la dentro de [@lnp2pBot](https://t.me/lnp2pb
 | NIO  | Córdoba Nicaraguense          | 🇳🇮  |
 | NOK  | Coroa Norueguesa              | 🇳🇴  |
 | NPR  | Rúpia Nepalesa                | 🇳
+
+🇵  |
+| NZD  | Dólar da Nova Zelândia        | 🇳🇿  |
+| PAB  | Balboa Panamenho              | 🇵🇦  |  
+| PEN  | Novo Sol Peruano              | 🇵🇪  |
+| PHP  | Peso Filipino                 | 🇵🇭  |
+| PKR  | Rúpia Paquistanesa            | 🇵🇰  |
+| PLN  | Zloty Polonês                 | 🇵🇱  |
+| PYG  | Guarani Paraguaio             | 🇵🇾  |
+| QAR  | Rial Catariano                | 🇶🇦  |
+| RON  | Leu Romeno                    | 🇷🇴  |
+| RSD  | Dinar Sérvio                  | 🇷🇸  |
+| RUB  | Rublo Russo                   | 🇷🇺  |
+| RWF  | Franco Ruandês                | 🇷🇼  |
+| SAR  | Riyal Saudita                 | 🇸🇦  |
+| SEK  | Coroa Sueca                   | 🇸🇪  |
+| SGD  | Dólar de Singapura            | 🇸🇬  |
+| THB  | Baht Tailandês                | 🇹🇭  |
+| TND  | Dinar Tunisiano               | 🇹🇳  |
+| TRY  | Lira Turca                    | 🇹🇷  |
+| TTD  | Dólar de Trinidad e Tobago    | 🇹🇹  |
+| TWD  | Novo Dólar Taiwanês           | 🇹🇼  |
+| TZS  | Xelim Tanzaniano              | 🇹🇿  |
+| UAH  | Hryvnia Ucraniano             | 🇺🇦  |
+| UGX  | Xelim Ugandense               | 🇺🇬  |
+| USD  | Dólar Americano               | 🇺🇸  |
+| USDSV| USD em El Salvador            | 🇺🇸🇸🇻|
+| USDVE| USD em Bolívar Venezuelano    | 🇺🇸🇻🇪|
+| USDUY| USD no Uruguai                | 🇺🇸🇺🇾|
+| UYU  | Peso Uruguaio                 | 🇺🇾  |
+| UZS  | Som do Uzbequistão            | 🇺🇿  |
+| VES  | Bolívar Venezuelano           | 🇻🇪  |
+| VND  | Dong Vietnamita               | 🇻🇳  |
+| XAF  | Franco CFA BEAC               | 🏳️  |
+| XOF  | Franco CFA BCEAO              | 🏳️  |
+| ZAR  | Rand Sul-Africano             | 🇿🇦  |
+
+Por enquanto, **@lnp2pBot** está totalmente disponível em inglês, espanhol, português, francês, italiano, alemão, russo e ucraniano.
+
+Para alterar o idioma do assistente, use o comando `/setlang`
+
+Se quiser ajudar a traduzir **lnp2pBot** para o seu idioma, você pode propor sua colaboração. [Este é um bom ponto de partida.](https://github.com/lnp2pBot/bot/blob/10af43b1199a163f8d8ec79e66546f4ad514ff46/CONTRIBUTING.md)
