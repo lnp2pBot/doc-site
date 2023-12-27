@@ -1,61 +1,59 @@
-# Como eu crio uma oferta de compra?
+# Como criar um pedido de compra?
 
-O procedimento é exatamente o mesmo que para o pedido de venda. Apenas que, ao pressionar o botão "Menu", você deve selecionar o comando `/buy` em vez de `/sell`. Isso ativará o assistente que o guiará pelo processo de compra.
+O procedimento é exatamente o mesmo que para o pedido de venda. Só que, ao pressionar o botão "Menu", você deve selecionar o comando `/buy` em vez de `/sell`. Isso ativará o assistente que irá guiá-lo pelo processo de compra.
 
-Depois de ativado, o assistente solicitará que você especifique a moeda fiat com a qual deseja transacionar:
+Uma vez ativado, o assistente pedirá que você especifique a moeda fiduciária com a qual deseja negociar:
 
-![Moneda fiat](./assets/images/buy-fiat.jpg)
+![Moeda fiduciária](./assets/images/buy-fiat.jpg)
 
-A seguir, você deve introduzir o valor, em moeda fiat, que deseja comprar. Lembre-se de inserir apenas números nesta etapa, para que o assistente possa entender.
+Em seguida, você deverá inserir o valor, em moeda fiduciária, que deseja comprar. Lembre-se de inserir apenas números neste passo, para que o assistente possa entender.
 
-Você também pode introduzir um intervalo de quantidades a comprar, separando os números por um hífen (-).
+Você também pode inserir uma faixa de valores a comprar, separando os números por um hífen (-).
 
-![Cantidad de fíat](./assets/images/buy-monto.jpg)
+![Valor fiduciário](./assets/images/buy-monto.jpg)
 
-O assistente perguntará o valor, em satoshis, que deseja receber. Aqui, você tem a possibilidade de usar o botão "Preço de mercado". Se o fizer, a taxa de [Yadio.io](https://yadio.io/) será aplicada.
+O assistente perguntará pelo valor, em satoshis, que deseja receber. Aqui, você tem a opção de usar o botão "Preço de Mercado". Se selecionar, será aplicada a taxa da [Yadio.io](https://yadio.io/).
 
-![Cantidad en satoshis](./assets/images/buy-price.jpg)
+![Valor em satoshis](./assets/images/buy-price.jpg)
 
-O próximo passo que o assistente solicitará é a porcentagem de acréscimo ou desconto que você deseja em sua troca. Se você quiser aumentar a taxa de mercado (acréscimo), selecione um número positivo; se você quiser diminuí-la (desconto), selecione um número negativo. Caso não queira nenhum, use o botão "Sem acréscimo ou desconto".
+O próximo passo que o assistente pede é a porcentagem de ágio ou desconto desejada na sua troca. Se desejar aumentar a taxa de mercado (ágio), selecione um número positivo; se desejar diminuí-la (desconto), selecione um número negativo. Se não desejar nenhum, use o botão "Sem ágio ou desconto".
 
-![Prima o descuento](./assets/images/buy-prima.jpg)
+![Ágio ou desconto](./assets/images/buy-prima.jpg)
 
-A seguir, você deve especificar o método de pagamento. Neste campo, você pode ser criativo e adicionar emoticons ou o que considerar para tornar sua oferta atraente.
+Em seguida, você deverá especificar o método de pagamento. Neste campo, você pode ser criativo e adicionar emojis ou o que achar atrativo para a sua oferta.
 
-![Método de pago](./assets/images/buy-payment-method.jpg)
+![Método de pagamento](./assets/images/buy-payment-method.jpg)
 
-O bot publicará sua oferta no canal geral ou na comunidade que você configurou como padrão. Ela ficará visível por 23 horas, se ninguém a pegar antes desse tempo.
+O bot irá publicar sua oferta no canal geral ou na comunidade que você configurou como padrão. Ela permanecerá visível por 23 horas, caso não seja aceita antes desse prazo.
 
 ![Oferta publicada](./assets/images/buy-public.jpg)
 
-Você pode cancelar a oferta a qualquer momento, desde que ninguém a tenha aceitado, usando o comando `/cancel` seguido do identificador do pedido. Você também pode copiar o comando mais o identificador no chat com o bot.
+A qualquer momento, você pode cancelar a oferta, desde que ninguém a tenha aceitado, utilizando o comando `/cancel` seguido pelo identificador do pedido. Você também pode copiar o comando junto com o identificador no chat com o bot.
 
-![Cancelar orden](./assets/images/buy-cancel-order.jpg)
+![Cancelar pedido](./assets/images/buy-cancel-order.jpg)
 
-O assistente lhe enviará uma mensagem confirmando o cancelamento e removerá sua oferta do canal de ofertas.
+O assistente enviará uma mensagem confirmando o cancelamento e sua oferta será removida do canal de ofertas.
 
-![Orden cancelada](./assets/images/buy-cancel.jpg)
+![Pedido cancelado](./assets/images/buy-cancel.jpg)
 
-Se sua oferta for aceita, o assistente solicitará que você entregue uma fatura na Lightning Network com o valor em satoshis correspondente. Ao mesmo tempo, solicitará ao seu contraparte que pague a fatura.
+Se sua oferta for aceita, o assistente solicitará que você emita uma fatura na Lightning Network com o valor em satoshis correspondente. Ao mesmo tempo, pedirá à sua contraparte que pague a fatura.
 
-Neste momento, o bot colocará ambas as partes em contato para discutir os detalhes da troca.
+Neste momento, o bot entrará em contato com ambas as partes para discutir os detalhes da troca.
 
-Assim que você fizer o pagamento em fiat, notifique o bot com o comando `/fiatsent`. O bot avisará ao seu contraparte para verificar e confirmar o recebimento do dinheiro e proceder à liberação dos satoshis. Lembre-se de que sua carteira deve estar online para recebê-los.
+Depois de efetuar o pagamento em moeda fiduciária, notifique o bot com o comando `/fiatsent`. O bot informará a sua contraparte para verificar o recebimento do dinheiro e procederá à liberação dos satoshis. Lembre-se de que sua carteira deve estar online para recebê-los.
 
-A troca foi concluída. Agora você pode avaliar sua contraparte.
+A troca está completa. Agora, você pode avaliar sua contraparte.
 
 Você pode sair do assistente a qualquer momento executando o comando `/exit`.
 
-Para executar a mesma ordem de compra, sem usar o assistente, você deve escrever sua ordem com os detalhes: `/buy`<valor em sats> <valor em fiat> <código fiat> <método de pagamento> [prêmio/desconto] (sem os caracteres especiais).
+Para executar o mesmo pedido de compra, sem usar o assistente, você deve escrever seu pedido com os detalhes: `/buy` <valor em satoshis> <valor em fiduciário> <código fiduciário> <método de pagamento> [ágio/desconto] (sem caracteres especiais).
 
 Exemplo: `/buy 100000 50 usd "banco xyz"`
 
-Eu compro cem mil sats por cinquenta dólares, pagando pelo banco xyz.
+Compro cem mil satoshis por cinquenta dólares, pagamento pelo banco xyz.
 
-Alguns exemplos de ordens de compra seriam os seguintes:
+Alguns exemplos de pedidos de compra seriam:
 
-- Ex. `/buy 0 50 ves "banco xyz"`: Compro cinquenta bolívares em sats - neste caso, o bot calculará a taxa de mercado - pago pelo banco xyz.
-- Ex. `/buy 0 10-100 pen "pagamento móvel"`: Compro de 10 a 100 novos soles - neste caso, o vendedor escolherá qual valor vender dentro dessa faixa - pago por pagamento móvel.
-- Ex. `/buy 0 100 eur "pagamento móvel" -3`: Compro 100 euros com desconto de 3% - neste caso, o bot calculará a taxa de mercado descontando ou aumentando a porcentagem que você escolher - pago por pagamento móvel.
-
-Se houver alguma variável incompatível, o bot indicará durante o processo de criação da ordem. Após concluí-la, ela será publicada automaticamente no canal de troca e será visível por um período de 23 horas.
+- Ex. `/buy 0 50 ves "banco xyz"`: Compro cinquenta bolívares em satoshis - neste caso, o bot fará o cálculo com a taxa de mercado - pagamento pelo banco xyz
+- Ex. `/buy 0 10-100 pen "pago móvel"`: Compro de 10 a 100 novos sóis - neste caso, o vendedor escolherá quanto deseja vender dentro dessa faixa - pagamento por pagamento móvel
+- Ex. `/buy 0 100 eur "pago móvel" -3`: Compro 100 euros com desconto de 
