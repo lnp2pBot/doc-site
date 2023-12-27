@@ -1,3 +1,3 @@
-# Contato com desenvolvedores
+# Contato com os desenvolvedores
 
-Se você precisa entrar em contato com os desenvolvedores, use o [nosso GitHub](https://github.com/lnp2pbot/bot). Se você tem alguma proposta ou deseja relatar um erro, vá para a seção de problemas e crie um novo.
+Se precisar entrar em contato com os desenvolvedores do [@lnp2pBot](https://t.me/lnp2pbot), utilize [nosso GitHub](https://github.com/lnp2pbot/bot). Se tiver alguma proposta ou quiser relatar um erro, vá para a seção de [problemas](https://github.com/lnp2pBot/bot/issues) e crie um.
