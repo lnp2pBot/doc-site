@@ -1,3 +1,3 @@
-# FAQ (Perguntas Frequentes)
+# Perguntas Frequentes (FAQ)
 
-Aqui respondemos às perguntas frequentes feitas pelos nossos usuários.
+Aqui respondemos as perguntas frequentes feitas pelos nossos usuários.
