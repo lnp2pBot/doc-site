@@ -65,9 +65,7 @@ Aqui está a lista. Para visualizá-la dentro de [@lnp2pBot](https://t.me/lnp2pb
 | NGN  | Naira Nigeriano               | 🇳🇬  |
 | NIO  | Córdoba Nicaraguense          | 🇳🇮  |
 | NOK  | Coroa Norueguesa              | 🇳🇴  |
-| NPR  | Rúpia Nepalesa                | 🇳
-
-🇵  |
+| NPR  | Rúpia Nepalesa                | 🇳🇵  |
 | NZD  | Dólar da Nova Zelândia        | 🇳🇿  |
 | PAB  | Balboa Panamenho              | 🇵🇦  |  
 | PEN  | Novo Sol Peruano              | 🇵🇪  |
