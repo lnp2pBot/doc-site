@@ -1,17 +1,27 @@
-# Common problems and their solutions
+# Common Problems and Solutions
 
-## I tried to pay an invoice with a wallet with insufficient funds and [@lnp2pbot](https://t.me/lnp2pbot) now tells me that the invoice was used
+### I'm trying to take an order, but nothing happens
 
-Wait 15 minutes for the transaction time to expire and start it again for a new invoice to be generated.
+When you press the `Buy Satoshis` or `Sell Satoshis` button on an offer, [@lnp2pbot](https://t.me/lnp2pBot) will respond privately with what you need to do to complete the process.
+For the bot to respond to your request, it's necessary to [initialize it](./how-do-i-initialize-the-bot.md) because no bot can open a chat with you initially if you haven't used it before. Open [@lnp2pbot](https://t.me/lnp2pBot) and type the command `/start` or tap the `Start` button, then try taking the order again, return to the bot, and follow its instructions.
+- If you were already using the bot and the last time you did so was before March 2023, you need to reinitialize it with the command `/start` because it was reset, and its previous database wasn't preserved.
 
-## My counterparty had a problem sending me the payment in fiat and then it disappeared, my sats were blocked
+### I tried to pay an invoice with an insufficiently funded wallet, and now [@lnp2pbot](https://t.me/lnp2pbot) tells me the invoice was used
 
-The transaction will be automatically canceled after 23 hours and your satoshis will appear in your wallet as a failed payment.
+Wait for 15 minutes for the transaction time to expire, and then initiate it again to generate a new invoice.
 
-## A user took my purchase by mistake and I already made the payment in satoshis
+### My counterpart had an issue sending me the fiat payment and then disappeared; my sats got stuck
 
-A cooperative cancellation can be initiated. The initiator must execute the command `/cancel <command identifier>` and the counterpart only needs to run `/cancel` and touch the button to confirm.
+The transaction will automatically cancel after 23 hours, and your satoshis will appear in your wallet as a failed payment. If you want to expedite the process, you can open a dispute with the command `/dispute <order id>`.
 
-## I canceled an order but the sats have not returned to my wallet, how long should I wait?
+### A user mistakenly took my purchase, and I've already made the payment in satoshis
 
-When an order is canceled, the seller's sats return immediately to the node/wallet that made the payment. If you use a self-custody wallet or your own node you will not have any problem but if you use a wallet that custodies your funds you must wait for them to reflect your balance in their internal system, this can take from a few minutes to a couple of hours depending on the wallet but in all wallets it returns 100% of your funds, be patient.
+A cooperative cancellation can be initiated. Both parties need to execute the command `/cancel <order id>`.
+
+### I canceled an order, but the sats haven't returned to my wallet. How long should I wait?
+
+When an order is canceled, the seller's satoshis immediately return to the node/wallet that made the payment. If you use a self-custody wallet or your own node, you won't have any issues. However, if you use a wallet that custodies your funds, you'll need to wait for them to reflect your balance in their internal system. This can take from a few minutes to a couple of hours depending on the wallet, but all wallets return 100% of your funds. Patience is key.
+
+### I'm buying, and the bot doesn't ask me for an invoice; instead, it directly connects me with the seller
+
+This happens when you have a lightning address activated. In that case, the purchased satoshis will be sent directly there without asking for a new invoice for each purchase. To check your lightning address, type the command `/settings` within the [bot](https://t.me/lnp2pbot). If you want to deactivate it, type the command `/setaddress off` within the [bot](https://t.me/lnp2pbot).
