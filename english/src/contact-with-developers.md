@@ -1,3 +1,3 @@
-# Contact with developers
+# Contacting Developers
 
-If you need to contact the developers use [our GitHub](https://github.com/lnp2pbot/bot), if you have any proposal or want to report a bug go to the issues section and create one.
+If you need to get in touch with the developers of [@lnp2pBot](https://t.me/lnp2pbot), use [our GitHub](https://github.com/lnp2pbot/bot). If you have a proposal or wish to report an issue, navigate to the [issues](https://github.com/lnp2pBot/bot/issues) section and create a new one.
