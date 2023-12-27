@@ -1,9 +1,9 @@
-# Where I can find offers for my local currency?
+# Where can I find offers in my local currency?
 
-You can ask it to the bot executing `/findcomms` command and your local currency code.
+You can ask the bot by running the command `/findcomms` along with the [code for your currency](./in-which-countries-is-it-available.md).
 
-This will show you the venezuelan bolivar communities:
+For instance, to see the [communities](./communities.md) in Venezuelan bolivars, you should type:
 
-`/findcomms` ves
+`/findcomms ves`
 
-You can also find this and other commands by clicking on the "Menu" button.
+You can also search for offers filtered by currencies and communities on [https://market.lnp2pbot.com](https://market.lnp2pbot.com) and in the general channel [@p2plightning](https://t.me/p2plightning).
