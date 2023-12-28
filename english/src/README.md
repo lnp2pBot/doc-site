@@ -5,7 +5,7 @@ Here you'll find information about [@lnp2pBot](https://t.me/lnp2pbot). This is a
 ## Quick Start Guide
 
 1. Download a Lightning Network-compatible wallet ([Recommended Wallets](./recommended-wallets.md)).
-2. Get a Telegram user.
+2. Get a Telegram username.
 3. Start [@lnp2pBot](https://t.me/lnp2pbot).
 
     ![Starting the bot](./assets/images/bot-start.gif)
