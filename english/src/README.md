@@ -25,7 +25,7 @@ Type `/buy` in [@lnp2pBot](https://t.me/lnp2pbot) to [buy Sats](./how-do-i-creat
 8. Find answers to your questions in the [FAQ section](./faq.md).
 
 ## Recommendations
-- If you have any unanswered questions at [https://lnp2pbot/aprende](https://lnp2pbot.com/aprende/), join the [support group](https://t.me/lnp2pbotHelp) and ask there.
+- If you have any unanswered questions at [https://lnp2pbot/learn](https://lnp2pbot.com/learn/), join the [support group](https://t.me/lnp2pbotHelp) and ask there.
 
 - Report bugs or suggest improvements in our [GitHub repositories](https://github.com/lnp2pbot).
 
