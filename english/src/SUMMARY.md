@@ -3,7 +3,7 @@
 [@lnp2pBot](README.md)
 
 - [FAQ](./faq.md)
-  - [What is lnp2pBot?](./what-is-lnp2pbot.md)
+  - [What is @lnp2pBot?](./what-is-lnp2pbot.md)
   - [What is Lightning Network?](./what-is-lightning-network.md)
   - [What do I need to use @lnp2pBot?](./what-do-i-need-to-use-lnp2pbot.md)
   - [How do I initialize the bot?](./how-do-i-initialize-the-bot.md)
