@@ -1,5 +1,5 @@
-# Eliminando disputas
+# Encerrando Disputas
 
-Cada vez que um usuário inicia uma disputa, tanto ele como a contraparte ficam envolvidos na mesma. Até que seja resolvida, ambos permanecem relacionados. Ao ser resolvida, o solver tem o poder de excluir essa disputa de um ou ambos os usuários, se necessário, usando o comando `/deldispute username id-de-orden`.
+Cada vez que um usuário inicia uma disputa, tanto ele quanto sua contraparte ficam envolvidos. Até que seja resolvida, ambos permanecem conectados à disputa. Quando resolvida, o solucionador tem o poder de eliminar essa disputa de um ou ambos os usuários, se necessário, usando o comando `/deldispute username id-de-orden`.
 
-![Eliminando una disputa Captura](./assets/images/deldispute.png)
+![Captura de Eliminação de Disputa](./assets/images/deldispute.png)

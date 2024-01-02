@@ -1,7 +1,16 @@
-# The seller released but I don't get the sats in my wallet
+# The seller released, but I haven't received the Sats in my wallet
+## Possible Causes
+Sometimes, the bot cannot find successful routes to make the payment for various reasons. It could be due to a poor connection between the origin and destination, or it can be more complicated, such as nodes connected to the destination charging very high fees.
 
-Sometimes the bot does not find successful routes to make the payment for different reasons, sometimes because there is simply not a good connection from the origin to the destination but other times it is much more complicated, it can happen that the nodes connected to the destination charge very high fees, @lnp2pBot's node is willing to pay up to 0.15% of the total amount of the operation in routing fee, if this fee is higher the bot simply will not make the payment, some wallets that are not native lightning may charge more than 0.15% when the mempool is congested, those wallets will not be able to be paid by the bot.
+The [@lnp2pBot](https://t.me/lnp2pBot) node is willing to pay up to 0.2% of the total transaction amount in routing fees. If this fee is higher, the bot simply won't make the payment. Some non-native Lightning wallets might charge more than 0.2% when the mempool is congested, and the bot won't be able to pay them (more information on wallets [here](./recommended-wallets.md)).
 
-Another case is that you do not have `inbound capacity`, I will give you an example, if you use Blixt wallet and in it you have a channel that you just opened, all the money in that wallet would be outgoing, you do not have the capacity to receive, in that case all Payments to that wallet will fail, there are modern wallets such as the Phoenix wallet that solves this problem by indicating that you do not have inbound capacity and offers you to open a new channel, this wallet charges a commission for this.
+Another scenario could be that you lack 'inbound capacity.' For instance, if you're using the Blixt wallet and have just opened a channel, all the funds in that wallet would be outbound, and you wouldn't have the capacity to receive. In this case, all payments to that wallet will fail. Modern wallets like Phoenix wallet address this by indicating the lack of inbound capacity and proposing channel modifications ([splice in](https://bitcoinops.org/en/topics/splicing/)) to ensure the new received payment is on the user's side (more inbound capacity). This wallet charges a fee for this service.
 
-As a solution [we recommend trying different wallets](./recommended-wallets.md), generate new invoices and give them to the bot so that it tries to send you the payment again.
+## Solution
+When a payment fails, the bot will attempt to make the payment two more times with 5-minute intervals. If it continues to fail, the bot will ask you to provide a new invoice to continue trying. It's advisable to generate this invoice from another [wallet](./recommended-wallets.md).
+
+If you don't input the invoice within 20 minutes after the bot requests it, that assistant will be canceled, and it won't request it again later. In that case, you should input it using the command:
+`/setinvoice <order id> <lightning invoice>` 
+(Do not include the symbols <>, separate each part with a space, and do not reuse invoices).
+
+If you've tried several times and still haven't received the Sats, stay calm. It's no longer possible to cancel the transaction or return the Sats to the seller. Instead, they are in the bot's node, and you can continue trying with new invoices as many times as necessary until you receive them.

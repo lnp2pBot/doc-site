@@ -1,8 +1,8 @@
 # In which countries and languages is it available?
 
-Being a P2P exchange on Telegram, it is technically available to everyone who has the app. However, so far the bot can get the market price of 58 currencies with which you can create `buy/sell` orders using the `price market` button when create an order with the wizard.
+As a P2P exchange on Telegram, technically, it's available for anyone using this app. However, currently, the bot interacts with a list of 94 fiat currencies with which you can create `buy/sell` orders using the `Market Price` button on the assistant.
 
-Here we present you the list of currencies:
+Here's the list. To view it within [@lnp2pBot](https://t.me/lnp2pbot), type `/listcurrencies`.
 
 | Code | Name                        |Flag |
 | ---- | --------------------------- | --- |
@@ -94,12 +94,12 @@ Here we present you the list of currencies:
 | UZS  | Uzbekistan Som              | 🇺🇬  |
 | VES  | Bolívar                     | 🇻🇪  |
 | VND  | Vietnamese Dong             | 🇻🇳  |
-| XAF  | CFA Franc BEAC              | 🇨🇲🇨🇫🇨🇬🇬🇦🇬🇶🇹🇩  |
-| XOF  | CFA Franc BCEAO             | 🇹🇩🇧🇫🇨🇮🇬🇼🇲🇱🇳🇪🇸🇳🇹🇬  |
+| XAF  | CFA Franc BEAC              | 🇨🇲 🇨🇫 🇨🇬 🇬🇦 🇬🇶 🇹🇩 |
+| XOF  | CFA Franc BCEAO             | 🇹🇩 🇧🇫 🇨🇮 🇬🇼 🇲🇱 🇳🇪 🇸🇳 🇹🇬 |
 | ZAR  | South African Rand          | 🇿🇦  |
 
-So far, [**@lnp2pBot**](https://t.me/lnp2pbot) is fully available in English and Spanish. There is a partial translation (in progress) to portuguese.
+For now, [**@lnp2pBot**](https://t.me/lnp2pbot) is fully available in English, Spanish, Portuguese, French, Italian, German, Russian, and Ukrainian.
 
-To change the wizard language use the `/setlang` command
+To change the assistant's language, use the `/setlang` command.
 
-If you want to help by translating **lnp2pBot** into your language, you can propose your collaboration. [This is a good place to start.](https://github.com/lnp2pBot/bot/blob/10af43b1199a163f8d8ec79e66546f4ad514ff46/CONTRIBUTING.md)
+If you'd like to help translate **lnp2pBot** into your language, you can propose your collaboration. [This is a good starting point.](https://github.com/lnp2pBot/bot/blob/main/CONTRIBUTING.md)

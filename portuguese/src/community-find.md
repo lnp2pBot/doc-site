@@ -1,7 +1,11 @@
-# Como posso encontrar comunidades que operam com a minha moeda?
+# Como posso encontrar comunidades que operam com minha moeda?
 
-Ao executar o comando: `/findcomms` seguido do código da moeda desejada (você pode usar o código padrão de moedas ISO 4217), o **lnp2pBot** mostrará as comunidades criadas que operam com sua moeda. Também pode haver comunidades que operam sats contra qualquer outra criptomoeda. Não há nenhum tipo de limitação para o usuário.
+Ao executar o comando: `/findcomms` seguido do [código da moeda](./in-which-countries-is-it-available.md) desejada (você pode usar o código padrão ISO 4217), o [lnp2pBot](https://t.me/lnp2pBot) mostrará as [comunidades](./communities.md) criadas que operam com sua moeda.
 
-Na imagem a seguir, podemos ver o resultado de `/findcomms usd`
+Além disso, em [https://market.lnp2pbot.com](https://market.lnp2pbot.com), você pode ver todas as comunidades existentes e algumas estatísticas, como seu [criador](./benevolent-dictator.md), seus [solvers](./what-is-a-solver.md), o [percentual de desconto](./incentives.md), a data de criação, entre outros.
 
-![Find Community Capture](./assets/images/findcomms.jpg)
+Também pode haver comunidades que operam com Satoshis contra alguma outra criptomoeda. Não há nenhum tipo de limitação para o usuário.
+
+Na imagem a seguir, podemos ver o resultado de `/findcomms usd`.
+
+![Captura de Encontrar Comunidade](./assets/images/findcomms.jpg)

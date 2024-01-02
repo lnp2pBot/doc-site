@@ -1,7 +1,16 @@
-# O vendedor liberou, mas os sats não estão chegando à minha carteira.
+# O vendedor liberou, mas os Sats não chegaram à minha carteira
+## Possíveis causas
+Às vezes, o bot não encontra rotas bem-sucedidas para o pagamento por várias razões, às vezes simplesmente porque não há uma boa conexão do remetente ao destinatário, mas outras vezes é muito mais complicado, pode ser que os nós conectados ao destinatário estejam cobrando taxas muito altas.
 
-Às vezes, o bot não encontra rotas bem-sucedidas para fazer o pagamento por diferentes razões. Às vezes, é simplesmente porque não há uma boa conexão entre a origem e o destino, mas outras vezes é muito mais complicado. Pode acontecer que os nós conectados ao destino cobrem taxas muito altas. O nó @lnp2pBot está disposto a pagar até 0,15% do valor total da transação como taxa de roteamento. Se essa taxa for maior, o bot simplesmente não realizará o pagamento. Algumas carteiras que não são nativas do Lightning podem cobrar mais de 0,15% quando a mempool está congestionada, e o bot não poderá pagar a essas carteiras.
+O nó do [@lnp2pBot](https://t.me/lnp2pBot) está disposto a pagar até 0.2% do valor total da operação em taxas de roteamento. Se essa taxa for maior, o bot simplesmente não fará o pagamento. Algumas carteiras que não são nativas da Lightning podem cobrar mais de 0.2% quando a mempool está congestionada; para essas carteiras, o bot não conseguirá pagar (mais informações sobre carteiras [aqui](./recommended-wallets.md)).
 
-Outro caso é quando você não tem `capacidade de entrada` (inbound capacity). Vou te dar um exemplo: se você usa a carteira Blixt e tem um canal recém-aberto nela, todo o dinheiro nessa carteira será para saída, ou seja, você não tem capacidade para receber. Nesse caso, todos os pagamentos para essa carteira irão falhar. Existem carteiras modernas, como a Phoenix wallet, que resolvem esse problema informando que você não possui capacidade de entrada e sugerindo que você abra um novo canal. Essa carteira cobra uma comissão por isso.
+Outro caso é se você não tiver `inbound capacity`, por exemplo, se estiver usando a carteira Blixt e tiver um canal recém-aberto nela, todo o dinheiro nessa carteira será de saída e você não terá capacidade para receber. Nesse caso, todos os pagamentos para essa carteira falharão. Existem carteiras modernas como a Phoenix Wallet que resolvem esse problema informando que você não tem capacidade de entrada e propõem modificar o canal ([splice in](https://bitcoinops.org/en/topics/splicing/)) para que o novo pagamento recebido esteja do lado do usuário (mais capacidade de entrada). Esta carteira cobra uma comissão por isso.
 
-Como solução, [recomendamos que você experimente diferentes carteiras](./recommended-wallets.md), gere novas faturas e as forneça ao bot para que ele tente enviar o pagamento novamente.
+## Solução
+Quando um pagamento falha, o bot tentará pagá-lo mais 2 vezes em intervalos de 5 minutos. Se ainda não for possível fazer o pagamento, ele pedirá que você forneça uma nova fatura para continuar tentando. É recomendável que você a gere de outra [carteira](./recommended-wallets.md).
+
+Se você não inserir a fatura antes de 20 minutos após o bot solicitá-la, o assistente será cancelado e o bot não solicitará mais. Nesse caso, você precisará inseri-la com o comando
+`/setinvoice <order id> <fatura lightning>` 
+(Não escreva os símbolos <>, separe cada parte com um espaço, não reutilize faturas).
+
+Se você tentou várias vezes e ainda não recebeu os Sats, mantenha a calma, pois a operação não pode mais ser cancelada ou os Sats devolvidos ao vendedor, eles estão no nó do bot e você pode continuar tentando com novas faturas quantas vezes forem necessárias até recebê-los.
