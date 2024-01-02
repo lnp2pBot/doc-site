@@ -48,14 +48,14 @@ Vous pouvez quitter l'assistant à tout moment en exécutant la commande `/exit`
 
 Pour exécuter la même offre d'achat, sans utiliser l'assistant, vous devez écrire votre commande avec les détails : `/achat`<montant en sats> <montant en fiat> <code fiat> <mode de paiement> [surcote/ décote] (sans les caractères spéciaux).
 
-Exemple : `/buy 100000 50 USD "xyz bank"`.
+Exemple : `/buy 100000 20000 XOF "Société Géniale Bank"`.
 
-J'achète cent mille sats à cinquante dollars, payés avec la banque xyz.
+J'achète 100.000 sats à 20.000 F, payés avec la banque Société Géniale Bank.
 
 Voici quelques exemples d'offres d'achat :
 
-- Ex. `/buy 0 50 ves "xyz bank"` : J'achète cinquante bolivars en sats - dans ce cas, le robot calculera au taux du marché - paiement via la banque xyz.
-- Ex. `/buy 0 10-100 pen "mobile payment"` : J'achète de 10 à 100 nuevos soles - dans ce cas, le vendeur choisira le montant à vous vendre dans cette fourchette - par paiement mobile.
-- Ex. `/buy 0 100 eur -3 "mobile payment"` : J'achète 100 euros avec une remise de 3 % - dans ce cas, le robot calculera au taux du marché en décotant le pourcentage que vous avez choisi - par paiement mobile.
+- Ex. `/buy 0 20000 "Société Géniale Bank"` : J'achète pour 20.000 F en sats - dans ce cas, le robot calculera au taux du marché - paiement via la banque Société Géniale Bank.
+- Ex. `/buy 0 1000-20000 "Mobile Money"` : J'achète de 1.000 F à 20.000 F en sats - dans ce cas, le vendeur choisira le montant à vous vendre dans cette fourchette - par paiement mobile.
+- Ex. `/buy 0 5000000 XOF "Cash RDV Prima Mall 16h UTC" +3` : J'achète 5.000.000 F avec une surcôte (premium) de 3 % - dans ce cas, le robot calculera au taux du marché en décotant le pourcentage que vous avez choisi - par paiement en cash sur rendez-vous au centre commercial Prima à 16h.
 
 S'il existe une variable non prise en charge, le bot vous l'indiquera au cours du processus de création de l'offre. Une fois terminé, l'offre sera automatiquement publiée sur le canal d'échange et sera visible pendant 23 heures.
