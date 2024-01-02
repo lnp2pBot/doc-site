@@ -4,7 +4,7 @@ Depuis sa création, [@lnp2pbot](https://t.me/lnp2pbot) a facturé des frais au 
 
 Les proportions sont de 70 % de la commission pour le bot et le reste pour la communauté.
 
-Ainsi, pour une transaction de 10 000 satoshis, les frais à payer par le vendeur s'élèvent à 60 satoshis. Sur ce montant, 42 satoshis reviennent à roboto et le reste (18 satoshis) à la communauté.
+Ainsi, pour une transaction de 10 000 satoshis, les frais à payer par le vendeur s'élèvent à 60 satoshis. Sur ce montant, 42 satoshis reviennent au robot et le reste (18 satoshis) à la communauté.
 
 Mais, pour encourager la concurrence, la communauté a le pouvoir de réduire ses "gains", de sorte qu'au lieu de facturer la totalité des 30 %, elle peut diminuer le pourcentage de ses commissions.
 

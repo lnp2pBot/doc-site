@@ -4,7 +4,7 @@ Sur ce site, vous trouverez des informations sur [@lnp2pBot] (https://t.me/lnp2p
 
 ## Guide de démarrage rapide
 
-1. Téléchargez un portefeuille compatible avec le Lightning Network ([Recomended wallets](./recommended-wallets.md)).
+1. Téléchargez un portefeuille compatible avec le Lightning Network ([Portefeuilles recommandés](./recommended-wallets.md)).
 2. Obtenez un nom d'utilisateur Telegram.
 3. Démarrez [@lnp2pBot](https://t.me/lnp2pbot)
 

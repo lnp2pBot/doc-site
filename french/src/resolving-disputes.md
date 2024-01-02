@@ -4,6 +4,6 @@ Lorsqu'un utilisateur lance un litige, un message est envoyé par le bot au cana
 
 ![Dispute Capture](./assets/images/dispute.jpg)
 
-Une fois que le médiateur a saisi le litige, le bot lui envoie toutes les informations nécessaires pour le résoudre. Le résolveur devra également communiquer avec chaque partie, comprendre ce qui s'est passé et **compléter** la commande ou **l'annuler**.
+Une fois que le médiateur a saisi le litige, le bot lui envoie toutes les informations nécessaires pour le résoudre. Le résolveur devra également communiquer avec chaque partie, comprendre ce qui s'est passé et **valider** la commande ou **l'annuler**.
 
 ![Dispute details capture](./assets/images/dispute-detail.jpg)
