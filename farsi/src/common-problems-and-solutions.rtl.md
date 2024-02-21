@@ -1,10 +1,10 @@
-# Common Problems and Solutions
+# مشکلات رایج و راه‌حل‌ها
 
-### I'm trying to take an order, but nothing happens
+### من سعی می‌کنم سفارش بردارم، اما هیچ اتفاقی نمی‌افتد
 
-When you press the `Buy Satoshis` or `Sell Satoshis` button on an offer, [@lnp2pbot](https://t.me/lnp2pBot) will respond privately with what you need to do to complete the process.
-For the bot to respond to your request, it's necessary to [initialize it](./how-do-i-initialize-the-bot.md) because no bot can open a chat with you initially if you haven't used it before. Open [@lnp2pbot](https://t.me/lnp2pBot) and type the command `/start` or tap the `Start` button, then try taking the order again, return to the bot, and follow its instructions.
-- If you were already using the bot and the last time you did so was before March 2023, you need to reinitialize it with the command `/start` because it was reset, and its previous database wasn't preserved.
+هنگامی که دکمه «خرید ساتوشی» یا «فروش ساتوشی» یک سفارش را فشار می‌دهید، [@lnp2pbot](https://t.me/lnp2pBot) به صورت خصوصی به شما پیام خواهد داد که در هر مرحله چه کارهای را برای تکمیل سفارش انجام دهید.
+برای اینکه ربات به درخواست شما پاسخ دهد، لازم است [با آن شروع به کار کرده باشید](./how-do-i-initialize-the-bot.md) زیرا اگر قبلاً از آن استفاده نکرده باشید، هیچ رباتی نمی‌تواند در ابتدا با شما چت باز کرده و بهتان پیام خصوصی دهد. پس [@lnp2pbot](https://t.me/lnp2pBot) را باز کرده و دستور 'start/' را تایپ کنید یا روی دکمه 'Start' ضربه بزنید، سپس دوباره سفارش را انجام دهید، به ربات برگردید و دستورالعمل‌های آن را دنبال کنید.
+- اگر قبلاً از ربات استفاده می‌کردید و آخرین باری که این کار را انجام دادید قبل از مارس 2023 بود، باید آن را با دستور 'start/' مجدداً راه اندازی کنید زیرا ربات ریست شده است و پایگاه داده قبلی آن حفظ نشده.
 
 ### I tried to pay an invoice with an insufficiently funded wallet, and now [@lnp2pbot](https://t.me/lnp2pbot) tells me the invoice was used
 
