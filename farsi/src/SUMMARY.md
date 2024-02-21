@@ -2,7 +2,7 @@
   
 # خلاصه
 
-[@lnp2pBot](README.md)
+[ربات @lnp2pBot](README.md)
 
 - [سوالات متداول](./faq.md)
   - [ربات @lnp2pBot چیست؟](./what-is-lnp2pbot.md)
