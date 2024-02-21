@@ -1,6 +1,6 @@
 <div dir="rtl">
   
-# خلاصه
+# فهرست
 
 [ربات @lnp2pBot](README.md)
 
