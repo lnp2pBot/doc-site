@@ -1,3 +1,3 @@
-# Banning a User from the Community
+# ممنوع کردن استفاده یک کاربر از کامیونیتی
 
-If a solver deems it necessary, they can ban a user from the community using the command `/ban` followed by their username.
+اگر حل‌کننده(داور) لازم بداند، می‌تواند با استفاده از دستور 'ban/' و سپس وارد کردن دنبال نام‌کاربری، کاربر را از کامیونیتی محروم کند. لازم به ذکر است که پس از آن، دیگر کاربر حتی در صورت تغیر نام‌کاربری نیز دیگر قادر به استفاده از ربات نیست.
