@@ -1,0 +1,14 @@
+# Scam Attempts
+
+Scam attempts using the bot are not frequent, but like any decentralized, KYC-free peer-to-peer exchange, it's not immune to them. To avoid falling victim to scams, caution must be exercised, being attentive to suspicious behavior, and in case of doubt, cancel the operation or open a dispute.
+
+## Possible Scams:
+- A scammer trying to buy Sats might use the `/fiatsent` command to claim they've sent fiat money when, in reality, they haven't, hoping the seller will trust their word and release the Sats without verifying the receipt of fiat. It's crucial for the seller to ensure they've received fiat before using the `/release` command, even if the buyer sends an image as proof of payment, as it could be manipulated.
+
+- Some fiat payment methods are reversible, like PayPal, which scammers can exploit to purchase Sats and then reverse the fiat transfer. We recommend using only irreversible payment methods to avoid this type of scam.
+
+- To increase the decentralized use of the bot, there's an option for any user to create a [community](https://lnp2pbot.com/learn/communities.html). Despite excellent outcomes, there's a possibility that a scammer creates a community where they act as a Solver and make fraudulent dispute decisions, either with other scammers or as part of operations. However, this kind of scam would have a short duration, as the scammer would be quickly exposed, impacting the community's reputation, leading to user loss, and banning of scammers. Before joining a community, it's advisable to research the creator and the Solvers, check if they have common groups, their overall reputation, as well as consider the group's trading volume, age, number of users, and verify their authenticity.
+
+- A fraudulent seller might take advantage of the hold invoices in @lnp2pbot, which have an expiry time of around 23 hours. They might not use the `/release` command to release the Sats despite receiving fiat from the buyer, allowing the invoice time to expire with excuses or even disconnecting intentionally. This aims to reclaim the Sats and keep the fiat without any interference from the bot or a Solver. To prevent this, when purchasing Sats, use an instant payment method. If the seller doesn't release the Sats and remains unresponsive after a couple of hours, open a dispute. Never wait until close to the time limit to initiate a dispute, as the solver might not resolve it before it expires, resulting in the Sats being returned to the seller.
+
+- Some scammers establish multiple operations within the bot to build relationships with users and then contact them privately to persuade them to conduct transactions outside the bot. This is risky as there's no guarantee they'll fulfill their part. We recommend not engaging in transactions outside the bot, even if the offers seem enticing. You can suggest conducting them using [@lnp2pbot](https://t.me/lnp2pBot) for mutual security.

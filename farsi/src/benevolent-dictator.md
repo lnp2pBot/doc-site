@@ -1,0 +1,5 @@
+# Benevolent Dictator
+
+Having accepted that trusting someone is necessary to resolve a dispute, how can we create fewer incentives for disputes to arise? Regarding this matter, the community has proposed several ideas. The one we've developed is to utilize the concept of a "benevolent dictator." This individual acts as a "dictator" whom people accept and trust to make decisions for the community's welfare. Let's say it's a trusted mediator within the community.
+
+The benevolent dictator is the creator of the community, responsible for appointing dispute solvers or 'solvers'. These individuals are publicly recognized within the community (by their Telegram username). The community is responsible for reporting if these users are performing their duties correctly or not. In a community where the "benevolent dictator" selects solvers correctly, everything will function well. In a community where the dictator makes mistakes, community members might move to another community or create a new one. This way, we delegate this responsibility to the communities.

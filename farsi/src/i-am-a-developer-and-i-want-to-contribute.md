@@ -1,0 +1,5 @@
+# I'm a developer and want to contribute
+
+Great! Thank you for your interest. In the [issues](https://github.com/lnp2pBot/bot/issues) section, you'll find a list of tasks to be resolved. Choose one labeled [help wanted](https://github.com/lnp2pbot/bot/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22). If you have any doubts, feel free to ask by commenting. Then, if you're sure you want to tackle it, comment on the issue. Those tagged [good first issue](https://github.com/lnp2pbot/bot/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) are often simple and serve as a good starting point to familiarize yourself with the code.
+
+Since the inception of this project, we aimed to operate [@LNP2Pbot](https://t.me/lnp2pBot) without making much noise. It was crucial to test the bot within a small community before showcasing the final product to the world. That's why we started working with the Spanish-speaking Lightning community, which welcomed the project very positively. The feedback received has allowed the bot to grow and improve every day.
