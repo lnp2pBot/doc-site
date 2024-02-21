@@ -1,5 +1,4 @@
-# Canceling an order
+# لغو سفارش
 
-The other alternative that the solver has is to cancel the order if the case warrants it. To do this, use the `/cancelorder` command. This returns the sats to the seller.
-
+گزینه دیگری که حل‌کننده اختلااف دارد این است که اگر آن مورد را تضمین می‌کند، سفارش را لغو کند. برای این کار از دستور `cancelorder/` استفاده کنید. این ساتوشی‌ها را به فروشنده برمی‌گرداند.
 ![Cancel order capture](./assets/images/cancelorder.png)
