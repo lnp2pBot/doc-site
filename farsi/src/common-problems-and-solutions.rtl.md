@@ -20,8 +20,7 @@
 
 ### من سفارش را لغو کردم، اما ساتوشی‌ها به کیف پولم برنگشته‌اند. چقدر باید صبر کنم؟
 
-When an order is canceled, the seller's satoshis immediately return to the node/wallet that made the payment. If you use a self-custody wallet or your own node, you won't have any issues. However, if you use a wallet that custodies your funds, you'll need to wait for them to reflect your balance in their internal system. This can take from a few minutes to a couple of hours depending on the wallet, but all wallets return 100% of your funds. Patience is key.
+هنگامی که یک سفارش لغو می شود، ساتوشی‌های فروشنده بلافاصله به نود(node) یا کیف پولی که پرداخت را با آن انجام داده بود بازمی‌گردند. اگر از یک کیف پول غیرحضانتی(مثل Electrum) یا نود شخصی خود استفاده می کنید، هیچ مشکلی نخواهید داشت. با این حال، اگر از کیف پولی استفاده می‌کنید که دارایی‌های شما را حضانتی(مثل Wallet of Satoshi) نگه می‌دارد، باید منتظر بمانید تا موجودی شما در سیستم داخلی خود منعکس کند.(اگر بعد از 1 روز وجه بازگشتی همچنان به دارایی کیف‌پول حضانتی شما اضافه نشده بود، به پشتیبانی آن سرویس ایمیل بزنید) این فرایند بسته به نوع کیف پول می‌تواند از چند دقیقه تا چند ساعت طول بکشد، اما در همه کیف‌ها 100% وجوه شما برمی‌گردانند. صبور باشید.
 
-### I'm buying, and the bot doesn't ask me for an invoice; instead, it directly connects me with the seller
-
-This happens when you have a lightning address activated. In that case, the purchased satoshis will be sent directly there without asking for a new invoice for each purchase. To check your lightning address, type the command `/settings` within the [bot](https://t.me/lnp2pbot). If you want to deactivate it, type the command `/setaddress off` within the [bot](https://t.me/lnp2pbot).
+### من در حال خرید هستم و ربات از من فاکتور نمی‌خواهد. در عوض، مستقیماً من را به فروشنده وصل می‌کند!
+این زمانی اتفاق می افتد که شما یک آدرس لایتنینگ فعال داشته باشید. در این صورت ساتوشی‌های خریداری شده مستقیماً و بدون درخواست فاکتور جدید برای هر بار خرید به آنجا ارسال می‌شود. برای بررسی آدرس لایتنینگ خود، دستور `settings/` را در [bot](https://t.me/lnp2pbot) تایپ کنید. اگر می‌خواهید آن را غیرفعال کنید، دستور `setaddress off/` را در [bot](https://t.me/lnp2pbot) تایپ کنید.
