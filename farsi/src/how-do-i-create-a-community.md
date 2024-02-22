@@ -1,10 +1,10 @@
-# How do I create a community?
+# چگونه یک انجمن ایجاد کنم؟
 
-To create a community, simply type the `/community` command. After this, the bot will ask you to indicate the following:
+برای ایجاد یک انجمن کافیست دستور `community/` را تایپ کنید. پس از این، ربات از شما می‌خواهد موارد زیر را مشخص کنید:
 
-- Community Name: A name to identify your community.
-- Currencies: Fiat currencies that can operate in the community. These must be entered separately from a blank space. For example, for an Uruguayan community, "UYU USD" can be added.
-- Community Group: This is the main group where members of the community meet. Both [@lnp2pbot](https://t.me/lnp2pbot) and the person creating the community must be administrators in this group. Users will be able to create orders by sending bot commands in this group.
-- Order book channel or channels: Orders will be published where we indicate to the bot. If we enter a single channel, the purchases and sales will be published in that channel, but if you indicate two channels, the purchases will be published in the first and the sales in the second. Channels are entered separately with a blank space and both the bot and the community creator must be channel admins.
-- Solvers: We must indicate the “usernames” of the users who will be in charge of resolving the disputes, separated by a blank space.
-- Channel for disputes: In this channel, the bot will publish when a user initiates a dispute. Both the bot and the community creator must be channel administrators.
+- نام کامیونیتی (Community Name): اسمی برای شناسایی کامیونیتی شما.
+- ارزها (Currencies): ارزهای فیاتی که می توانند در کامیونیتی شما معامله شوند. اینها باید به طور جداگانه با یک فضا خالی بینشان و با حروف بزرگ انگلیسی نوشته شوند. به عنوان مثال، برای یک جامعه ایرانی، "IRT USD" می‌تواند اضافه شود که به این معنی است که سفارشاتی که یک سر آن دلار آمریکا یا تومان ایران باشد قابل قبول است.
+- گروه کامیونیتی (Community Group): این گروه تلگرامی اصلی است که اعضا در آن یکدیگر را ملاقات می‌کنند. هم ربات [@lnp2pbot](https://t.me/lnp2pbot) و هم فردی که انجمن را ایجاد کرده، هردو باید در این گروه ادمین باشند. کاربران می‌توانند با ارسال دستورات ربات در این گروه سفارش ایجاد کنند.(الزامی به ایجاد سفارش داخل چت گروه نیست، هر کاربر میتواند پس از انتخاب کامیونیتی مد نظرش داخل ربات از این پس سفارشاتش را با وارد کردن دستورات در چت شخصی‌اش با ربات ایجاد کند)
+- کانال یا کانال‌های انتشار سفارشات (Order book channel or channels): سفارشات در لینک کانالی که به ربات نشان می‌دهیم منتشر می‌شود. اگر یک کانال وارد کنیم، سفارشات خرید و فروش در آن کانال منتشر می‌شود، اما اگر دو کانال را مشخص کنید، خریدها در کانال اول و فروش‌‌ها در کانال دوم منتشر می‌شود. لینک کانال‌ها به طور جداگانه با یک فضای خالی بینشان باید وارد شوند و هم ربات و هم سازنده کامیونیتی باید ادمین کانال باشند.
+- پاسخ‌دهندگان یا داورها (Solvers): باید "نام کاربری" کاربرانی که مسئول حل و فصل اختلافات هستند را با یک فضای خالی بین هرکدام وارد کنید.
+- کانال انتشار اختلافات (Channel for disputes): در این کانال ربات زمانی که یک کاربر مشاجره‌ای را ایجاد کند، آن را منتشر می‌کند تا پاسخ‌دهنده‌ها به حل اختلاف بپردازند. هم ربات و هم سازنده انجمن باید ادمین کانال باشند.
