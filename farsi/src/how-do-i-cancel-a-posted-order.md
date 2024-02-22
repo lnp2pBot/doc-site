@@ -1,13 +1,13 @@
-# How do I cancel a posted order?
+# چگونه سفارش ارسال شده را لغو کنم؟
 
-If the order hasn't been taken, type the command `/cancel` in your chat with the bot or select it from the "Menu." The bot will display your active orders. Choose the ID corresponding to the order you wish to cancel.
+اگر سفارش انجام نشده است، دستور `cancel/` را در چت خود با ربات تایپ کنید یا آن را از "منو" انتخاب کنید تا ربات سفارشات فعال شما را نمایش ‌دهد. سپس شناسه مربوط به سفارشی را که می خواهید لغو گردد انتخاب کنید.
 
-The ID or unique number of your order appears just below the acceptance and posting message of your order and is even indicated as an option to cancel it. You can also find it by typing the command `/listorders`.
+شناسه یا شماره منحصر به فرد سفارش شما درست در زیر پیام پذیرش و ارسال سفارش‌تان ظاهر می‌شود و حتی به عنوان گزینه‌ای برای لغو آن نشان داده می‌شود. همچنین می توانید آن را با تایپ دستور `listorders/` پیدا کنید.
 
-If your order has already been taken or if you take an order and don’t wish to proceed, you'll need to initiate a cooperative cancellation.
+اگر سفارش شما قبلاً گرفته شده است یا اگر سفارشی می‌گیرید و نمی‌خواهید ادامه دهید، باید لغو مشارکتی انجام دهید.
 
-![Cancel Order](./assets/images/cancel-order.gif)
+![Cancel Order](./src/assets/images/cancel-order.gif)
 
-By initiating a cooperative cancellation, your counterpart will be informed of your intent to cancel. If they agree, they'll also write `/cancel <order id>`, after which the Sats will be returned to the seller.
+با شروع لغو مشارکتی، همتای شما از قصد شما برای لغو باخبر خواهد شد. در صورت موافقت، او `<cancel <order id/` را وارد می‌کند و پس از آن ساتوشی‌ها به فروشنده بازگردانده می‌شود.
 
-If your counterpart doesn’t agree to cancel, you can initiate a dispute by typing the command `/dispute`.
+اگر همتای شما با لغو موافقت نکرد، می‌توانید با تایپ کردن دستور `dispute/` یک اختلاف ایجاد کنید.
