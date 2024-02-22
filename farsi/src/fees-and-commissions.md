@@ -1,5 +1,5 @@
-# Should I pay fees and commissions?
+# آیا باید کارمزد و کمیسیون‌ای پرداخت کنم؟
 
-The bot charges a fixed fee of 0.6%. This fee includes the network fee, so there are no additional charges. This commission is paid only by the seller, not the buyer.
+ربات هزینه ثابت 0.6٪ را دریافت می کند. این هزینه شامل فی شبکه نیز می‌شود، بنابراین هیچ هزینه اضافی وجود ندارد. این کمیسیون فقط توسط فروشنده پرداخت می‌شود نه خریدار.
 
-Some communities establish a small discount on the commissions for operations carried out within them. To find out the discount for each community, check [https://market.lnp2pbot.com](https://market.lnp2pbot.com) in the COMMUNITIES section.
+برخی از کامیونیتی‌ها برای سفارشاتی که در آنها انجام می‌شود، تخفیف اندکی در کمیسیون‌ها درنظر میگیرند. برای اطلاع از تخفیف هر کامیونیتی، بخش COMMUNITIES را در سایت [https://market.lnp2pbot.com](https://market.lnp2pbot.com) بررسی کنید.
