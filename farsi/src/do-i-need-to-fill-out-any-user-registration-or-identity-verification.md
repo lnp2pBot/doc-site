@@ -1,3 +1,3 @@
-# Do I need to fill out any user registration or identity verification?
+# آیا نیاز به هر گونه ثبت نام کاربری یا احراز هویت دارم؟
 
-NO! Bitcoin was born as *"a peer-to-peer electronic money system"*, and we are proud to support that principle. No personal information is required from you, the exchanges are entirely between peers, and [@lnp2pBot](https://t.me/lnp2pbot) does not collect or store any personal information of the parties involved.
+نه! بیت کوین به عنوان *"یک سیستم پول الکترونیکی همتا به همتا"(P2P)* متولد شد و ما مفتخریم که از این اصل حمایت می‌کنیم. هیچ اطلاعات شخصی از شما لازم نیست. مبادلات کاملاً بین طرفین انجام می‌شود و [@lnp2pBot](https://t.me/lnp2pbot) هیچ گونه اطلاعات شخصی از طرف‌های درگیر را جمع‌آوری یا ذخیره نمی‌کند.
