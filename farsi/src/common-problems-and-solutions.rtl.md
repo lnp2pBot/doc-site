@@ -1,24 +1,24 @@
 # مشکلات رایج و راه‌حل‌ها
 
-### من سعی می‌کنم سفارش بردارم، اما هیچ اتفاقی نمی‌افتد
+### من سعی می‌کنم سفارش بردارم، اما هیچ اتفاقی نمی‌افتد.
 
 هنگامی که دکمه «خرید ساتوشی» یا «فروش ساتوشی» یک سفارش را فشار می‌دهید، [@lnp2pbot](https://t.me/lnp2pBot) به صورت خصوصی به شما پیام خواهد داد که در هر مرحله چه کارهای را برای تکمیل سفارش انجام دهید.
 برای اینکه ربات به درخواست شما پاسخ دهد، لازم است [با آن شروع به کار کرده باشید](./how-do-i-initialize-the-bot.md) زیرا اگر قبلاً از آن استفاده نکرده باشید، هیچ رباتی نمی‌تواند در ابتدا با شما چت باز کرده و بهتان پیام خصوصی دهد. پس [@lnp2pbot](https://t.me/lnp2pBot) را باز کرده و دستور 'start/' را تایپ کنید یا روی دکمه 'Start' ضربه بزنید، سپس دوباره سفارش را انجام دهید، به ربات برگردید و دستورالعمل‌های آن را دنبال کنید.
 - اگر قبلاً از ربات استفاده می‌کردید و آخرین باری که این کار را انجام دادید قبل از مارس 2023 بود، باید آن را با دستور 'start/' مجدداً راه اندازی کنید زیرا ربات ریست شده است و پایگاه داده قبلی آن حفظ نشده.
 
-### I tried to pay an invoice with an insufficiently funded wallet, and now [@lnp2pbot](https://t.me/lnp2pbot) tells me the invoice was used
+### من سعی کردم یک فاکتور(invoice) را با یک کیف پول که وجه کافی نداشت پرداخت کنم، و اکنون [@lnp2pbot](https://t.me/lnp2pbot) به من می گوید که فاکتور قبلا یکبار استفاده شده است.
 
-Wait for 15 minutes for the transaction time to expire, and then initiate it again to generate a new invoice.
+15 دقیقه صبر کنید تا زمان تراکنش منقضی شود و سپس دوباره آن سفارش را انجام دهید تا یک فاکتور جدید ایجاد کنید.
 
-### My counterpart had an issue sending me the fiat payment and then disappeared; my sats got stuck
+### طرف مقابل من در ارسال پول فیات برای من مشکل داشت و سپس ناپدید شد. ساتوشی‌های من گیر کرده(قفل شده).
 
-The transaction will automatically cancel after 23 hours, and your satoshis will appear in your wallet as a failed payment. If you want to expedite the process, you can open a dispute with the command `/dispute <order id>`.
+تراکنش به طور خودکار پس از 23 ساعت لغو می‌شود و ساتوشی‌های شما به عنوان یک پرداخت ناموفق در کیف‌پول‌تان ظاهر می‌شود. اگر عجله دارید و می‌خواهید این فرآیند را تسریع کنید، می‌توانید با دستور `<dispute <order id/` یک مشاجره(اختلاف) را ایجاد کنید.
 
-### A user mistakenly took my purchase, and I've already made the payment in satoshis
+### یک کاربر به اشتباه سفارش خرید من را برداشت و من قبلاً دریافت با ساتوشی را آماده کرده‌ام.
 
-A cooperative cancellation can be initiated. Both parties need to execute the command `/cancel <order id>`.
+می‌توانید یک لغو مشارکتی انجام دهید. برای این کار هر دو طرف باید دستور `<cancel <order id/` را اجرا کنند.
 
-### I canceled an order, but the sats haven't returned to my wallet. How long should I wait?
+### من سفارش را لغو کردم، اما ساتوشی‌ها به کیف پولم برنگشته‌اند. چقدر باید صبر کنم؟
 
 When an order is canceled, the seller's satoshis immediately return to the node/wallet that made the payment. If you use a self-custody wallet or your own node, you won't have any issues. However, if you use a wallet that custodies your funds, you'll need to wait for them to reflect your balance in their internal system. This can take from a few minutes to a couple of hours depending on the wallet, but all wallets return 100% of your funds. Patience is key.
 
