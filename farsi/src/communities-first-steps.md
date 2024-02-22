@@ -1,7 +1,7 @@
-# Let's Get Started. Communities, First Steps
+# بیایید شروع به ایجاد یک کامیونیتی کنیم. گام‌های اول
 
-To create a community, you must type or select the command `/community` from the menu. From there, the bot will guide you through the process.
+برای ایجاد یک کامیونیتی، باید دستور `community/` را از در ربات تایپ یا انتخاب کنید. از آنجا به بعد، ربات شما را در این فرآیند راهنمایی می کند.
 
 ![Community Menu capture](./assets/images/community-menu.jpg)
 
-[In this post, there are the details](how-do-i-create-a-community.md), for a better understanding. It's important to note that both you and the bot must be administrators in both the community group and the channels linked to it.
+[در این پست، جزئیات آورده شده](how-do-i-create-a-community.md), برای درک بهتر توجه به این نکته مهم است که هم شما و هم ربات باید در گروه تلگرامی کامیونیتی و کانال‌های مرتبط با آن ادمین(مدیر) باشید.
