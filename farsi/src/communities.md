@@ -1,7 +1,7 @@
-# Communities
+# کامیونیتی‌ها
 
-Communities were design so that users may interact in small groups, adapted to their tastes and needs.
+جوامع به گونه‌ای طراحی شده‌اند که کاربران بتوانند در گروه های کوچک و متناسب با سلیقه و نیازهایشان باهم تعامل داشته باشند.
 
-Communities can be created around a project, a currency, or a country, for example.
+برای مثال، کامیونیتی‌ها می‌توانند حول یک پروژه، یک ارز یا یک کشور ایجاد شوند.
 
-Anyone can create a community and interact with the bot from it. Witch leaves creators/administrators with great power in their hands, “a great power comes with a great responsibility” This means that once users start working in their own communities, they will also have to manage any disputes that may occur.
+هر کسی می تواند یک کامیونیتی ایجاد کند و از طریق آن با ربات تعامل داشته باشد. گرچه سازندگان/مدیران قدرت زیادی در دست دارند، "یک قدرت بزرگ با مسئولیت بزرگی همراه است"! این بدان معنی است که وقتی کاربران شروع به کار در کامیونیتی می‌کنند، آنها باید هر گونه اختلافی را که ممکن است رخ دهد مدیریت کنند و این نیاز به مسئولیت پذیری و صرف وقت زیادی دارد.
