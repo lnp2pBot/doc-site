@@ -1,5 +1,5 @@
-# How do I initialize the bot?
+# چگونه ربات را راه‌اندازی کنم؟
 
-Open a private chat with [@lnp2pBot](https://t.me/lnp2pbot) and click on **"START"** or execute the command `/start`.
+یک چت خصوصی با ربات [@lnp2pBot](https://t.me/lnp2pbot) باز کرده و روی **"START"** کلیک کنید یا دستور `start/` را تایپ و ارسال کنید.
 
-- If you don't initialize the bot first, you won't be able to take any orders from the channels where they are published.
+- اگر هنوز ربات را راه‌اندازی نکرده باشید، نمی‌توانید از کانال‌هایی که در آنجا سفارشات منتشر می‌شوند، سفارشی دریافت کنید.
