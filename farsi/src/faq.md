@@ -1,3 +1,3 @@
-# FAQ
+# سوالات متداول(FAQ)
 
-Here we try to answer frequent questions.
+در اینجا سعی می کنیم به سوالات متداول پاسخ دهیم.
