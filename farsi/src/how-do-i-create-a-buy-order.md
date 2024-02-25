@@ -45,7 +45,7 @@
 برای اجرای همان سفارش خرید بدون استفاده از حالت wizard، باید جزئیات سفارش خود را به ترتیب بنویسید:
 `/buy` <satoshi amount> <fiat_amount> <fiat_code> <payment_method> [premium/discount] (without special characters).
 
-به مثال‌های زیر توجه کنید:
+### به مثال‌های زیر توجه کنید:
 <div dir="rtl"> مثال1: خرید صد هزار ساتوشی به مبلغ 50$. پرداخت دلار حضوری تهران. </div>
 - Ex1: `/buy 100000 50 usd "tahvil hozuri tehran"`
 <div dir="rtl"> مثال2: خرید پانصد هزار تومان ساتوشی به نرخ لحظه‌ای بازار با پرداخت از طریق کارت به کارت. </div>
