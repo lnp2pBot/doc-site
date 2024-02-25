@@ -1,12 +1,12 @@
-# How do I create a buy order?
+# چگونه یک سفارش خرید ایجاد کنم؟
 
-The procedure is exactly the same as for a sell order. However, when you press the "Menu" button, select the `/buy` command instead of `/sell`. This will activate the wizard that guides you through the buying process.
+روند کار دقیقاً مشابه سفارش فروش است. با این حال پس از زدن دکمه "Menu" به جای `sell/`، دستور `buy/` را انتخاب کنید. این کار حالت wizard را فعال کرده و شما را در فرآیند خرید راهنمایی می‌کند.
 
-Once activated, the wizard will prompt you to specify the fiat currency you want to transact with:
+پس از فعال‌سازی، wizard از شما می‌خواهد ارز فیات را که می‌خواهید با آن معامله کنید را مشخص کنید:
 
 ![Fiat currency](./assets/images/buy-fiat.jpg)
 
-Next, enter the amount, in fiat currency, you wish to buy. Remember to input only numbers at this step so that the wizard can understand.
+در مرحله بعد، مبلغی را که می خواهید بخرید، به ارز فیات وارد کنید. به یاد داشته باشید که در این مرحله فقط اعداد را وارد کنید تا جادوگر بتواند متوجه شود.
 
 You can also enter a range of amounts to buy by separating the numbers with a hyphen (-).
 
