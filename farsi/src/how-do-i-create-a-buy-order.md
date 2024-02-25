@@ -43,16 +43,16 @@
 با اجرای دستور `exit/` می توانید در هر زمان از ویزارد خارج شوید.
 
 برای اجرای همان سفارش خرید بدون استفاده از حالت wizard، باید جزئیات سفارش خود را به ترتیب بنویسید:
-`/buy` <satoshi_amount> <fiat_amount> <fiat_code> <payment_method> [premium/discount] (without special characters).
+`/buy` <satoshi amount> <fiat_amount> <fiat_code> <payment_method> [premium/discount] (without special characters).
 
-Example: `/buy 100000 50 usd "xyz bank"`
+به مثال‌های زیر توجه کنید:
+<div dir="rtl"> مثال1: خرید صد هزار ساتوشی به مبلغ 50$. پرداخت دلار حضوری تهران. </div>
+- Ex1: `/buy 100000 50 usd "tahvil hozuri tehran"`
+<div dir="rtl"> مثال2: خرید پانصد هزار تومان ساتوشی به نرخ لحظه‌ای بازار با پرداخت از طریق کارت به کارت. </div>
+- Ex2: `/buy 0 500000 irt "kart be kart"`
+ <div dir="rtl"> مثال3: خرید 15-20 میلیون تومان ساتوشی به نرخ لحظه‌ای. پرداخت با حواله ساتنا. در این مثال فروشنده بسته به مقدار ساتوشی ای که میخواهد بفروشد عددی را بین 15-20 میلیون تومان تعیین میکند و ربات سپس به میزان تعین شده از خریدار درخواست فاکتور لایتنینیگی میکند. </div>
+- Ex3: `/buy 0 15000000-20000000 irt "havale Satna"`
+<div dir="rtl"> مثال4: خرید مقدار 200$ ساتوشی با 3% تخفیف(زیر نرخ لحظه‌ای بازار). در این حالت ربات با دیدن 3- از نرخ بازار 3درصد کم و مبلغ را به فروشنده اعلام می‌کند. شیوه پرداخت نیز ارسال تتر(معادل همان 200$) توسط خریدار می‌باشد. </div>
+- Ex4: `/buy 0 200 usd "mobile payment" -3`
 
-Buying one hundred thousand satoshis at fifty dollars paying via xyz bank.
-
-Some examples of buy orders would be:
-
-- Ex. `/buy 0 50 ves "xyz bank"`: Buying fifty bolivars in satoshis - in this case, the bot will calculate at the market rate - paying via xyz bank
-- Ex. `/buy 0 10-100 pen "mobile payment"`: Buying from 10 to 100 new soles - in this case, the seller will choose the amount to sell you within that range - paying via mobile payment
-- Ex. `/buy 0 100 eur "mobile payment" -3`: Buying 100 euros with a 3% discount - in this case, the bot will calculate at the market rate by discounting or increasing the percentage you choose - paying via mobile payment
-
-If there's any incompatible variable, the bot will indicate it during the order creation process. Once completed, it will automatically publish on the exchange channel and remain visible for a period of 23 hours.
+اگر متغیر ناسازگاری وجود داشته باشد، ربات آن را در طول فرآیند ایجاد سفارش نشان داده و خطا میدهد. سفارش پس از تکمیل، به طور خودکار در کانال تبادل منتشر می‌شود و برای مدت 23 ساعت برای عموم قابل مشاهده خواهد بود.
