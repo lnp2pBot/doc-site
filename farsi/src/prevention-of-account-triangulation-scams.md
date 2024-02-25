@@ -1,19 +1,19 @@
-# Bridge Scam Prevention
+# جلوگیری از کلاهبرداری پل(Bridge Scam)
+<div dir="rtl">
+هیچ روشی برای جلوگیری کامل از کلاهبرداری یک فروشنده وجود ندارد. با این حال، علاوه بر رعایت نکات ذکر شده قبلی برای جلوگیری از این نوع کلاهبرداری، اقدامات دیگری نیز وجود دارد که شما به عنوان یک فروشنده می توانید برای کاهش ریسک انجام دهید، مانند:
+- اگر می‌خواهید مقدار زیادی شاتوشی بفروشید، ترجیحاً آن را به چند فروش کوچکتر تقسیم کنید، مگر اینکه خریدار سابقه خوبی از تراکنش‌ها با شما داشته باشد و به طور مداوم از یک حساب بانکی استفاده کند.
 
-There isn't a foolproof method to completely prevent a seller from engaging in a bridge scam. However, besides following the previously mentioned tips to prevent scams, there are other measures you, as a seller, could take to reduce the risk, such as:
+- اگر پیشنهاد خرید خیلی عالی به نظر می‌رسد، محتاط باشید. ممکن است کلاهبرداری باشد.(مثلا وقتی خریدار با نرخی بیش از %5 قیمت بازار حاضر به خرید ساتوشی باشد باید شک کنید)
 
-- If you want to make a large sale of Sats, it's preferable to split it into several smaller sales, unless the buyer has a good history of transactions with you and consistently uses the same bank account.
+- در روش‌های پرداخت فیات که امکان افزودن نظر(متن) به حواله را فراهم می‌کنند، می‌توانید از خریدار بخواهید که عبارت خاصی را که در آن لحظه ذکر می‌کنید بنویسد، مانند "من یک پرتقال می‌خرم". به این ترتیب اگر آنها کلاهبردار باشند، باید از قربانی بخواهند که آن نظر را هنگام ارسال وجه فیات بنویسد، که می‌تواند باعث ایجاد شک شود. زیرا احتمال خرید پرتقال بسیار کم است!
 
-- Be cautious if a buying offer seems too good to be true; it might be a scam.
+- می توانید آن عبارت را به یک کد عددی یا پیام دیگری که برای جلوگیری از کلاهبرداری مناسب می دانید تغییر دهید. روش دیگر، اگرچه به دلیل نگرانی‌های مربوط به حفظ حریم خصوصی(آگاهی حکومت از مبادلات شما) زیاد توصیه نمی‌شود، درخواست این عبارت است: "این پرداخت برای خرید X ساتوشی در ربات @lnp2pbot برای سفارش با شناسه Y است."
 
-- In fiat payment methods that allow adding comments to the transfer, you could ask the buyer to write a specific phrase you mention at that moment, like "I'm buying an orange." This way, if they were a scammer, they'd have to ask the victim to write that comment to send the fiat, which could raise suspicion as it's highly unlikely that they are buying an orange.
+- برخی از روش‌های پرداخت فیات اجازه اضافه کردن نظرات را نمی‌دهند، اما شماره تلفن هر دو طرف را آشکار می‌کنند. در چنین مواردی، می‌توانید قبل از آزاد کردن ساتوشی‌ها، از خریدار پیامکی از شماره ارسال کننده فیات بخواهید که حاوی هر یک از پیام‌های عنوان شده در بالا، یا پیام‌های مشابه باشد. رویکرد دیگر می‌تواند تماسی باشد که توسط او یا شما مستقیماً انجام شود که نشان میدهد هیچ شخص ثالثی در انتقال وجه فیات دخالت ندارد.
 
-You can modify that phrase to a numerical code or another message you find appropriate to prevent a scam. Another method, though not highly recommended due to privacy concerns, is to request the phrase to be: "This payment is for a purchase of X Sats on @lnp2pbot for order ID: Y."
+- گزینه دیگری که، اگر می‌خواهید به حریم خصوصی خریدار احترام بگذارید توصیه نمی‌شود، درخواست تماس ویدیویی در تلگرام است که در آن نشان می‌دهند کارتی را دارد که از آن پول را ارسال کرده‌. با این حال، برای این منظور نیازی به نشان دادن چهره خود ندارند.
 
-- Some fiat payment methods don't allow adding comments but reveal both parties' phone numbers. In such cases, you could ask the buyer, before releasing the Sats, for an SMS from the number that sent the fiat, containing any of the aforementioned messages or similar messages. Another approach could be a call initiated by them or you, directly confirming no third-party involvement in the fiat transfer.
+به یاد داشته باشید، اگر از تراکنش انجام ترامنش حس خوبی ندارید، می‌توانید با `cancel/` در یک لغو مشارکتی شرکت کنید و فیات را به همان حسابی که از آن ارسال شده بود، برگردانید. اگر طرف مقابل مایل به همکاری نیست، باید با دستور `dispute/` ایک ختلاف ایجاد کنید و منتظر حل‌وفصل توسط داوران باشید.
 
-- Another option, not highly recommended if you wish to respect the buyer's privacy, is to request a video call on Telegram where they show they possess the card from which they sent the money. However, they don't need to show their face for this purpose.
-
-Remember, if you're uncomfortable with a transaction, you can engage in a cooperative cancellation with `/cancel` and return the fiat to the same account from which it was sent. If the other party is unwilling to cooperate, you should open a dispute with `/dispute` and wait for a solver to resolve the case.
-
-The preventive measures mentioned here may not apply to all fiat money payment methods. If you're aware of other methods, please share them and contribute to preventing scams.
+اقدامات پیشگیرانه ذکر شده در اینجا ممکن است برای همه روش‌های پرداخت پول فیات اعمال نشود. اگر از روش‌های دیگری اطلاع دارید، لطفاً آنها را با ما به اشتراک بگذارید و در جلوگیری از کلاهبرداری مشارکت کنید. با تشکر
+</div>
