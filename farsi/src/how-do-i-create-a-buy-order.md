@@ -6,47 +6,44 @@
 
 ![Fiat currency](./assets/images/buy-fiat.jpg)
 
-در مرحله بعد، مبلغی را که می خواهید بخرید، به ارز فیات وارد کنید. به یاد داشته باشید که در این مرحله فقط اعداد را وارد کنید تا جادوگر بتواند متوجه شود.
+در مرحله بعد، مبلغی را که می خواهید بخرید، به ارز فیات وارد کنید. به یاد داشته باشید که در این مرحله فقط عدد وارد کنید(نه حروف یا کاراکتر) تا wizard بتواند متوجه شود.
 
-You can also enter a range of amounts to buy by separating the numbers with a hyphen (-).
+همچنین می توانید با جدا کردن اعداد با خط تیره (-) محدوده‌ای از مقادیر را برای خرید وارد کنید.
 
 ![Fiat amount](./assets/images/buy-monto.jpg)
 
-The wizard will ask for the amount, in satoshis, you want to receive. Here, you have the option to use the "Market Price" button. If you do, it will apply the rate from [Yadio.io](https://yadio.io/).
+حالا wizard مبلغی را که می‌خواهید دریافت کنید به ساتوشی از شما می‌خواهد. اینجا می‌توانید از گزینه "Market Price" استفاده کنید. اگر این کار را انجام دهید، نرخ را از سایت [Yadio.io](https://yadio.io/) گرفته و اعمال می‌کند.(بر حسب نرخ لحظه‌ای سایت تعداد ساتوشی ها را خودش حساب میکند)
 
 ![Satoshi amount](./assets/images/buy-price.jpg)
 
-Next, the wizard will request the percentage of premium or discount you desire in your exchange. If you want to increase the market rate (premium), select a positive number. If you want to decrease it (discount), choose a negative number. If you don’t want either, use the "No premium or discount" button.
-
+در مرحله بعد، wizard درصد تخفیف یا حباب(premium or discount) مورد نظر شما در مبادله را درخواست خواهد کرد. اگر می‌خواهید سفارش‌تان با فی بالاتر از نرخ لحظه‌ای بازار ثبت شود، premium را که یه عدد مثبت و برحسب درصد است افزایش دهید. اگر می‌خواهید سفارش‌تان با فی پایین‌تر از نرخ لحظه‌ای بازار ثبت شود، discount را که یک عدد منفی و برحسب درصد است کاهش دهید(منفی‌تر کنید). اگر هیچ کدام را نمی‌خواهید، از گزینه "No premium or discount" استفاده کنید.
 ![Premium or discount](./assets/images/buy-prima.jpg)
 
-You'll then need to specify the payment method. Here, you can get creative and add emojis or anything you feel will make your offer attractive.
+سپس باید روش پرداخت را مشخص کنید. در اینجا، می‌توانید خلاقیت به خرج دهید و ایموجی‌ها یا هر چیزی که احساس می‌کنید پیشنهاد شما را جذاب می‌کند، اضافه کنید. مثلا اگر قرار است وجه فیات را کارت به کارت کنید میتوانید بنویسید "کارت به کارت" یا اگر دلار نقدی میدهید بنویسید "دلار تحویل تهران". همچنین از تتر، حواله ساتنا، سکه فیزیکی و... نیز میتوانید استفاده کنید.
 
 ![Payment method](./assets/images/buy-payment-method.jpg)
 
-The bot will proceed to publish your offer in the general channel or the one you've set as default for the community. It will remain visible for 23 hours if no one takes it before then.
-
+ربات پیشنهاد شما را در کانال عمومی یا کانالی که به عنوان پیش فرض برای کامیونیتی‌تان ایجاد شده منتشر می‌کند. این سفارش حداکثر 23ساعت در کانال خواهد ماند تا اگر کسی مایل بود آن را بردارد و با شما وارد معامله شود.
 ![Published offer](./assets/images/buy-public.jpg)
 
-At any time, you can cancel the offer, provided no one has taken it, using the command `/cancel` followed by the order identifier. You can also copy the command plus the identifier in the chat with the bot.
-
+با استفاده از دستور `cancel/` و به دنبال آن وارد کردن شناسه سفارش، هر موقع بخواهید می‌توانید پیشنهاد را لغو کنید، مشروط بر اینکه کسی آن را قبول نکرده باشد. این دستور را در چت گروه یا چت شخصی‌تان با ربات می‌توانید وارد کنید.
 ![Cancel order](./assets/images/buy-cancel-order.jpg)
 
-The wizard will return a message confirming the cancellation, and your offer will be removed from the offers channel.
+پس از آن wizard پیامی مبنی بر تایید لغو ارسال می‌کند و سفارش شما از کانال سفارشات حذف می‌شود.
 
 ![Cancelled order](./assets/images/buy-cancel.jpg)
 
-If your offer is taken, the wizard will ask you to provide a Lightning Network invoice with the corresponding amount in satoshis. Simultaneously, it will ask your counterpart to pay the invoice.
+اگر سفارش شما توسط شخصی برداشته شود، wizard از شما می‌خواهد که یک فاکتور شبکه لایتنینگ با مبلغ مربوطه بر حسب ساتوشی ارائه دهید. به طور همزمان، از طرف مقابل شما می‌خواهد که فاکتور دیگری را پرداخت کند.
+در این مرحله، ربات با دادن نام کاربری طرف مقابل به طرفین، هر دو طرف را به هم متصل می‌کند تا در مورد جزئیات پرداخت صحبت کنند.(باید به پیوی شخص مقابل رفته و با او گفتگو کنید)
 
-At this point, the bot will connect both parties to discuss the exchange details.
+هنگامی که پرداخت وجه فیات را انجام دادید، با دستور `fiatsent/` به ربات اطلاع دهید. ربات به همتای شما اطلاع می‌دهد تا دریافت وجه را بررسی و تایید کند و اقدام به آزادسازی ساتوشی‌ها کند. به یاد داشته باشید، کیف پول شما باید آنلاین باشد تا بتوانید ساتوشی‌ها را دریافت کنید.
 
-Once you've made the fiat payment, notify the bot with the command `/fiatsent`. The bot will inform your counterpart to check and confirm the receipt of the money and proceed to release the satoshis. Remember, your wallet needs to be online to receive them.
+مبادله تکمیل شد. اکنون می‌توانید به همتای خود امتیاز دهید.(بر حسب سرعت عمل در پاسخگویی، طرز برخورد و موارد دیگر) به یاد داشته باشید که امتیاز شما می‌تواند مبنای تصمیم گیری‌ کاربران دیگر در انتخاب سفارشات آینده شما(و همچنین همتایتان) باشد، پس صادقانه رفتار کنید.
 
-The exchange is completed. Now you can rate your counterpart.
+با اجرای دستور `exit/` می توانید در هر زمان از ویزارد خارج شوید.
 
-You can exit the wizard at any time by executing the command `/exit`.
-
-To execute the same buy order without using the wizard, you must write your order details: `/buy` <satoshi amount> <fiat amount> <fiat code> <payment method> [premium/discount] (without special characters).
+برای اجرای همان سفارش خرید بدون استفاده از حالت wizard، باید جزئیات سفارش خود را به ترتیب بنویسید:
+`/buy` <satoshi_amount> <fiat_amount> <fiat_code> <payment_method> [premium/discount] (without special characters).
 
 Example: `/buy 100000 50 usd "xyz bank"`
 
