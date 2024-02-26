@@ -1,38 +1,40 @@
-# How do I post offers in a community?
+# چگونه سفارشات را در یک کامیونیتی پست کنم؟
+<div dir="rtl">
+وقتی شروع به استفاده از [@lnp2pBot](https://t.me/lnp2pbot) می کنید، سفارشاتی که ثبت می‌کنید به طور پیش فرض در کانال [https://t.me/p2plightning](https://t.me/p2plightning) پست می‌شوند، این کانال جهانی است که در آن می‌توان سفارشاتی را با ارزهای متفاوت از کشورهای مختلف پیدا کرد.
 
-When you start using [@lnp2pBot](https://t.me/lnp2pbot), the orders you create are by default posted in [https://t.me/p2plightning](https://t.me/p2plightning), which is the general channel where you can find offers in various fiat currencies.
+اگر می‌خواهید سفارشات را در کانالی مخصوص واحد پول خود پست کنید، باید این کار را از طریق [انجمن](./communities.md) انجام دهید که آن ارز در آنجا استفاده می‌شود.
 
-If you want to post offers in a channel specifically for your currency, you need to do so through a [community](./communities.md) that incorporates it.
+- می‌توانید در [https://market.lnp2pbot.com](https://market.lnp2pbot.com) همه کامیونیتی‌هایی که با ارز مورد نظر شما کار می‌کنند را جستجو کنید.
 
-- You can search for all communities operating with the desired currency at [https://market.lnp2pbot.com](https://market.lnp2pbot.com).
-
-- You can also type within the bot:
+- همچنین می توانید در ربات تایپ کنید:
 
 `/findcomms <fiat code>`
 
-For example, `/findcomms usd` is used to search for all communities trading with USD. If you don't know your currency code, type `/listcurrencies` in the bot and find it.
+به عنوان مثال، `findcomms irt/` برای جستجوی همه کامیونیتی‌های که با IRT(تومان ایران) معامله می‌کنند استفاده می‌شود. اگر نماد ارز خود را نمی دانید، `listcurrencies/` را در ربات تایپ کنید و آن را پیدا کنید.
 
 ![Find Community Capture](./assets/images/findcomms.jpg)
 
-Upon selecting a community, the bot will display the number of successful orders, the trading volume operated in the last 24 hours, and the number of users posting their offers there. To set which community you want to publish your offers in, you should select the "Use as default" button.
+با انتخاب یک کامیونیتی، ربات تعداد سفارشات موفق، حجم معاملات انجام شده در 24 ساعت گذشته و تعداد کاربرانی که پیشنهادات خود را در آنجا ارسال می‌کنند را نمایش می‌دهد. برای تعیین اینکه می‌خواهید پیشنهادات خود را در کدام انجمن منتشر کنید، باید دکمه "Use as default"(انتخاب به عنوان پیشفرض) را انتخاب کنید.
 
 ![Community details Capture](./assets/images/comm-detail.jpg)
 
-- Another way to do it is by typing:
-`/setcomm <@communityGroupName | telegram-group-id>` (`/setcomm` along with the group name or its Telegram ID).
+- راه دیگر برای انجام این کار وارد کردن آیدی گروه تلگرامی کامیونیتی با دستور زیر است:
+- `<setcomm <@communityGroupName | telegram-group-id/`
+- (`setcomm` along with the group name or its Telegram ID/).
 
-To create an order within a community, use the `/buy` or `/sell` command depending on what you want. From there, the bot will give you step-by-step instructions, and your offer will be published in the selected community.
+برای ثبت سفارش در یک انجمن، بسته به آنچه می‌خواهید، از دستور `buy/` یا `sell/` استفاده کنید. از آنجا ربات دستورالعمل‌های مرحله به مرحله را به شما ارائه می‌دهد و سفارش شما در انجمن انتخاب شده منتشر می‌شود.
 
 ![Community Wizard Capture](./assets/images/sell.jpg)
 
-## More Information:
-- You can only have one community configured by default at a time, and therefore, all your offers will be posted there.
+## اطلاعات بیشتر:
+- شما می‌توانید هر بار فقط یک کامیونیتی را به صورت پیش فرض انتخاب کنید و بنابراین، تمام پیشنهادات شما در آنجا پست می‌شود.
 
-- To leave a community and post offers again in the [general channel](https://t.me/p2plightning), you should type:
-`/setcomm off`
+- برای ترک یک کامیونیتی و ارسال مجدد پیشنهادات در [کانال عمومی](https://t.me/p2plightning)، باید تایپ کنید:
+`setcomm off/`
 
-- If you want to post an offer in multiple communities simultaneously, you need to create it in each one separately: first, post it in one, then configure another as default and post there as well, and so on for all the communities you want it in.
+- اگر می‌خواهید پیشنهادی را در چندین کامیونیتی به طور همزمان پست کنید، باید آن را در هر یک به طور جداگانه ایجاد کنید: ابتدا آن را در یکی پست کنید، سپس کامیونیتی دیگری را به عنوان پیش‌فرض انتخاب کنید و در آنجا نیز پست کنید، و به همین ترتیب برای همه کامیونیتی‌هایی که می‌خواهید سفارش را در آن ارسال کنید.
 
-Another way is to type your order as a command within the chat of a community where the bot is an administrator, as it will recognize it and post the offer in that community without you needing to set it as default.
+راه دیگر این است که سفارش خود را به عنوان یک دستور در چت کامیونیتی که ربات در آن مدیر است تایپ کنید، به این صورت ربات آن را تشخیص داده و بدون نیاز به تنظیم آن به عنوان پیش فرض، سفارش را در آن انجمن ارسال می‌کند.
 
-- You can take offers from as many communities as you want without having to configure any of them as default.
+-می‌توانید از هر تعداد کامیونیتی که می‌خواهید پیشنهاد دریافت کنید، بدون اینکه نیازی به پیکربندی هیچ یک از آنها به عنوان پیش‌فرض باشد.
+</div>
