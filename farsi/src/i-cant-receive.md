@@ -1,16 +1,16 @@
-# The seller released, but I haven't received the Sats in my wallet
-## Possible Causes
-Sometimes, the bot cannot find successful routes to make the payment for various reasons. It could be due to a poor connection between the origin and destination, or it can be more complicated, such as nodes connected to the destination charging very high fees.
+# فروشنده ساتوشی‌ها را آزاد کرده اما من در کیف‌پولم دریافت نکردم!
+## حالت‌های احتمالی
+گاهی اوقات، ربات به دلایل مختلف نمی تواند مسیرهای موفقی برای پرداخت پیدا کند. این می‌تواند به دلیل ارتباط ضعیف بین مبدا و مقصد باشد(مسیریابی)، یا می‌تواند پیچیده‌تر باشد، مانند گره‌های(node) متصل به مقصد که هزینه‌های بسیار بالایی را دریافت می‌کنند.
 
-The [@lnp2pBot](https://t.me/lnp2pBot) node is willing to pay up to 0.2% of the total transaction amount in routing fees. If this fee is higher, the bot simply won't make the payment. Some non-native Lightning wallets might charge more than 0.2% when the mempool is congested, and the bot won't be able to pay them (more information on wallets [here](./recommended-wallets.md)).
+گره [@lnp2pBot](https://t.me/lnp2pBot) مجاز به پرداخت حداکثر 0.2٪ از کل مبلغ تراکنش، بابت هزینه‌های مسیریابی است. اگر این هزینه بیشتر باشد، ربات خیلی راحت پرداخت را انجام نمی‌دهد. برخی از کیف‌پول‌های لایتنینگ غیربومی ممکن است زمانی که ممپول شلوغ است بیش از 0.2 درصد درخواست کنند و ربات قادر به پرداخت آنها نباشد (اطلاعات بیشتر در مورد کیف‌پول‌ها [اینجا](./recommended-wallets.md)).
 
-Another scenario could be that you lack 'inbound capacity.' For instance, if you're using the Blixt wallet and have just opened a channel, all the funds in that wallet would be outbound, and you wouldn't have the capacity to receive. In this case, all payments to that wallet will fail. Modern wallets like Phoenix wallet address this by indicating the lack of inbound capacity and proposing channel modifications ([splice in](https://bitcoinops.org/en/topics/splicing/)) to ensure the new received payment is on the user's side (more inbound capacity). This wallet charges a fee for this service.
+سناریوی دیگر می تواند این باشد که شما فاقد "ظرفیت ورودی(inbound capacity)" هستید. به عنوان مثال، اگر از کیف‌پول [Blixt](https://blixtwallet.github.io/) استفاده می‌کنید و اخیرا داخلش کانالی باز کرده‌اید، تمام وجوه موجود در آن کیف‌پول در سمت خروجی(outbound) خواهد بود و شما ظرفیت دریافت ندارید. در این صورت تمام پرداخت‌ها به آن کیف پول با شکست مواجه می‌شود. کیف‌پول های مدرن مانند [Phoenix](https://phoenix.acinq.co/) با نشان دادن کمبود ظرفیت ورودی و پیشنهاد اصلاحات کانال ([splice in](https://bitcoinops.org/en/topics/splicing/))، برای اطمینان از اینکه کاربر نسبت به هزینه پرداخت دریافتی جدید مطلع است، این موضوع را برطرف می‌کند.(هزینه‌های جانبی افزایش ظرفیت ورودی در این کیف‌پول به عهده شخص است و استفاده از آن برای کاربر تازه‌کار توصیه نمی‌شود)
+## راه حل
+هنگامی که پرداخت با شکست مواجه می‌شود، ربات سعی می‌کند دو بار دیگر با فواصل زمانی 5 دقیقه‌ای پرداخت را انجام دهد. اگر باز هم با شکست مواجه شد، از شما می‌خواهد که برای ادامه تراکنش، فاکتور جدیدی ارائه دهید. توصیه می‌شود برای ساختن فاکتور جدید از [کیف پول](./recommended-wallets.md) دیگری استفاده کنید.
 
-## Solution
-When a payment fails, the bot will attempt to make the payment two more times with 5-minute intervals. If it continues to fail, the bot will ask you to provide a new invoice to continue trying. It's advisable to generate this invoice from another [wallet](./recommended-wallets.md).
+اگر فاکتور را تا 20 دقیقه پس از درخواست ربات وارد نکنید، آن پیغام لغو می‌شود و دیگر آن را دوباره درخواست نمی‌کند. در این صورت، باید آن را با استفاده از دستور وارد کنید:
+`<setinvoice <order id> <lightning invoice/` 
 
-If you don't input the invoice within 20 minutes after the bot requests it, that assistant will be canceled, and it won't request it again later. In that case, you should input it using the command:
-`/setinvoice <order id> <lightning invoice>` 
-(Do not include the symbols <>, separate each part with a space, and do not reuse invoices).
+(کاراکترهای <> را وارد نکنید، هر قسمت را با فاصله از هم جدا کنید و از فاکتورهای قبلا ارسال شده استفاده نکنید).
 
-If you've tried several times and still haven't received the Sats, stay calm. It's no longer possible to cancel the transaction or return the Sats to the seller. Instead, they are in the bot's node, and you can continue trying with new invoices as many times as necessary until you receive them.
+اگر چندین بار امتحان کرده‌اید و هنوز ساتوشی‌ها را دریافت نکرده‌اید، آرام و صبور باشید. دیگر امکان لغو معامله یا بازگرداندن ساتوشی‌ها به فروشنده وجود ندارد. در عوض آنها در گره ربات هستند، و می‌توانید تا زمانی که فاکتوهای جدید را دریافت کنید، به تلاش خود ادامه دهید.
