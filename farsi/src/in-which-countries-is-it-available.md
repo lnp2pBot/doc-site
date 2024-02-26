@@ -1,6 +1,6 @@
-# In which countries and languages is it available?
+# ربات در کدام کشورها و زبان ها کار می‌کند؟
 
-As a P2P exchange on Telegram, technically, it's available for anyone using this app. However, currently, the bot interacts with a list of 94 fiat currencies with which you can create `buy/sell` orders using the `Market Price` button on the assistant.
+به عنوان یک تبادل P2P در تلگرام، از نظر فنی، برای هر کسی که از این برنامه استفاده می کند در دسترس است. با این حال، در حال حاضر، این ربات با لیستی از 95 ارز فیات تعامل دارد که با آن می‌توانید سفارش‌های `buy/sell` را با استفاده از گزینه `Market Price` هنگام ثبت سفارش ایجاد کنید.
 
 Here's the list. To view it within [@lnp2pBot](https://t.me/lnp2pbot), type `/listcurrencies`.
 
@@ -47,6 +47,7 @@ Here's the list. To view it within [@lnp2pBot](https://t.me/lnp2pbot), type `/li
 | IDR  | Indonesian Rupiah           | 🇮🇩  |
 | ILS  | Israeli New Sheqel          | 🇮🇱  |
 | INR  | Indian Rupee                | 🇮🇳  |
+| IRT  | Iranian Toman               | IR  |
 | JMD  | Jamaican Dollar             | 🇯🇲  |
 | JPY  | Japanese Yen                | 🇯🇵  |
 | JOD  | Jordanian Dinar             | 🇯🇴  |
@@ -98,8 +99,8 @@ Here's the list. To view it within [@lnp2pBot](https://t.me/lnp2pbot), type `/li
 | XOF  | CFA Franc BCEAO             | 🇹🇩 🇧🇫 🇨🇮 🇬🇼 🇲🇱 🇳🇪 🇸🇳 🇹🇬 |
 | ZAR  | South African Rand          | 🇿🇦  |
 
-For now, [**@lnp2pBot**](https://t.me/lnp2pbot) is fully available in English, Spanish, Portuguese, French, Italian, German, Russian, and Ukrainian.
+در حال حاضر، [**@lnp2pBot**](https://t.me/lnp2pbot) به طور کامل به زبان های انگلیسی، اسپانیایی، پرتغالی، فرانسوی، ایتالیایی، آلمانی، روسی، اوکراینی و ایرانی در دسترس است.
 
-To change the assistant's language, use the `/setlang` command.
+برای تغییر زبان دستیار، از دستور `setlang/` استفاده کنید.
 
-If you'd like to help translate **lnp2pBot** into your language, you can propose your collaboration. [This is a good starting point.](https://github.com/lnp2pBot/bot/blob/main/CONTRIBUTING.md)
+اگر می‌خواهید به ترجمه **lnp2pBot** به زبان خود، کمک کنید، می‌توانید درخواست همکاری بدهید. [این یک نقطه شروع خوب است.](https://github.com/lnp2pBot/bot/blob/main/CONTRIBUTING.md)
