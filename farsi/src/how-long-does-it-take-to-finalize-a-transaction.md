@@ -1,7 +1,10 @@
-# How long does it take to complete a transaction?
+# چه مدت طول می‌کشد تا یک تراکنش کامل شود؟
 
-It depends on several factors. Being a P2P exchange, the primary variable is the acceptance of your offer by a counterpart. Your listing will be available for up to 23 hours and will automatically be removed if nobody takes it.
+این به عوامل متعددی بستگی دارد. به عنوان یک پلتفرم P2P، متغیر اصلی پذیرش پیشنهاد شما توسط طرف مقابل است. سفارش شما تا 23 ساعت در معرض دید عموم خواهد بود و اگر کسی در این مدت آن را نگیرد به طور خودکار حذف خواهد شد.
 
-Once an offer is accepted, there's a 15-minute window to pay the lightning invoice and for the bot to connect both parties. From this point, there's a maximum of 23 hours to finalize the transaction. After this time, the order expires, and the satoshis will be returned to the originating wallet. That's why users should use only instant fiat money payment methods for their transactions.
+پس از پذیرفته شدن پیشنهاد، یک فرصت 15 دقیقه‌ای برای پرداخت فاکتور لایتنینگی و لینک کردن همتایان بهم توسط ربات، وجود دارد. از آن لحظه به بعد، حداکثر 23 ساعت برای نهایی کردن تراکنش وجود دارد. پس از گذشت این مدت، سفارش منقضی شده و ساتوشی‌ها به کیف پول اصلی بازگردانده می‌شوند. به همین دلیل است که کاربران باید **فقط از روش‌های پرداخت فوری پول فیات** برای تراکنش‌های خود استفاده کنند.
 
-When both participants are online and agree on immediate payment methods, transactions are nearly instantaneous.
+وقتی هر دو طرف آنلاین هستند و روی روش‌های پرداخت فوری توافق می‌کنند، تراکنش‌ها تقریباً آنی هستند.
+
+**نکته: پس از ثبت برداشتن یک سفارش یا برداشته شدن سفارشتان به طور مداوم آنلاین بوده و تلگرام خود را چک کنید.** برای راحتی میتوانید با باز کردن ربات از منو سه نقطه بالا سمت راست وارد سربرگ `Mute` و سپس بخش `Customize` شده و در قسمت `Sound` یک صدای متفاوت برای نوتیفیکیشن های ربات انتخاب کنید یا با انتخاب `Vibrate` حالت `Long` را انتخاب کنید. و 'Popup notification` را روی `Enable` قرار دهید.
+پیشنهاد میشود برای گم نشدن و از دست ندادن پیام‌های گروه، کانال و ربات هر سه را داخل یک پوشه مجزا در تلگرامتان قرار دهید.(فولدرسازی در تلگرام را گوگل کنید)
