@@ -1,13 +1,12 @@
-# How do I search for and accept a buying or selling offer?
+# چگونه سفارشات خرید/فروش را پیدا و قبول کنم؟
 
-If you've never used [@lnp2pbot](https://t.me/lnp2pbot) before, you need to open it and type `/start` before taking any offers.
+اگر تا به حال از [@lnp2pbot](https://t.me/lnp2pbot) استفاده نکرده‌اید، لازم است ابتدا آن را داخل تلگرام خود باز کرده و قبل از هر پیشنهادی دستور `start/` را تایپ کنید.
 
-You'll find all active offers on the bot at [https://market.lnp2pbot.com](https://market.lnp2pbot.com), including yours. There, you can filter by fiat and communities.
+همه سفارشات فعال از جمله سفارشات شما در ربات را در سایت [https://market.lnp2pbot.com](https://market.lnp2pbot.com)، پیدا خواهید کرد. آنجا میتوانید سفارشات را بر اساس نوع ارز فیات و کامیونیتی‌ها فیلتر کنید.
 
-In the Telegram channel [@p2plightning](https://t.me/p2plightning), you'll find offers that haven't been published in any community.
+در کانال تلگرام [@p2plightning](https://t.me/p2plightning)، سفارشاتی را خواهید دید که در هیچ کامیونیتی منتشر نشده است.(کاربری که آن را ثبت کرده عضو هیچ کامیونیتی نبوده)
 
-To find offers published in communities, type the command `/findcomms <fiat code>` within the bot. For more information, read [here](./where-i-can-find-offers-for-my-local-currency.md).
+برای یافتن سفارشات منتشر شده در کامیونیتی‌ها، دستور `<findcomms <fiat code/` را در ربات تایپ کنید. برای اطلاعات بیشتر، [این قسمت](./where-i-can-find-offers-for-my-local-currency.md) را بخوانید.
 
-Review all the previous options until you find an order that suits your search, then click the `Buy satoshis` or `Sell satoshis` button, as appropriate. Next, go to the chat with [@lnp2pbot](https://t.me/lnp2pbot) to follow its instructions. If you find the offer from [https://market.lnp2pbot.com](https://market.lnp2pbot.com), it will redirect you to the channel where it's published so you can take it.
-
-- Another way to take an offer is to use the command `/takeorder <order id>`. For example, if you organize a Sat exchange with someone via [@lnp2pbot](https://t.me/lnp2pbot), your counterpart can create the order and send you its ID. You can then directly take it from within the bot using the mentioned command, avoiding the need to go to the offers channel where it was published.
+همه گزینه‌های قبلی را مرور کنید تا زمانی که سفارشی را پیدا کنید که مناسب شما باشد، سپس بر روی دکمه `خرید ساتوشی(Buy satoshis)` یا `فروش ساتوشی(Sell satoshis)` کلیک کنید. سپس، به چت خصوصی با [@lnp2pbot](https://t.me/lnp2pbot) بروید تا دستورالعمل‌های آن را دنبال کنید. اگر پیشنهاد را از [https://market.lnp2pbot.com](https://market.lnp2pbot.com) پیدا کرده‌اید، شما را به کانالی که سفارش در آن منتشر شده هدایت می‌کند تا بتوانید آن را قبول کیند.
+- روش دیگر برای دریافت سفارش استفاده از دستور `<takeorder <order id/` است. به عنوان مثال، اگر از طریق [@lnp2pbot](https://t.me/lnp2pbot) یک مبادله خصوصی بیتکوینی را انجام می‌دهید، همتای شما می‌تواند سفارش را ایجاد کرده و شناسه آن را برای شما ارسال کند. سپس می توانید با استفاده از دستور ذکر شده در بالا مستقیماً آن را از داخل ربات قبول کنید و در این صورت دیگر نیازی به جستجو در سایت یا کانال سفارشات ندارید.
