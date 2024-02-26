@@ -1,6 +1,6 @@
-# Incentives
+# مشوق ها
 
-Since its inception, [@lnp2pbot](https://t.me/lnp2pbot) has charged a fee to the seller for a successfully completed order, which is currently set at 0.6%. When the order is created within a community, the bot splits this fee: a portion goes to the bot, and the rest becomes the community's profit.
+ از زمان آغاز به کار [@lnp2pbot](https://t.me/lnp2pbot) برای هر سفارشی که با موفقیت انجام شده است، هزینه‌ای از فروشنده دریافت کرده که در حال حاضر 0.6٪ تعیین شده است. هنگامی که سفارش در یک جامعه ایجاد می شود، ربات این هزینه را تقسیم می‌کند: بخشی به ربات می‌رسد و بقیه به سود جامعه می‌شود.
 
 The proportions are: 67% of the commission goes to the bot, and the remaining 33% goes to the community.
 
