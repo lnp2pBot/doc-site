@@ -1,14 +1,13 @@
-# How does the user reputation system work?
+# سیستم امتیازسنجی کاربر چگونه کار می‌کند؟
 
-For every transaction you conduct, you'll be asked to rate your counterpart, and they'll rate you in return. [**lnp2pBot**](https://t.me/lnp2pBot) uses a 5-star rating system that allows you to evaluate your experience, where 1 star is the lowest rating and 5 stars are the highest.
+برای هر تراکنشی که انجام می‌دهید، از شما خواسته می‌شود به همتای خود امتیاز دهید، و آنها نیز به شما امتیاز می‌دهند. [**lnp2pBot**](https://t.me/lnp2pBot) از یک سیستم رتبه‌بندی 5 ستاره استفاده می‌کند که به شما امکان می‌دهد تجربه خود را ارزیابی کنید، در اینجا 1 ستاره کمترین امتیاز و 5 ستاره بالاترین است.
+برای تعیین شهرت(اعتبار)، ربات یک محاسبه تکراری بر حسب میانگین و انحراف معیار استاندارد رتبه‌بندی‌ها و عملیات‌های موفق انجام می‌دهد. از این رو، در معاملات اولیه، حتی اگر با حداکثر امتیاز را گرفته باشید، شهرت شما به سرعت بالا نخواهد رفت. با انجام سفارشات موفق بیشتر با امتیاز خوب، شهرتتان به تدریج افزایش می‌یابد.
 
-To determine reputation, the bot conducts an iterative calculation of the mean and standard deviation of the ratings and successful operations. Hence, in the initial transactions, even if you've been rated with the maximum, your reputation won't be high initially. It gradually increases as you conduct more operations with good ratings.
+می توانید روش این محاسبه را در آدرس زیر مشاهده کنید: [https://github.com/lnp2pBot/bot/blob/main/bot/commands.js#L279](https://github.com/lnp2pBot/bot/blob/main/bot/commands.js#L279)
 
-You can see this calculation at: [https://github.com/lnp2pBot/bot/blob/main/bot/commands.js#L279](https://github.com/lnp2pBot/bot/blob/main/bot/commands.js#L279)
-
-It's based on:
+این بر اساس لینک زیر است:
 [https://math.stackexchange.com/questions/2148877/iterative-calculation-of-mean-and-standard-deviation](https://math.stackexchange.com/questions/2148877/iterative-calculation-of-mean-and-standard-deviation)
 
-When you create an offer, it will include by default the number of successful operations you've conducted, the ratings received from your counterparts, and the number of operations performed. We recommend considering all these aspects when accepting an offer to avoid scams.
+وقتی سفارشی ثبت می‌کنید، به‌طور پیش‌فرض تعداد عملیات‌های موفقی که انجام داده‌اید، امتیازات دریافت‌شده از همتایان پیشین‌تان و تعداد عملیات‌های انجام‌شده را شامل می‌شود. برای جلوگیری از کلاهبرداری، توصیه می‌کنیم هنگام پذیرش سفارش نیز تمام این جنبه‌ها را در نظر بگیرید و با کاربران خوش شهرت‌تر وارد معامله شوید.
 
 ![Reputation System](./assets/images/reputation-system.jpg)
