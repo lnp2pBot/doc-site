@@ -1,7 +1,5 @@
-# How do I know if the seller actually released the sats?
+# چگونه می‌توانم بفهمم که فروشنده واقعاً ساتوشی‌ها را آزاد کرده؟
+زمانی که lnp2pBot@ به شما بگوید که فروشنده ساتوشی‌ها را آزاد کرده است، آنگاه میتوانید اعتماد کنید. اما برای اطمینان می‌توانید این کار را به صورت زیر انجام دهید:
 
-If @lnp2pBot tells you that the vendor released, it really is, but if you want to verify it you can do it as follows:
-
-Write to the bot `/listorders` and if the bot is still in the process of paying your invoice the status you will see will be `PAID_HOLD_INVOICE`, if the bot has already paid the invoice the order will not appear on the list.
-
-When an order has status `PAID_HOLD_INVOICE`, the seller no longer has any responsibility because he/she has released the sats, if you have problems receiving go to the section [The seller released but I don't get the sats in my wallet](./i-cant-receive.md).
+داخل ربات دستور `listorders/` را بنویسید. اگر ربات هنوز در حال پرداخت فاکتور شما باشد، وضعیتی که مشاهده خواهید کرد `PAID_HOLD_INVOICE` خواهد بود، اما اگر ربات قبلاً فاکتور را پرداخت کرده باشد، سفارش در لیست ظاهر نخواهد شد.
+هنگامی که یک سفارش دارای وضعیت `PAID_HOLD_INVOICE` است، فروشنده دیگر هیچ مسئولیتی ندارد زیرا او ساتوشی‌ها را آزاد کرده است، اگر در دریافت مشکل دارید به بخش [فروشنده ساتوشی‌ها را آزاد کرده اما من در کیف پولم دریافت نکردم](./i-cant-receive.md) بروید.
