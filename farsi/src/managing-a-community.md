@@ -1,15 +1,14 @@
-# Managing a Community
+# مدیریت یک کامیونیتی
 
-Once the community has been created, it is necessary to start the administration work.
+پس از ایجاد جامعه، لازم است کار مدیریت آغاز شود.
 
-The first thing is to designate at least one person to resolve disputes that arise. [That person is the solvers](what-is-a-solver.md).
+اولین چیز این است که حداقل یک نفر را برای حل و فصل اختلافات تعیین کنید. [حل‌کننده(داور) کیست؟](what-is-a-solver.md)
 
-Then, establish the channels in which purchases and sales will be made. At first, a single channel will suffice for both, but as the community grows it may be necessary to establish a channel for each.
+سپس کانال های تلگرامی را ایجاد کنید که در آن خرید و فروش انجام می‌شود. برای شروع، یک کانال واحد برای هر دو نوع سفارش کافی است، اما با رشد جامعه ممکن است لازم باشد برای هر یک کانالی مجزا ایجاد شود.
 
-Another of the tasks of the administrator is to decide the rate that the community will charge. [Here you have the explanation of how the rates work](incentives.md).
+یکی دیگر از وظایف مدیر تصمیم گیری در مورد نرخی است که جامعه دریافت می‌کند. [اینجا توضیحی در مورد نحوه عملکرد نرخ‌ها داده شده](incentives.md).
 
-The administrator can modify any field of the community whenever he wants.
+نکته: مدیر می‌تواند هر قسمت از انجمن را هر زمان که بخواهد تغییر دهد.
 
-**IMPORTANT**: To execute the community administration commands, the community with which you want to work must be selected by default.
-To do this, use the 'Use by default' button that is displayed after executing `/findcomms`, you can also do it with the command `/setcomm` @tobemanagedgroup.
-A telegram group gets its @group by going public.
+**مهم**: برای اجرای دستورات مدیریت جامعه، انجمنی که می خواهید با آن کار کنید باید به طور پیش فرض انتخاب شود.برای انجام این کار، از دکمه «استفاده به صورت پیش‌فرض» که پس از اجرای `findcomms/` نمایش داده می‌شود، استفاده کنید، همچنین می‌توانید با دستور `setcomm @tobemanagedgroup/` این کار را انجام دهید.(قاعدتا آیدی گروه خود را پس از @ می‌بایست وارد کنید)
+یک گروه تلگرام با عمومی شدن گروه آیدی @ دار خود را دریافت می‌کند.
