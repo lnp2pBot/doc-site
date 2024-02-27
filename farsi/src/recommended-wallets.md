@@ -1,14 +1,14 @@
-# Recommended Wallets
+# کیف‌پول‌های پیشنهادی
 
-The following wallets have shown better performance when used with [@lnp2pBot](https://t.me/lnp2pBot):
+کیف‌پول‌های زیر عملکرد بهتری را هنگام استفاده از خود نشان می دهند [@lnp2pBot](https://t.me/lnp2pBot):
 
 - [Breez Wallet](https://breez.technology/)
 - [Blixt Wallet](https://blixtwallet.github.io/)
-- [Phoenix Wallet](https://phoenix.acinq.co/)
+- [Phoenix Wallet](https://phoenix.acinq.co/)     (در نسخه جدید فی انتقال زیادی کسر می‌کند)
 - [@LightningTipBot](https://t.me/LightningTipBot)
 
-#### Notes on other wallets
-With `Wallet of Satoshi`, or any other custodial service, it might occur that if you're selling Sats and the order is canceled, your wallet balance might take a while to update, and the Sats might not appear available for some hours, even if they're in the wallet's node. This delay happens because custodial wallets update their users' balances periodically, so you'll have to wait for a few hours.
+#### مواردی در خصوص کیف‌پول‌های دیگر
+با کیف‌پول [Wallet of Satoshi](https://www.walletofsatoshi.com/) یا هر سرویس حضانتی دیگری ممکن است این اتفاق بیفتد که اگر ساتوشی را فروختید و سفارش لغو شد، موجودی کیف شما مدتی طول بکشد تا به‌روزرسانی شود. و ساتوشی‌ها ممکن است برای چند ساعت در دسترس نباشد. حتی اگر به گره کیف‌پول بازگشته باشند. این تاخیر به این دلیل اتفاق می‌افتد که کیف‌پول‌های حضانتی به‌صورت دوره‌ای موجودی کاربران خود را به‌روزرسانی می‌کنند، بنابراین باید چند ساعت صبر کنید.(اگر اتفاقی رخ نداد به ایمیل پشتیبانی کیف‌پول پیام دهید)
+معمولاً پرداخت‌ها از [@lnp2pBot](https://t.me/lnp2pBot) به کیف‌پول `Muun` با شکست مواجه می‌شوند. زیرا ربات تنها می‌تواند حداکثر تا 0.2 درصد، هزینه مسیریابی بپردازد. از این رو، زمانی که `Muun` هزینه‌های بالاتری را دریافت می‌کند، ممکن است هزینه فاکتور را پوشش ندهد. در چنین مواردی باید یک فاکتور جدید از کیف‌پول دیگری ایجاد کنید (برای اطلاعات بیشتر [اینجا](./i-cant-receive.md) را بخوانید).
 
-It's common for payments from [@lnp2pBot](https://t.me/lnp2pBot) to `Muun wallet` to fail because the bot can only pay a maximum routing fee of up to 0.2%. Hence, it might not cover the invoice when Muun charges fees higher than that. In such cases, you'll need to generate a new invoice from another wallet (More info [here](./i-cant-receive.md)). 
-It's also possible that if you're selling Sats from Muun wallet and the order is canceled, a fee will still be charged because Muun wallet isn't a native LN wallet; it's an on-chain wallet that operates through submarine swaps. For any transaction, you'll have to pay the mining fee, even if the bot's hold invoice was canceled.
+همچنین ممکن است اگر ساتوشی را از کیف پول Muun فروختید و سفارش لغو شد، چنین اتفاقی رخ دهد زیرا کیف‌پول Muun یک کیف پول لایتنینگی نیست. بلکه یک کیف‌پول آنچین(زنجیره اصلی بیتکوین) است که از طریق submarine swaps عمل می‌کند. برای هر تراکنش باید فی ماینینگ را بپردازید، حتی اگر فاکتور نگهداری ربات لغو شده باشد.
