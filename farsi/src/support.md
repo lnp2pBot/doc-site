@@ -1,9 +1,8 @@
-# Support
+# پشتیبانی
 
-[@lnp2pbot](https://t.me/lnp2pbot) isn't a company, so it doesn't have a technical support department. However, there's a community you can turn to if you need assistance.
+ربات [@lnp2pbot](https://t.me/lnp2pbot) یک شرکت نیست، بنابراین بخش پشتیبانی فنی ندارد. با این حال، انجمنی وجود دارد که در صورت نیاز به کمک می‌توانید به آن مراجعه کنید.
+گروه‌های اصلی تلگرام که می‌توانید از آنها کمک بخواهید عبارتند از:
+- گروه اسپانیایی: [https://t.me/lnp2pbotHelp](https://t.me/lnp2pbotHelp)
+- گروه انگلیسی: [https://t.me/LNp2pBotHelpEn](https://t.me/LNp2pBotHelpEn)
 
-The main Telegram groups where you can ask for help are:
-- Spanish Group: [https://t.me/lnp2pbotHelp](https://t.me/lnp2pbotHelp)
-- English Group: [https://t.me/LNp2pBotHelpEn](https://t.me/LNp2pBotHelpEn)
-
-Additionally, you can ask questions and request help in the [community](./community-find.md) of the bot you're using and stay in direct contact with the administrator and the solver(s) of that community.
+علاوه بر این، می‌توانید در گروه تلگرامی [community](./community-find.md) رباتی که از آن استفاده می‌کنید سؤال پرسیده، درخواست کمک کنید و مستقیماً با سرپرست و حل‌کننده‌های آن کامیونیتی در تماس باشید.
