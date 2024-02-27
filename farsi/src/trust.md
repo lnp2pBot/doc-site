@@ -1,3 +1,3 @@
-# Trust
+# اعتماد
 
-The model we have chosen to resolve disputes is that of trust. This seems paradoxical for those who work with Bitcoin and advocate of "trustless" systems. The truth is that the goal is to develop systems in which we do not have to trust anyone. But after thinking a lot about dispute resolution systems, we had to accept that you always have to trust someone to some extent.
+مدلی که ما برای حل اختلافات انتخاب کرده‌ایم، مدل اعتماد است. این ممکن است برای کسانی که با بیتکوین کار کرده و از سیستم‌های "بی اعتماد"(trustless) دفاع می‌کنند، متناقض به نظر رسد. حقیقت این است که هدف توسعه سیستم‌هایی است که در آن نیازی نیست به کسی اعتماد کنیم. اما پس از فکر کردن زیاد در مورد سیستم‌های حل اختلاف، مجبور شدیم بپذیریم که همیشه باید تا حدی به یک نفر اعتماد کنید.
