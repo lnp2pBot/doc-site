@@ -1,9 +1,9 @@
-# Resolving disputes
+# حل‌و‌فصل اختلافات
 
-When a user initiates a dispute, a message is sent by the bot to the dispute channel. Only **solvers** can take it by tapping the **Take dispute** button. Before taking a dispute, the solver must be sure that he/she have the community setted up, to set up the community, the solver must run the command `/setcomm @community-group`.
+هنگامی که یک کاربر اختلافی را آغاز می‌کند، یک پیام توسط ربات به کانال اختلافات ارسال می‌شود. فقط **حل کننده‌ها** می توانند با ضربه زدن روی دکمه **گرفتن اختلاف** آن را دریافت کنند. قبل از شروع حل‌و‌فصل یک اختلاف، حل‌کننده باید مطمئن شود که کامیونیتی را برگزیند کرده است، برای برگزیدن کامیونیتی، حل کننده باید دستور `setcomm @communitygroup/` را اجرا کند.
 
 ![Dispute Capture](./assets/images/dispute.jpg)
 
-Once the solver takes the dispute, the bot will send them all the necessary information to resolve it. The solver will also have to communicate with each party, understand what happened, and **complete** the order or **cancel it**.
+هنگامی که حل‌کننده اختلاف را دریافت کرد، ربات تمام اطلاعات لازم برای حل آن را برایش ارسال می‌کند. حل کننده همچنین باید با هر یک از طرفین ارتباط برقرار کند تا بفهمد چه اتفاقی افتاده است، سپس تصمیم به **تکمیل** یا **کنسل کردن** سفارش را بگیرد.
 
 ![Dispute details capture](./assets/images/dispute-detail.jpg)
