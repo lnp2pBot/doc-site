@@ -1,3 +1,3 @@
-# Modifying a community
+# مدیریت یک کامیونیتی
 
-To modify any field, we simply execute the `/mycomms` command and the bot will show you a menu that will help you select the community you want to modify and the specific field.
+برای اصلاح هر فیلدی، ما به سادگی دستور `mycomms/` را اجرا می‌کنیم و ربات منویی را به شما نشان می‌دهد که به شما کمک می‌کند کامیونیتی را که می‌خواهید تغییر دهید و فیلد خاص را انتخاب کنید.
