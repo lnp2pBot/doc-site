@@ -1,6 +1,6 @@
-# Removing disputes
+# رفع اختلافات
 
-Every time a user initiates a dispute, both he and his counterpart are involved in it. Until it is resolved, both remain related, when resolved, the solver has the power to eliminate this dispute from one of the users or both, if he needs it, with the command
+هر بار که کاربر اختلافی را آغاز می‌کند، هم خودش و هم طرف مقابلش درگیر آن هستند. و تا زمانی که حل نشود، هر دو وابسته به ربات باقی می‌مانند. در صورت حل شدن، حل‌کننده(داور) این قدرت را دارد که این اختلاف را از یکی از کاربران یا هر دو(در صورت نیاز)، با تایپ دستور زیر حذف کند.
 `/deldispute username order-id`.
 
 ![Deleting a Capture dispute](./assets/images/deldispute.png)
