@@ -1,11 +1,9 @@
-# What type of information do you collect from each user?
+# چه نوع اطلاعاتی از هر کاربر جمع آوری می‌کنید؟
 
-For the purposes of the user reputation system, lnp2pBot collects some statistics on your trades. Specifically, the number of completed transactions, the total volume traded, the counterparty rating and the record of disputes if any. Of this information, only the number of transactions and the counterparty rating are public by default. Meanwhile, showing the total volume traded and your username is optional (you choose to show it or not, by default it is not shown).
-
-In case you want to show your username and/or volume traded to accompany your reputation in the offers you publish, you must do it manually through the following commands:
-
+برای تعیین سیستم شهرت سنجی(اعتبار) کاربر، ربات lnp2pBot برخی از آمار معاملات شما را جمع‌آوری می‌کند. این اطلاعات عبارتند از: تعداد معاملات تکمیل شده، حجم کل معاملات کاربر، امتیاز ثبت شده توسط همتایان و سابقه اختلافات(در صورت وجود). از این اطلاعات، تنها تعداد معاملات و امتیاز ثبت شده توسط همتایان به طور پیش فرض قابل روئیت برای عموم است. در حالی که، نمایش حجم کل معاملات و نام کاربری شما اختیاری است. یعنی شما انتخاب می‌کنید که این اطلاعات در کانال سفارشات نشان داده شود یا نه(به طور پیش فرض نشان داده نمی‌شود).
+در صورتی که می خواهید نام کاربری و یا حجم معاملات‌تان برای افزودن به شهرت شما در کانال سفارشات منتشر شود، باید این کار را به صورت دستی از طریق وارد کردن دستورات زیر در چت شخصی ربات انجام دهید:
 `/showusername` yes
 
 `/showvolume` yes
 
-Each command is sent as a direct message to the bot.
+هر دستور به عنوان یک پیام مستقیم به ربات ارسال می‌شود.
