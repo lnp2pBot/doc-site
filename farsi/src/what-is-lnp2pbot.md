@@ -1,4 +1,4 @@
-# What is @lnp2pBot?
+# ربات lnp2pBot@ چیست؟
 
-**Lnp2pBot** is a bitcoin exchange system for local currency, enabling easy and secure person-to-person transactions using Lightning Network. It is a Telegram bot that can be used pseudonymously, without user registration or identity verification. This tool only holds satoshis (the smallest unit of bitcoin) for the minimum necessary time, providing greater security to users compared to exchange services with internal wallets and complete custody of funds. **Lnp2pBot** is an open-source application, allowing for auditing, replication, modification, and redistribution with freedom.
-[**Go to @lnp2pBot**](https://t.me/lnp2pbot)
+ربات تلگرامی **Lnp2pBot** یک سیستم مبادله بیتکوین در برابر ارز کشورهای مختلف است که با استفاده از شبکه لایتنینگ امکان تراکنش‌های شخص به شخص آسان و ایمن را فراهم می‌کند(بدون نیاز به صرافی های متمرکز دولتی). از این ربات می‌توان با نام مستعار، بدون ثبت نام کاربر یا احراز هویت استفاده کرد. این ابزار فقط ساتوشی (کوچکترین واحد بیت کوین) را برای حداقل زمان لازم نگه می دارد و در مقایسه با خدمات صرافی با کیف پول داخلی که کلیه وجوه را به شکل حضانتی نگهداری می‌کنند، امنیت و حریم خصوصی به نسبت بیشتری را برای کاربران فراهم می‌کند(مثل صرافی‌های داخلی آمار معاملات کاربران در اختیار دولت نیست). **Lnp2pBot** یک برنامه منبع باز(open-source) است که امکان ممیزی، تکرار، اصلاح و توزیع مجدد را با آزادی و دسترسی کامل به عموم فراهم می‌کند.
+[**به @lnp2pBot**](https://t.me/lnp2pbot) بروید
