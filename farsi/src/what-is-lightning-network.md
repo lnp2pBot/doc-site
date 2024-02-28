@@ -1,4 +1,9 @@
-# What is Lightning Network?
+# شبکه لایتنینگ چیست؟
 
-[Lighting Network](https://youtu.be/XCSfoiD8wUA) is a network of payment channels that works as a second layer protocol on the Bitcoin network, taking advantage of the property of writing smart contracts on its blockchain. It is a scalability solution that allows exponentially increasing the number of transactions and their speed by not needing on-chain confirmations, while drastically reducing network fees. Payments become instant and cost almost nothing.
+به طور خلاصه [Lighting Network](https://youtu.be/XCSfoiD8wUA) شبکه‌ای از کانال های پرداخت است که به عنوان پروتکل لایه دوم در شبکه بیت کوین کار می‌کند و از ویژگی نوشتن قراردادهای هوشمند بر روی بلاکچین خود بهره می برد. این یک راه‌حل مقیاس‌پذیر است که امکان افزایش تصاعدی تعداد تراکنش‌ها و سرعت آنها را بدون نیاز به تأییدهای زنجیره ای فراهم می‌کند، در حالی که کارمزهای شبکه را به شدت کاهش می‌دهد. پرداخت ها فوری می شوند و هزینه نزدیک به صفر دارند.
 
+منابع فارسی جهت آشنایی با شبکه لایتنینگ:
+ - [راهنمای مقدماتی لایتنینگ در سایت منابع فارسی بیتکوین](https://bitcoind.me/blobs/tuts/lightning-network-chist-bitcoind_me.pdf)
+ - [پلی لیست آموزش لایتنینگ در یوتیوب ضیا صدر](https://www.youtube.com/playlist?list=PLYc8rgTV8DzDhqFxb4PWG3bDADYUlGtWb)
+ - [گروه تلگرامی پرسش و پاسخ persianlightning@](https://t.me/persianlightning)
+ - [ویس لایتنینگ به زبان ساده کانال تلگرام stupi_drisks@](https://t.me/stupid_risks/61)
