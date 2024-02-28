@@ -1,7 +1,7 @@
-# What is a solver
+# حل‌کننده(داور) چیست؟
 
-Solvers are users appointed by the community administrator and are responsible for resolving disputes and maintaining order.
+حل‌کننده‌ها کاربرانی هستند که توسط مدیر کامیونیتی منصوب می‌شوند و مسئول حل و فصل اختلافات و حفظ نظم هستند.
 
-A community must have at least one solver. There is no requirement to be a solver. The administrator can add or remove them at any time.
+هر کامیونیتی باید حداقل یک حل‌کننده داشته باشد. هیچ پیش‌شرطی برای حل‌کننده بودن وجود ندارد. مدیر می‌تواند آنها را در هر زمان اضافه یا حذف کند.
 
-The administrator can be a solver in his community.
+مدیر خودش می‌تواند یک حل کننده در کامیونیتی خود باشد.(گرچه جهت شفافیت و پاسخگویی سریع به مشکلات کاربران، توصیه می‌شود چند نفر معتمد دیگر نیز در این مسئولیت مشارکت داده شوند)
