@@ -1,7 +1,6 @@
-# What are the channels for making exchanges on Telegram?
+# کانال‌های تبادل در تلگرام کدامند؟
+برای ایجاد سفارشات `buy/sell` خود برای بیتکوین، از چت کردن با [@lnp2pbot](https://t.me/lnp2pbot) استفاده کنید.
 
-To create your `Buy / Sell` orders for Bitcoin, use the chat with [@lnp2pbot](https://t.me/lnp2pbot).
+پیشنهادهای ایجاد شده با [@lnp2pBot](https://t.me/lnp2pBot) در کانال‌های تلگرام منتشر می‌شوند که از آنجا می‌توانید با کلیک کردن روی دکمه «خرید ساتوشی» یا «فروش ساتوشی» که در زیر هر کدام ظاهر می‌شود، دریافت کنید.
 
-The offers created with [@lnp2pBot](https://t.me/lnp2pBot) are published in Telegram channels from where they can be taken by clicking the `Buy Satoshis` or `Sell Satoshis` button that appears below each one.
-
-There is a general channel [@p2plightning](https://t.me/p2plightning) where offers that do not belong to any [community](./communities.md) are listed, hence there are various fiat currencies available. Additionally, there are [channels associated with communities](./community-find.md) where only offers with the fiat currencies permitted in those communities are published.
+یک کانال عمومی [@p2plightning] (https://t.me/p2plightning) وجود دارد که در آن پیشنهادهایی که به هیچ [کامیونیتی‌ها](./communities.md) تعلق ندارند فهرست شده است، بنابراین آنجا ارزهای فیات مختلفی در دسترس هستند. علاوه بر این، [کانال‌های مرتبط با انجمن‌ها](./community-find.md) وجود دارد که فقط پیشنهادهایی با ارزهای فیات مجاز در آن جوامع منتشر می‌شود.
