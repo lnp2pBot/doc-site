@@ -1,9 +1,9 @@
-# Where can I find offers in my local currency?
+# کجا می‌توانم سفارشات مربوط به به ارز کشور خود را پیدا کنم؟
 
-You can ask the bot by running the command `/findcomms` along with the [code for your currency](./in-which-countries-is-it-available.md).
+می‌توانید با اجرای دستور `findcomms/` به همراه [نماد پول خود](./in-which-countries-is-it-available.md) از ربات بپرسید.
 
-For instance, to see the [communities](./communities.md) in Venezuelan bolivars, you should type:
+یا به عنوان مثال، برای دیدن [کامیونیتی‌های](./communities.md) فعال در تومان ایران، باید تایپ کنید:
 
-`/findcomms ves`
+`/findcomms irt`
 
-You can also search for offers filtered by currencies and communities on [https://market.lnp2pbot.com](https://market.lnp2pbot.com) and in the general channel [@p2plightning](https://t.me/p2plightning).
+همچنین می‌توانید سفارشات فیلتر شده بر اساس ارزها و انجمن‌ها را در [https://market.lnp2pbot.com](https://market.lnp2pbot.com) و در کانال عمومی [p2plightning@](https://t.me/p2plightning) پیدا کنید.
