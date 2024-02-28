@@ -1,3 +1,3 @@
-# What do I need to use @lnp2pBot?
+# برای استفاده از lnp2pBot@ به چه چیزی نیاز دارم؟
 
-You only need an account on [Telegram](https://telegram.org/) with an active *"username"* or [username](https://telegram.org/faq?setln=en#usernames-and-t-me) to initialize the bot and interact with it. Additionally, you'll require a wallet that supports the Lightning Network. [Here are some recommended wallets](./recommended-wallets.md).
+برای شروع به کار و تعامل با ربات، شما فقط به یک حساب کاربری در [تلگرام](https://telegram.org/) با یک [*username*](https://telegram.org/faq?setln=fa#usernames-and-) نیاز دارید. علاوه بر این، به کیف پولی نیاز دارید که از شبکه لایتنینگ پشتیبانی کند. [در اینجا چند کیف پول توصیه شده](./recommended-wallets.md) وجود دارد.
