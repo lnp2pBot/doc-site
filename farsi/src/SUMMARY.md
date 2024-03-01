@@ -1,5 +1,3 @@
-<div dir="rtl">
-  
 # فهرست
 
 [ربات @lnp2pBot](README.md)
