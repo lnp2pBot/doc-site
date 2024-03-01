@@ -50,5 +50,3 @@
   - [نکاتی برای جلوگیری از کلاهبرداری](./tips-to-avoid-scams.md)
   - [کلاهبرداری حساب مثلثی](./account-triangulation-scams.md)
     - [جلوگیری از کلاهبرداری‌های حساب مثلثی](./prevention-of-account-triangulation-scams.md)
-
-</div>
