@@ -1,17 +1,16 @@
-# What exchange rate does the bot use?
+# ربات نرخ تبدیلی ارز را از کجا می‌آورد؟
 
-When creating an order, you can choose to specify only the fiat amount to `pay/receive`, without indicating the quantity of sats you want to `buy/sell`. In this case, you should select the `Market Price` button, and the bot will calculate the market rate offered by [yadio.io](https://yadio.io/) at the moment your order is taken.
+هنگام ایجاد یک سفارش، می‌توانید انتخاب کنید که، فقط مبلغ فیات را برای `پرداخت/دریافت` مشخص کنید، بدون نیاز به وارد کردن ساتوشی‌هایی که می‌خواهید `خرید/فروش` کنید. در این حالت، باید دکمه `Market Price` را انتخاب کنید. اینگونه ربات خودش نرخ بازار ارائه شده توسط [yadio.io](https://yadio.io/) را در لحظه ثبت سفارش‌تان مبنای محاسبه تعداد ساتوشی‌ها قرار می‌دهد.
 
 ![Market Price](./assets/images/market-price.gif)
 
-When you select the `Market Price` button, you can also set a premium or discount for your offer. This means an increase or decrease will be applied to the bitcoin price indicated by [yadio.io](https://yadio.io/) at the time the offer is taken.
+وقتی دکمه `Market Price` را انتخاب می‌کنید، می‌توانید برای پیشنهاد خود حباب/تخفیف تعیین کنید. این بدان معناست که در زمان دریافت سفارش، افزایش یا کاهشی برای قیمت بیتکوین که در [yadio.io](https://yadio.io/) نشان داده شده اعمال می‌شود.
 
-#### Practical examples with their meanings:
-
-- Buying Sats +1%: I want to buy Sats 1% more expensive (above) than the BTC price indicated by [yadio.io](https://yadio.io/) at the time someone takes my offer.
-
-- Buying Sats -5%: I want to buy Sats 5% cheaper (below) than the BTC price indicated by [yadio.io](https://yadio.io/) at the time someone takes my offer.
-
-- Selling Sats +3%: I want to sell Sats 3% more expensive (above) than the BTC price indicated by [yadio.io](https://yadio.io/) at the time someone takes my offer.
-
-- Selling Sats -4%: I want to sell Sats 4% cheaper (below) than the BTC price indicated by [yadio.io](https://yadio.io/) at the time someone takes my offer.
+#### مثال‌های کاربردی با معانی آنها:
+<div dir="rtl">
+  
+- خرید ساتوشی %1+: من می‌خواهم بیتکوین را **%1 گران‌تر** از (بالای) قیمت BTC نشان داده شده توسط [yadio.io](https://yadio.io/) در زمانی که کسی سفارش من را می‌پذیرد، بخرم.
+- خرید ساتوشی %5-: من می‌خواهم بیتکوین را **%5 ارزان‌تر** از (زیر) قیمت BTC نشان داده شده توسط [yadio.io](https://yadio.io/) در زمانی که کسی سفارش من را می‌پذیرد، بخرم.
+- فروش ساتوشی %3+: من می‌خواهم بیتکوین را **3٪ گرانتر** از (بالای) قیمت BTC نشان داده شده توسط [yadio.io](https://yadio.io/) در زمانی که کسی سفارش من را می‌پذیرد، بفروشم.
+- فروش ساتوشی %4-: من می‌خواهم بیتکوین را **%4 ارزان‌تر** از (زیر) قیمت BTC نشان داده شده توسط [yadio.io](https://yadio.io/) در زمانی که کسی سفارش من را می‌پذیرد، بفروشم.
+</div>
