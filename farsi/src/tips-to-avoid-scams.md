@@ -1,23 +1,32 @@
-# Tips to Avoid Scams
+# نکاتی برای جلوگیری از کلاهبرداری
+<div dir="rtl">
 
-- If you're using [@lnp2pbot](https://t.me/lnp2pBot) for the first time, educate yourself about how it works, review available documentation, and start with small amounts until you fully understand the process.
+- اگر برای اولین بار از [@lnp2pbot](https://t.me/lnp2pBot) استفاده می‌کنید، نحوه عملکرد آن را به خود آموزش دهید، مستندات موجود را کامل و دقیق بخوانید و تا زمانی که فرآیند را به طور کامل درک نکرده‌اید، با مقادیر کم شروع کنید.
 
-- Before accepting an offer, check the user's reputation, the number of trades, the bot usage time, as well as the trade volume if visible. Be wary of offers that seem too good, especially if they come from users with a short history using the bot but with numerous operations.
+- قبل از پذیرش سفارش، شهرت کاربر، تعداد معاملات، زمان استفاده از ربات و همچنین حجم معامله در صورت مشاهده را بررسی کنید. مراقب پیشنهادهایی باشید که خیلی خیلی خوب به نظر می‌رسند، به خصوص اگر از طرف کاربرانی با شهرت کم، اما با تعداد سفارشات قبلی متعدد ارائه شوند.
 
-- Avoid engaging in trades outside the bot.
+- از شرکت در معاملات خارج از ربات خودداری کنید.(یعنی اعتماد به شخصی که نمی‌شناسید)
 
-- Do not agree to change the fiat payment method if it wasn't part of the initial offer.
+- اگر روش پرداخت فیات در سفارش اولیه نوشته نشده بود، با تغییر روش پرداخت موافقت نکنید.
 
-- If you feel uncomfortable with a trade, you can request a cooperative cancellation as long as the fiat hasn't been sent.
+- اگر در معامله‌ای احساس ناراحتی می‌کنید/شک کردید، می توانید تا زمانی که وجه فیات ارسال نشده است، درخواست لغو مشارکتی بدهید.
 
-- Exercise caution with new and low-volume communities.
+- موقع استفاده از کامیونیتی جدید و کم حجم احتیاط کنید.
 
-- Do not agree to trade in another community if it wasn't your choice.
+- اگر انتخاب شما نبود، با مبادله در کامیونیتی دیگری موافقت نکنید.(رودروایسی نداشته باشید)
 
-- If you're planning to open a dispute, do it on time, well before 23 hours have passed since the offer was accepted.
+- اگر قصد دارید اختلافی را ثبت کنید، آن را به موقع انجام دهید. یعنی قبل از گذشت 23 ساعت از پذیرفته شدن پیشنهاد.
 
-- If you notice suspicious behavior, report it to the corresponding community administrators. They can take appropriate measures to protect users and inform administrators of other communities.
+- اگر متوجه رفتار مشکوکی شدید، آن را به مدیران انجمن مربوطه گزارش دهید. آنها می توانند اقدامات مناسب را برای محافظت از کاربران و اطلاع رسانی به مدیران جوامع دیگر انجام دهند.
 
-- Share only essential personal information necessary for the exchange. Avoid providing more information than necessary, such as your personal phone number, address, etc.
+- فقط اطلاعات شخصی ضروری برای تبادل را به اشتراک بگذارید. از ارائه اطلاعات بیش از حد لازم مانند شماره تلفن شخصی، آدرس و غیره خودداری کنید.
 
-- If someone you've traded with before sends you fiat money without prior notice (even claiming it was a mistake) and demands you send them the corresponding Sats, it could be a bridge scam. In such cases, it's advisable to return the fiat to the same account it was sent from and avoid continuing with the forced exchange they're attempting to push you into.
+- اگر شخصی که قبلاً با او معامله کرده‌اید، بدون اطلاع قبلی برای شما پول فیات بفرستد(حتی وقتی ادعا کند اشتباه شده است) و از شما بخواهد که ساتوشی‌های معادلش را برای او ارسال کنید، این ممکن است یک کلاهبرداری مثلثی باشد. در چنین مواردی، توصیه می‌شود فیات را به همان حسابی که از آن ارسال شده برگردانید و از ادامه مبادله اجباری که قصد دارند شما را به آن سوق دهند، خودداری کنید.
+
+- اگر خریدار ساتوشی هستید و کارت به کارت میکنید حتما هنگام واریز فیات از صفحه گوشی خود فیلم بگیرید(اسکیرین ریکورد).
+
+- اگر خریدار ساتوشی هستید برای واریز حتما وجه فیات از موبایل بانک‌هایی استفاده کنید که QRcode واریز را در رسید نهایی ارائه می‌دهند.(وگرنه در صورت بروز اختلاف برسی صحت انتقال وجه توسط داوران قابل تآیید نیست) مثل اپ `آبانک` یا هر اپلیکیشن دیگر که چنین قابلیتی دارد.(برای استفاده از اپلیکیشن معرفی شده نیاز نیست حتما در بانک سازنده آن حساب داشته باشید. کارت تمامی بانک‌ها را میتوانید در آن اضافه و از آن استفاده کنید)
+
+- در چت تلگرامی با همتای خود پیام‌هایی که می‌نویسید را پیش از ارسال به دقت برسی کنید و از `ویرایش(edit)` آن بپرهیزید.مخصوصا پیام حاوی شماره کارت/حساب. به علاوه یک اسکیرین شات از چت خود داشته باشید(بدون بریدگی و از تمام صفحه گوشی)
+
+</div>
