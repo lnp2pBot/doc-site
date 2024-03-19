@@ -50,3 +50,6 @@
   - [Consejos para evitar estafas](./tips-to-avoid-scams.md)
   - [Estafas por triangulación de cuentas o estafas puente](./account-triangulation-scams.md)
     - [Prevención de estafas puente](./prevention-of-account-triangulation-scams.md)
+- [Cómo colaborar](./contribute.md)
+  - [Cómo traducir el bot](./how-translate-the-bot.md)
+  - [Cómo traducir y colaborar con la documentación](./how-colaborate-with-documentation-translation.md)
