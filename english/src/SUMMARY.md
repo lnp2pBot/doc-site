@@ -50,3 +50,6 @@
   - [Tips to avoid scams](./tips-to-avoid-scams.md)
   - [Account triangulation scams](./account-triangulation-scams.md)
     - [Prevention of account triangulation scams](./prevention-of-account-triangulation-scams.md)
+- [How to contribute](./contribute.md)
+  - [Translate the bot](./how-translate-the-bot.md)
+  - [Translate and collaborate with documentation](./how-colaborate-with-documentation-translation.md)
