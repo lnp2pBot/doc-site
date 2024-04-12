@@ -53,3 +53,6 @@
 - [How to contribute](./contribute.md)
   - [Translate the bot](./how-translate-the-bot.md)
   - [Translate and collaborate with documentation](./how-colaborate-with-documentation-translation.md)
+  - [Development](./development.md)
+  - [Report bugs](./bugs-report.md)
+  - [Propose improvements](./improvement-propose.md)
