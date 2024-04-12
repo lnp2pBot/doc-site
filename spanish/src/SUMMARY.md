@@ -53,3 +53,6 @@
 - [Cómo colaborar](./contribute.md)
   - [Cómo traducir el bot](./how-translate-the-bot.md)
   - [Cómo traducir y colaborar con la documentación](./how-colaborate-with-documentation-translation.md)
+  - [Desarrollo](./development.md)
+  - [Reportar errores](./bugs-report.md)
+  - [Proponer mejoras](./improvement-propose.md)
