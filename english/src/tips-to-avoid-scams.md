@@ -21,3 +21,9 @@
 - Share only essential personal information necessary for the exchange. Avoid providing more information than necessary, such as your personal phone number, address, etc.
 
 - If someone you've traded with before sends you fiat money without prior notice (even claiming it was a mistake) and demands you send them the corresponding Sats, it could be a bridge scam. In such cases, it's advisable to return the fiat to the same account it was sent from and avoid continuing with the forced exchange they're attempting to push you into.
+
+- An administrator will never message you to resolve an issue unless you first open a dispute. Be cautious of impersonators.
+
+- If you open a dispute, message the solver indicated by the bot. However, if they message you first, ask for the token number of your dispute to ensure you're speaking with the real solver, as only you and the solver handling your case know this number.
+
+- An administrator will never ask you to use `/release` or `/cancel`. In case of disputes, they have the authority to cancel or complete an order. Be suspicious if an admin asks you to do so and verify their legitimacy.

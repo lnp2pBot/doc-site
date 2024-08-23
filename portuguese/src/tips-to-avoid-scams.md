@@ -21,3 +21,9 @@
 - Forneça à outra parte apenas os dados pessoais essenciais para concluir a transação, sem fornecer mais informações do que o necessário, como seu número de telefone pessoal, seu endereço, etc.
 
 - Se alguém com quem você realizou transações anteriores enviar dinheiro fiat sem aviso prévio (mesmo que diga ter sido um erro) e exigir que você envie os Satoshis correspondentes, pode ser uma tentativa de golpe. Nesse caso, é aconselhável devolver o dinheiro para a mesma conta de onde foi enviado e não continuar com a troca forçada que estão tentando impor.
+
+- Um administrador nunca te escreverá para resolver um problema a menos que você abra uma disputa primeiro. Tenha cuidado com os impostores.
+
+- Se você abrir uma disputa, escreva para o solver que o bot indicar. Mas, se ele/ela te escrever primeiro, peça o número de token da sua disputa para garantir que você está falando com o solver real, pois esse número só é conhecido por você e pelo solver que está te atendendo.
+
+- Um administrador nunca te pedirá para usar `/release` ou `/cancel`. Em caso de disputas, eles têm a autoridade para cancelar ou completar um pedido. Desconfie se um administrador te pedir isso e verifique se é legítimo.
